@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.18)  24 DEC 2018 00:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.18)  24 DEC 2018 01:23
 entering extended mode
 **./ReportDCS.tex
 (ReportDCS.tex
@@ -331,13 +331,13 @@ their well-established
 [6
 
 ]
-Overfull \hbox (13.4562pt too wide) in paragraph at lines 86--88
+Overfull \hbox (13.4562pt too wide) in paragraph at lines 86--90
 \OT1/cmr/m/n/10.95 These two im-ple-men-ta-tions and the dif-fer-ences be-tween
  them are well-explained
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
+Underfull \hbox (badness 10000) in paragraph at lines 86--90
 
  []
 
@@ -356,7 +356,7 @@ Chapter 2.
 ] (ReportDCS.aux) ) 
 Here is how much of TeX's memory you used:
  3136 strings out of 492970
- 43782 string characters out of 3125705
+ 43752 string characters out of 3125705
  116696 words of memory out of 3000000
  6933 multiletter control sequences out of 15000+200000
  12016 words of font info for 44 fonts, out of 3000000 for 9000
@@ -376,7 +376,7 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lorenzo/AppData
 Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
 .pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/symbols/msbm10.pfb>
-Output written on ReportDCS.pdf (11 pages, 211205 bytes).
+Output written on ReportDCS.pdf (11 pages, 213033 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
