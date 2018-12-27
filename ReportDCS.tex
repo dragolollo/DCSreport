@@ -111,7 +111,7 @@ We believe that, thanks to this project, we created a starting point for buildin
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%% CAPITOLO  %%%%%%%%%%%%%%%%
-\chapter{Chapter 1\\Problem set-up and solutions}
+\chapter{Problem set-up and solutions}
 First-chapter for problem set-up and description of the implemented solution. 
 
 \section{Setup}
@@ -151,7 +151,7 @@ In particular, with respect to the "ideal" version of the algorithm proposed in 
 \section{Inner Workings}
 \subsection{Offline algorithm (A)}
 
-As in Fig.~\ref{fig:algorithmA.png}... 
+As in fig.~\ref{fig:algorithmA.png}... 
 
 \begin{figure}
 	
@@ -186,14 +186,66 @@ As in Fig.~\ref{fig:algorithmA.png}...
 
 
 %%%%%%%%% CHAPTER  %%%%%%%%%%%%%%%%
-\chapter{Chapter 2\\Results analysis}
+\chapter{Results analysis}
 
 \section{Prerequisites}
 %put necessary toolboxes and FEX files here
+For the correct functioning of the simulations, the following Matlab Toolboxes and FEX files should be installed:
 
-Second chapter for description of the results (simulations and experiments where
-applicable).
+\begin{itemize}
+	\item Parallel Computing Toolbox
+	\item Mapping Toolbox
+	\item labelpoints, by Adam Danz
+	\item Fast and Robust Curve Intersections, by Douglas Schwarz
+\end{itemize}
+
+\section{Simulation benchmarks}
+
+In both approaches, several parameters can be adjusted that affects precision (and conversely, speed of simulations), namely:
+
+\begin{itemize}
+	\item number of agents;
+	\item query points density for distribution computation;
+	\item proportional gain of the control;
+	\item convergence threshold;
+	\item etc.
+\end{itemize}
+
+In addition to that, the generation of the area to cover, of the agents and of the distribution can be set to randomly generate at each start of simulation (see fig.~\ref{fig:randomAgents.png}, fig.~\ref{fig:gaussianDistrib.png}).
+
+\begin{figure}	
+	\centering	
+	\includegraphics[scale=0.7]{figs/randomAgents.png}
+	\caption{Random agents spawning}\label{fig:randomAgents.png}	
+\end{figure}
+
+\begin{figure}	
+	\centering	
+	\includegraphics[scale=0.7]{figs/gaussianDistrib.png}
+	\caption{Random 2D normal distribution}\label{fig:gaussianDistrib.png}	
+\end{figure}
+
 \section{Offline algorithm (A)}
+
+\begin{figure}	
+	\centering	
+	\includegraphics[scale=0.45,angle=90]{figs/convergenceResultsA.png}
+	\caption{Results with 7 agents}\label{fig:convergenceResultsA.png}	
+\end{figure}
+
+\begin{figure}	
+	\centering	
+	\includegraphics[scale=0.45, angle=90]{figs/20convergenceResultsA.png}
+	\caption{Results with 20 agents}\label{fig:20convergenceResultsA.png}	
+\end{figure}
+
+\section{Online algorithm (B)}
+
+\begin{figure}	
+	\centering	
+	\includegraphics[scale=0.45,angle=90]{figs/convergenceResultsB.png}
+	\caption{Results with 7 agents}\label{fig:convergenceResultsB.png}	
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.27)  27 DEC 2018 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.27)  27 DEC 2018 18:49
 entering extended mode
 **./ReportDCS.tex
 (ReportDCS.tex
@@ -420,49 +420,97 @@ Overfull \hbox (115.37665pt too wide) in paragraph at lines 160--161
 
 LaTeX Warning: Float too large for page by 33.78575pt on input line 166.
 
-[9]
-<figs/algorithmB.png, id=44, 604.2575pt x 1146.2825pt>
+<figs/algorithmB.png, id=41, 604.2575pt x 1146.2825pt>
 File: figs/algorithmB.png Graphic file (type png)
 <use figs/algorithmB.png>
 Package pdftex.def Info: figs/algorithmB.png  used on input line 174.
 (pdftex.def)             Requested size: 332.34265pt x 630.45734pt.
 
-
 LaTeX Warning: Float too large for page by 60.38625pt on input line 180.
 
-[10] [11 <./figs/algorithmA.png>] [12 <./figs/algorithmB.png>]
+[9] [10 <./figs/algorithmA.png>] [11] [12 <./figs/algorithmB.png>]
 Chapter 2.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 196.
+
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 196.
+<figs/randomAgents.png, id=56, 324.46219pt x 321.45094pt>
+File: figs/randomAgents.png Graphic file (type png)
+<use figs/randomAgents.png>
+Package pdftex.def Info: figs/randomAgents.png  used on input line 218.
+(pdftex.def)             Requested size: 227.12196pt x 225.01411pt.
+<figs/gaussianDistrib.png, id=57, 588.69937pt x 322.95656pt>
+File: figs/gaussianDistrib.png Graphic file (type png)
+<use figs/gaussianDistrib.png>
+Package pdftex.def Info: figs/gaussianDistrib.png  used on input line 224.
+(pdftex.def)             Requested size: 412.08675pt x 226.06804pt.
+
+Overfull \hbox (52.08675pt too wide) in paragraph at lines 224--225
+ [][] 
+ []
+
+<figs/convergenceResultsA.png, id=58, 1431.84938pt x 728.7225pt>
+File: figs/convergenceResultsA.png Graphic file (type png)
+<use figs/convergenceResultsA.png>
+Package pdftex.def Info: figs/convergenceResultsA.png  used on input line 232.
+(pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
+
+LaTeX Warning: Float too large for page by 74.25519pt on input line 234.
+
+<figs/20convergenceResultsA.png, id=59, 1431.84938pt x 728.7225pt>
+File: figs/20convergenceResultsA.png Graphic file (type png)
+<use figs/20convergenceResultsA.png>
+Package pdftex.def Info: figs/20convergenceResultsA.png  used on input line 238
+.
+(pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
+
+LaTeX Warning: Float too large for page by 74.25519pt on input line 240.
+
+<figs/convergenceResultsB.png, id=60, 1431.84938pt x 728.7225pt>
+File: figs/convergenceResultsB.png Graphic file (type png)
+<use figs/convergenceResultsB.png>
+Package pdftex.def Info: figs/convergenceResultsB.png  used on input line 246.
+(pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
+
+LaTeX Warning: Float too large for page by 74.25519pt on input line 248.
+
 [13
 
-] [14
+] [14 <./figs/randomAgents.png> <./figs/gaussianDistrib.png>] [15 <./figs/conve
+rgenceResultsA.png (PNG copy)>] [16 <./figs/20convergenceResultsA.png (PNG copy
+)>] [17] [18 <./figs/convergenceResultsB.png (PNG copy)>] [19
 
-] [15
+] [20
 
-] (ReportDCS.aux) ) 
+]
+(ReportDCS.aux) ) 
 Here is how much of TeX's memory you used:
- 3149 strings out of 492970
- 43884 string characters out of 3127037
- 115721 words of memory out of 3000000
- 6947 multiletter control sequences out of 15000+200000
+ 3196 strings out of 492970
+ 45076 string characters out of 3127037
+ 115776 words of memory out of 3000000
+ 6986 multiletter control sequences out of 15000+200000
  12016 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,25p,567b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmbx10.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Users/Brus/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Users/Brus/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Users/Bru
-s/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D
-:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr17.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr8.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Users/Brus/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Users/Brus/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ReportDCS.pdf (15 pages, 337327 bytes).
+ 41i,9n,25p,567b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Users/Brus/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Users/Brus/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Users/Brus/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/
+Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr17.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Users/Brus/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Users/Brus/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ReportDCS.pdf (20 pages, 1082163 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 122 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
