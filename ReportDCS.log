@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.18)  24 DEC 2018 01:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.27)  27 DEC 2018 14:43
 entering extended mode
 **./ReportDCS.tex
 (ReportDCS.tex
 LaTeX2e <2018-04-01> patch level 5
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk11.clo"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk11.clo"
 File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -21,52 +21,46 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
-y"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1.def"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2018/04/06 v1.3b Input encoding file
 ))
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
-y"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2018/09/26 3.24 The Babel package
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.d
-ef"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def"
 File: switch.def 2018/09/26 3.24 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cf
-g"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\en
-glish.ldf"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engli
+sh.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.de
-f"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2018/09/26 3.24 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel
-.def")
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.de
+f")
 \bbl@dirlevel=\count90
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfont
-s.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.s
+ty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -74,47 +68,43 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.
-sty"
-Package: amsmath 2017/09/02 v2.17a AMS math features
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+"
+Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.
-sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+"
 Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.s
-ty"
+ ("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen104
 ))
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.s
-ty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
-)
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.s
-ty"
+) ("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.st
+y"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 223.
 \uproot@=\count92
 \leftroot@=\count93
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 385.
 \classnum@=\count94
 \DOTSCASE@=\count95
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen106
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count96
 \c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
@@ -135,51 +125,49 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
 )
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb
-.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.st
+y"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.s
-ty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\col
-or.cfg"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.
+cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdf
-tex.def"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex
+.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-x.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.s
+ty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.
-sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-s.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.s
+ty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
-y"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gra
-phics.cfg"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphi
+cs.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -187,14 +175,15 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count103
 \float@exts=\toks23
 \float@box=\box28
 \@float@everytoks=\toks24
 \@floatcapt=\box29
-) (ReportDCS.aux)
+)
+(ReportDCS.aux)
 \openout1 = `ReportDCS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -210,8 +199,8 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
-mkii"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mki
+i"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen115
@@ -225,40 +214,40 @@ mkii"
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks26
 )
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
-f-base.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-b
+ase.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwa
-rerr.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarer
+r.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
-sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdef
-inekeys.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefine
+keys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcm
-ds.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.
+sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
-ns.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.
+sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvset
-keys.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkey
+s.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexc
-mds.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds
+.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflua
-tex.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex
+.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -267,13 +256,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfte
-xcmds.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcm
+ds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
-.sty"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.st
+y"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -295,26 +284,44 @@ Package pdftex.def Info: figs/logo_unibo.png  used on input line 25.
 (pdftex.def)             Requested size: 207.05632pt x 108.40643pt.
  [1
 
-{C:/Users/Lorenzo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figs/lo
-go_unibo.png (PNG copy)>] [2] [3
+{C:/Users/Brus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figs/logo_
+unibo.png (PNG copy)>] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+[3
 
 ] (ReportDCS.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
-"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
-("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-"
+("D:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
 \openout3 = `ReportDCS.toc'.
 
- [4
+[4
 
 ] (ReportDCS.lof)
 \tf@lof=\write4
@@ -323,60 +330,74 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [5
 
 ]
-Overfull \hbox (6.39957pt too wide) in paragraph at lines 74--78
+Overfull \hbox (6.39957pt too wide) in paragraph at lines 83--87
 \OT1/cmr/m/n/10.95 MWSNs are a an emerg-ing field of re-search in con-trast to 
 their well-established
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+
  []
 
 [6
 
 ]
-Overfull \hbox (13.4562pt too wide) in paragraph at lines 86--90
+Overfull \hbox (13.4562pt too wide) in paragraph at lines 95--99
 \OT1/cmr/m/n/10.95 These two im-ple-men-ta-tions and the dif-fer-ences be-tween
  them are well-explained
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--90
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
 
  []
 
 [7]
 Chapter 1.
+
+LaTeX Warning: Citation `MR-GB:11' on page 8 undefined on input line 119.
+
 [8
 
 ]
 Chapter 2.
+
+LaTeX Warning: Citation `MR-GB:11' on page 9 undefined on input line 129.
+
 [9
 
-] (ReportDCS.bbl [10
+] [10
 
-]) [11
+] [11
 
-] (ReportDCS.aux) ) 
+] (ReportDCS.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3136 strings out of 492970
- 43752 string characters out of 3125705
- 116696 words of memory out of 3000000
- 6933 multiletter control sequences out of 15000+200000
+ 3137 strings out of 492970
+ 43621 string characters out of 3127037
+ 116699 words of memory out of 3000000
+ 6937 multiletter control sequences out of 15000+200000
  12016 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,25p,655b,173s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lorenzo/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Loren
-zo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lorenzo/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lorenzo/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
-Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
-.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/symbols/msbm10.pfb>
-Output written on ReportDCS.pdf (11 pages, 213033 bytes).
+ 41i,5n,25p,681b,173s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><D:/Users/Brus/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Users/Brus/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Users/Brus/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/User
+s/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
+fb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmti10.pfb><D:/Users/Brus/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ReportDCS.pdf (11 pages, 215633 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

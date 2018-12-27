@@ -55,13 +55,22 @@
 \thispagestyle{empty}
 
 %%%%%% ABSTRACT %%%%%%%%%%
+
+
 \begin{center}
 \chapter*{}
 \thispagestyle{empty}
 {\Huge \textbf{Abstract}}\\
 \vspace{15mm}
 \end{center}
-Put here the abstract of the project. 
+The aim of the project hereby presented was to transpose the algorithms described in the research paper\cite{K1} into a proper Matlab environment suitable for simulation and results analysis.\\\\
+
+The aforementioned algorithms has been simplified in order to adapt to both an offline, sequential approach (from now on called \textbf{offline},or \textbf{centralized}) and to a parallel (single machine), asynchronous one (from now on called \textbf{online},or \textbf{distributed}).\\
+In both approaches, the simulation implements a simple proportional closed loop control, but while in the former it is all done inside a centralized \textit{for loop}, in which informations about each agent is readily available to all others, in the latter we tried to be more faithful to the original formulation, in which every agents has to exchange with other agents informations about each other's positions in a timely manner, while being "deaf" (to a certain extent) in-between successive communications.\\\\
+
+To achieve all of this we've made use of Matlab's \textit{Parallel Computing Toolbox} to simulate the independent agents as communicating threads.\\
+In the distributed version of the simulation we also implemented a visual comparison between the two approaches so to show how they bring slightly different results.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -71,9 +80,9 @@ Put here the abstract of the project.
 %%%%%% INTRODUZIONE %%%%%%%%%%
 \chapter*{Introduction}
 \addcontentsline{toc}{chapter}{Introduction}
-A mobile wireless sensor network (MWSN) can be defined as a wireless sensor network (WSN) in which the sensor nodes are mobile. For example the nodes can be wheeled robots scattered in a given area.\\MWSNs are a an emerging field of research in contrast to their well-established predecessor. They are much more flexible than static sensor networks as they can be deployed in any scenario and deal with rapid topology changes due to node failures or new added sensors. In general each node consists of a radio transceiver, a microcontroller powered by a battery and one or more sensors to detect certain properties of the environment.\\
+A mobile wireless sensor network (MWSN) can be defined as a wireless sensor network (WSN) in which the sensor nodes are mobile. For example the nodes can be wheeled robots scattered in a given area.\\MWSNs are a an emerging field of research in contrast to their well-established predecessor. They are much more flexible than static sensor networks as they can be deployed in any scenario and deal with rapid topology changes due to node failures or new added sensors. In general each node consists of a radio transceiver, a microcontroller powered by a battery and one or more sensors to detect certain properties of the environment.~\cite{K2}\\ 
 Typical applications of this kind of network are environment monitoring, surveillance, search and recovery operation, exploration.\\
-A problem that can arise in this context is the optimization of the coverage of a given area knowing the distribution density function, defined on that area, of a given property we would like to measure. The objective of this project was to implement a distributed and asynchronous algorithm to solve this problem, following the method proposed in the research paper \cite{MR-GB:11}.\\
+A problem that can arise in this context is the optimization of the coverage of a given area knowing the distribution density function, defined on that area, of a given property we would like to measure. The objective of this project was to implement a distributed and asynchronous algorithm to solve this problem, following the method proposed in the research paper \cite{K1}.\\\\
 The framework (scenario?) we considered, as suggested on the abovementioned paper, is the following: n mobile sensor-robots modelled as simple integrators strewn on a convex polytope(area) defined in $\mathbb{R}^2$; on this area a random normal density function $\phi:Q\rightarrow \mathbb{R}_+$ is defined to represent the distribution of the feature that sensors have to measure. Each node has sensing(can locate the other nodes positions) and communication capabilities.  
 The proposed algorithm is the Lloyd one, a gradient descent method that guarantees the convergence to an optimal solution from the point of view of nodes coverage and degradation of sensing capabilities exploiting the notion of Voronoi partition. Considering a convex polytope $Q$ in $\mathbb{R}^N$ and n sensors, for the sensor positions $P=\{p_1,...,p_n\}$ the optimal partition of $Q$ is the Voronoi partition  $V(P)=\{V_1,...,V_n\}$, where $V_i$ is the Voronoi cell of the i-th sensor: $$V_i=\{q\in Q|\> \|q-p_i\|\le\|q-p_j\|, \forall j\not= i\}$$\\
 Basically each $V_i$ represents the space region in which sensor i is performing his task.\\
@@ -133,9 +142,18 @@ Citation \cite{MR-GB:11}
 % %%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%% BIBLIOGRAPHY %%%%%%%%%%%%%%
-\bibliography{bibliography}{}
-\bibliographystyle{plain}
+\begin{thebibliography}{9}             %crea l'ambiente bibliografia
+
+	%%%%%%%%%%%%%%%
+
 \addcontentsline{toc}{chapter}{Bibliography}
+
+\bibitem{K1} J. Cortés, S. Martìnez, T. Karatas, F. Bullo. "Coverage Control for Mobile Sensing Networks"
+IEEE Transactions on Robotics and Automation, Vol. 20, No. 2, April 2004
+\bibitem{K2} T. Hayes and F.H. Ali. "Mobile Wireless Sensor Networks: Applications and Routing Protocols" Handbook of Research on Next Generation Mobile Communications Systems. 2016.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{thebibliography}
+
 
 \end{document}
