@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.27)  27 DEC 2018 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.27)  27 DEC 2018 17:26
 entering extended mode
 **./ReportDCS.tex
 (ReportDCS.tex
@@ -330,76 +330,139 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [5
 
 ]
-Overfull \hbox (6.39957pt too wide) in paragraph at lines 83--87
-\OT1/cmr/m/n/10.95 MWSNs are a an emerg-ing field of re-search in con-trast to 
-their well-established
+Underfull \hbox (badness 10000) in paragraph at lines 83--88
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--87
+Underfull \hbox (badness 10000) in paragraph at lines 83--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 [6
 
 ]
-Overfull \hbox (13.4562pt too wide) in paragraph at lines 95--99
+Overfull \hbox (13.4562pt too wide) in paragraph at lines 98--100
 \OT1/cmr/m/n/10.95 These two im-ple-men-ta-tions and the dif-fer-ences be-tween
  them are well-explained
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--99
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
 [7]
 Chapter 1.
 
-LaTeX Warning: Citation `MR-GB:11' on page 8 undefined on input line 119.
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
 
 [8
 
 ]
+Overfull \hbox (1.22874pt too wide) in paragraph at lines 142--144
+[]\OT1/cmr/m/n/10.95 For the same rea-son, while the cor-rect cal-cu-la-tion of
+ neigh-bours weights
+ []
+
+<figs/algorithmA.png, id=39, 594.22pt x 754.82pt>
+File: figs/algorithmA.png Graphic file (type png)
+<use figs/algorithmA.png>
+Package pdftex.def Info: figs/algorithmA.png  used on input line 160.
+(pdftex.def)             Requested size: 475.37665pt x 603.85684pt.
+
+Overfull \hbox (115.37665pt too wide) in paragraph at lines 160--161
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 33.78575pt on input line 166.
+
+[9]
+<figs/algorithmB.png, id=44, 604.2575pt x 1146.2825pt>
+File: figs/algorithmB.png Graphic file (type png)
+<use figs/algorithmB.png>
+Package pdftex.def Info: figs/algorithmB.png  used on input line 174.
+(pdftex.def)             Requested size: 332.34265pt x 630.45734pt.
+
+
+LaTeX Warning: Float too large for page by 60.38625pt on input line 180.
+
+[10] [11 <./figs/algorithmA.png>] [12 <./figs/algorithmB.png>]
 Chapter 2.
+[13
 
-LaTeX Warning: Citation `MR-GB:11' on page 9 undefined on input line 129.
+] [14
 
-[9
+] [15
 
-] [10
-
-] [11
-
-] (ReportDCS.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (ReportDCS.aux) ) 
 Here is how much of TeX's memory you used:
- 3137 strings out of 492970
- 43621 string characters out of 3127037
- 116699 words of memory out of 3000000
- 6937 multiletter control sequences out of 15000+200000
+ 3149 strings out of 492970
+ 43884 string characters out of 3127037
+ 115721 words of memory out of 3000000
+ 6947 multiletter control sequences out of 15000+200000
  12016 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,25p,681b,173s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><D:/Users/Brus/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Users/Brus/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Users/Brus/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/User
-s/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
-fb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmti10.pfb><D:/Users/Brus/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ReportDCS.pdf (11 pages, 215633 bytes).
+ 41i,7n,25p,567b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Users/Brus/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Users/Brus/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Users/Bru
+s/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D
+:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr17.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><D:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Users/Brus/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Users/Brus/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ReportDCS.pdf (15 pages, 337327 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
