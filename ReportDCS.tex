@@ -284,25 +284,42 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 	
 	\section{Offline algorithm (A)}
 	
+	The simulation converges with a good speed with few agents and with a reasonable one with more (see fig.~\ref{fig:convergenceResultsA.png}, fig.~\ref{fig:20convergenceResultsA.png}); we can speculate that considering the typical speed of mobile robots the speed of every step is well suited.\\\\
+	As for correctness, the only issues encountered up to now is with very few agents (4-5) and a very large area (e.g. 10000 sq. unit), for which the cells tend to not be correct, because of the way "Fast and Robust Curve Intersections" works, i.e. by intersecting bounding boxes between the two desired geometrical entities.\\
+	Since the agents may be scattered around this large area, the rate of increase of the radius (that is, 2x at each successive step) bring the algorithm to find the bounding box of the radius to completely encompass the area to cover, thus not finding intersections at all; we believe that either a different increase rate of the radius, or better yet, a more efficient way to compute the Voronoi Cell may solve the issue.
+	
+	
 	\begin{figure}	
 		\centering	
 		\includegraphics[scale=0.45,angle=90]{figs/convergenceResultsA.png}
-		\caption{Results with 7 agents}\label{fig:convergenceResultsA.png}	
+		\caption{Results with 7 agents (ver. A)}\label{fig:convergenceResultsA.png}	
 	\end{figure}
 	
 	\begin{figure}	
 		\centering	
 		\includegraphics[scale=0.45, angle=90]{figs/20convergenceResultsA.png}
-		\caption{Results with 20 agents}\label{fig:20convergenceResultsA.png}	
+		\caption{Results with 20 agents (ver. A)}\label{fig:20convergenceResultsA.png}	
 	\end{figure}
 	
 	\section{Online algorithm (B)}
+	This algorithm is not much slower than the first version, especially for few agents.\\
+	It may be faster if implemented with a better communication between agents (instead of r/w files), but not by a large margin.\\
+	
+	It is of interest to see how they both arrive to similar results but not exactly the same; this is due to the fact that while in the offline algorithm every agent "sense" the others between deciding the next control step, thus continuously updating the centroid.\\
+	In the distributed version, the centroid is updated only when the agent reaches it, making the trajectories of the centroids (and thus of the agents) slightly different.
 	
 	\begin{figure}	
 		\centering	
 		\includegraphics[scale=0.45,angle=90]{figs/convergenceResultsB.png}
-		\caption{Results with 7 agents}\label{fig:convergenceResultsB.png}	
+		\caption{Results with 7 agents (ver. B)}\label{fig:convergenceResultsB.png}	
 	\end{figure}
+	
+	\begin{figure}	
+		\centering	
+		\includegraphics[scale=0.45, angle=90]{figs/20convergenceResultsB.png}
+		\caption{Results with 20 agents (ver. B)}\label{fig:20convergenceResultsB.png}	
+	\end{figure}
+	
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
