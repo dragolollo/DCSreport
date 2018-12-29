@@ -187,13 +187,34 @@
 	\section{Inner Workings}
 	\subsection{Offline algorithm (A)}
 	
-	As in fig.~\ref{fig:algorithmA.png}... 
-	
+	As said before, in this project two ways to reach the final goal have been followed: the \textbf{centralized} algorithm, namely the one which exploits the fact that each position of each agent is known by the others, and the control law is applied in a \textit{sequential} manner, is developed in this section.\\
+The fig.~\ref{fig:algorithmA.png} allows a more comprehensive approach to the explanation of this algorithm.\\
+The initialization phase lets the user to generate the workspace randomly, or to upload a given benchmark to work with. \\
+If the former choice is made, a set of functions will be called:
+ \begin{itemize}
+		\item \textit{buildArea}: it creates a convex area, namely a polygon with a given number of vertices placed in a given range of the plane;
+		\item \textit{generateAgents}: it places a fixed number of agents in the already built area, positioning them randomly;
+		\item \textit{genPolyGrid}: it turns the plane individuated by the area of the polygon into a discrete grid of points, in order to build the probability distribution function.  
+		\item \textit{gaussianDistr2d}: it generates a 2-dimensional Gaussian distribution function that represents the distribution of the information to be acquired. 
+\end {itemize}
+The latter choice allows to take all of this material from an external file.\\
+
+Once all the benchmark features are defined, the algorithm makes a first computation of the Voronoi cells, analyzing and classifying the neighbours of each agent, and estimating the \textit{centroid} of each cell, weighted with respect to the density. To this purpose, some complex functions have been developed, that will be discussed further:
+\begin{itemize}
+	\item \textit{calculateCell};
+	\item \textit{sliceCell};
+	\item \textit{genMCgauss}.
+\end{itemize}
+Thus, after the first partition of the main area, the control parameters are defined, and the control action can start.\\
+Since the project assumptions state that each agent must be considered as a single-integrator, the control consists only in a proportional action aimed to fill the gap between the agent position and the centroid of its Voronoi cell. The sequential fashion is implemented by means of a \textit{for loop}, that lets the agents move one by one, toward its own Voronoi centroid.\\
+In each iteration, actually, the single agent doesn't reach necessarily the goal (namely, the centroid), and at the beginning of the next iteration, it computes another time its Voronoi cell, updating the centroid if some changes happened in the neighbourhood.\\
+In this way, each agent approaches constantly a reference that is moving in time, because actually at each iteration the centroid is updated. \\
+Finally, the algorithm stops when every agents has reached a distance from its cell centroid lower than a given threshold.\\	
 	\begin{figure}
 		
 		\centering
 		
-		\includegraphics[scale=0.8]{figs/algorithmA.png}
+		\includegraphics[scale=0.63]{figs/algorithmA.png}
 		
 		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%inserisce la legenda ed etichetta
 		%   la figura con \label{fig:prima}
@@ -304,7 +325,7 @@
 		
 		\addcontentsline{toc}{chapter}{Bibliography}
 		
-		\bibitem{K1} J. Cortés, S. Martìnez, T. Karatas, F. Bullo. "Coverage Control for Mobile Sensing Networks"
+		\bibitem{K1} J. Cortes, S. Martinez, T. Karatas, F. Bullo. "Coverage Control for Mobile Sensing Networks"
 		IEEE Transactions on Robotics and Automation, Vol. 20, No. 2, April 2004
 		\bibitem{K2} T. Hayes and F.H. Ali. "Mobile Wireless Sensor Networks: Applications and Routing Protocols" Handbook of Research on Next Generation Mobile Communications Systems. 2016.
 		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

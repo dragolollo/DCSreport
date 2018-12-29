@@ -11,10 +11,10 @@
 \contentsline {subsubsection}{calculateCell}{13}
 \contentsline {subsubsection}{sliceCell}{13}
 \contentsline {subsubsection}{genMCGauss}{13}
-\contentsline {chapter}{\numberline {2}Results analysis}{14}
-\contentsline {section}{\numberline {2.1}Prerequisites}{14}
-\contentsline {section}{\numberline {2.2}Simulation benchmarks}{14}
-\contentsline {section}{\numberline {2.3}Offline algorithm (A)}{18}
-\contentsline {section}{\numberline {2.4}Online algorithm (B)}{18}
-\contentsline {chapter}{Conclusions}{20}
-\contentsline {chapter}{Bibliography}{21}
+\contentsline {chapter}{\numberline {2}Results analysis}{15}
+\contentsline {section}{\numberline {2.1}Prerequisites}{15}
+\contentsline {section}{\numberline {2.2}Simulation benchmarks}{15}
+\contentsline {section}{\numberline {2.3}Offline algorithm (A)}{19}
+\contentsline {section}{\numberline {2.4}Online algorithm (B)}{19}
+\contentsline {chapter}{Conclusions}{21}
+\contentsline {chapter}{Bibliography}{22}

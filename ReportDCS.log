@@ -1,11 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.29)  29 DEC 2018 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.26)  29 DEC 2018 16:03
 entering extended mode
-**./ReportDCS.tex
-(ReportDCS.tex
-LaTeX2e <2018-04-01> patch level 5
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**ReportDCS.tex
+(./ReportDCS.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk11.clo"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -21,46 +25,36 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1.def"
-File: latin1.def 2018/04/06 v1.3b Input encoding file
-)) ("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.s
-ty"
-Package: babel 2018/09/26 3.24 The Babel package
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
-"
-File: switch.def 2018/09/26 3.24 Babel switching mechanism
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/04/06 v1.3b Input encoding file
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
-ish.ldf"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2018/09/26 3.24 Babel common definitions
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
-ef")
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count90
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
-sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -68,30 +62,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
-y"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
-y"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen104
 ))
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
-"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
-"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
@@ -132,47 +120,39 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
-ty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
-"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
-.cfg"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
-x.def"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
-sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
-y"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
-sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
-ics.cfg"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -180,15 +160,14 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count103
 \float@exts=\toks23
 \float@box=\box28
 \@float@everytoks=\toks24
 \@floatcapt=\box29
-)
-(ReportDCS.aux)
+) (./ReportDCS.aux)
 \openout1 = `ReportDCS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -203,9 +182,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
-
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
-ii"
+ (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen115
@@ -218,41 +195,31 @@ ii"
 \MPnumerator=\count108
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks26
-)
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
-base.sty"
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
-rr.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
-y"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
-ekeys.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
-.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
-.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
-ys.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
-s.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
-x.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -261,14 +228,12 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
-mds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
-ty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -281,16 +246,25 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 <figs/logo_unibo.png, id=1, 766.865pt x 401.5pt>
 File: figs/logo_unibo.png Graphic file (type png)
 <use figs/logo_unibo.png>
 Package pdftex.def Info: figs/logo_unibo.png  used on input line 25.
 (pdftex.def)             Requested size: 207.05632pt x 108.40643pt.
- [1
 
-{C:/Users/Guido/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figs/logo
-_unibo.png (PNG copy)>] [2]
+[1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figs/
+logo_unibo.png (PNG copy)>] [2]
+
+LaTeX Warning: Citation `K1' on page 3 undefined on input line 66.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
@@ -312,28 +286,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
 [3
 
-] (ReportDCS.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+] (./ReportDCS.toc)
 \tf@toc=\write3
 \openout3 = `ReportDCS.toc'.
 
  [4
 
-] (ReportDCS.lof)
+] (./ReportDCS.lof)
 \tf@lof=\write4
 \openout4 = `ReportDCS.lof'.
 
  [5
 
 ]
+
+LaTeX Warning: Citation `K2' on page 6 undefined on input line 84.
+
+
+LaTeX Warning: Citation `K1' on page 6 undefined on input line 86.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 87.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 87.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 Underfull \hbox (badness 10000) in paragraph at lines 83--88
 
  []
@@ -388,7 +368,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--124
 
  []
 
-<figs/VoronoiPartition.png, id=35, 331.2375pt x 331.2375pt>
+<figs/VoronoiPartition.png, id=36, 331.2375pt x 331.2375pt>
 File: figs/VoronoiPartition.png Graphic file (type png)
 <use figs/VoronoiPartition.png>
 Package pdftex.def Info: figs/VoronoiPartition.png  used on input line 129.
@@ -399,6 +379,9 @@ Package pdftex.def Info: figs/VoronoiPartition.png  used on input line 129.
 Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
+
+
+LaTeX Warning: Citation `K1' on page 9 undefined on input line 154.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
@@ -435,128 +418,151 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
+
+LaTeX Warning: Citation `K1' on page 9 undefined on input line 169.
+
 [9]
 Overfull \hbox (1.22874pt too wide) in paragraph at lines 178--180
 []\OT1/cmr/m/n/10.95 For the same rea-son, while the cor-rect cal-cu-la-tion of
  neigh-bours weights
  []
 
-<figs/algorithmA.png, id=47, 594.22pt x 754.82pt>
-File: figs/algorithmA.png Graphic file (type png)
-<use figs/algorithmA.png>
-Package pdftex.def Info: figs/algorithmA.png  used on input line 196.
-(pdftex.def)             Requested size: 475.37665pt x 603.85684pt.
 
-Overfull \hbox (115.37665pt too wide) in paragraph at lines 196--197
- [][] 
- []
+LaTeX Warning: Reference `fig:algorithmA.png' on page 10 undefined on input lin
+e 191.
 
+[10]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 195.
 
-LaTeX Warning: Float too large for page by 33.78575pt on input line 202.
-
-<figs/algorithmB.png, id=48, 604.2575pt x 1146.2825pt>
-File: figs/algorithmB.png Graphic file (type png)
-<use figs/algorithmB.png>
-Package pdftex.def Info: figs/algorithmB.png  used on input line 210.
-(pdftex.def)             Requested size: 332.34265pt x 630.45734pt.
-
-LaTeX Warning: Float too large for page by 60.38625pt on input line 216.
-
-[10] [11 <./figs/algorithmA.png>] [12 <./figs/algorithmB.png>] [13]
-Chapter 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 232.
-
-("C:\Users\Guido\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 232.
-<figs/randomAgents.png, id=64, 324.46219pt x 321.45094pt>
-File: figs/randomAgents.png Graphic file (type png)
-<use figs/randomAgents.png>
-Package pdftex.def Info: figs/randomAgents.png  used on input line 254.
-(pdftex.def)             Requested size: 227.12196pt x 225.01411pt.
-<figs/gaussianDistrib.png, id=65, 588.69937pt x 322.95656pt>
-File: figs/gaussianDistrib.png Graphic file (type png)
-<use figs/gaussianDistrib.png>
-Package pdftex.def Info: figs/gaussianDistrib.png  used on input line 260.
-(pdftex.def)             Requested size: 412.08675pt x 226.06804pt.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 195.
 
-Overfull \hbox (52.08675pt too wide) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+<figs/algorithmA.png, id=51, 594.22pt x 754.82pt>
+File: figs/algorithmA.png Graphic file (type png)
+<use figs/algorithmA.png>
+Package pdftex.def Info: figs/algorithmA.png  used on input line 217.
+(pdftex.def)             Requested size: 374.36058pt x 475.53912pt.
+
+Overfull \hbox (14.36058pt too wide) in paragraph at lines 217--218
  [][] 
  []
 
-<figs/convergenceResultsA.png, id=66, 1431.84938pt x 728.7225pt>
+<figs/algorithmB.png, id=52, 604.2575pt x 1146.2825pt>
+File: figs/algorithmB.png Graphic file (type png)
+<use figs/algorithmB.png>
+Package pdftex.def Info: figs/algorithmB.png  used on input line 231.
+(pdftex.def)             Requested size: 332.34265pt x 630.45734pt.
+
+LaTeX Warning: Float too large for page by 60.38625pt on input line 237.
+
+[11] [12 <./figs/algorithmA.png>] [13] [14 <./figs/algorithmB.png>]
+Chapter 2.
+
+LaTeX Warning: Reference `fig:randomAgents.png' on page 15 undefined on input l
+ine 271.
+
+
+LaTeX Warning: Reference `fig:gaussianDistrib.png' on page 15 undefined on inpu
+t line 271.
+
+<figs/randomAgents.png, id=68, 324.46219pt x 321.45094pt>
+File: figs/randomAgents.png Graphic file (type png)
+<use figs/randomAgents.png>
+Package pdftex.def Info: figs/randomAgents.png  used on input line 275.
+(pdftex.def)             Requested size: 227.12196pt x 225.01411pt.
+<figs/gaussianDistrib.png, id=69, 588.69937pt x 322.95656pt>
+File: figs/gaussianDistrib.png Graphic file (type png)
+<use figs/gaussianDistrib.png>
+Package pdftex.def Info: figs/gaussianDistrib.png  used on input line 281.
+(pdftex.def)             Requested size: 412.08675pt x 226.06804pt.
+
+Overfull \hbox (52.08675pt too wide) in paragraph at lines 281--282
+ [][] 
+ []
+
+<figs/convergenceResultsA.png, id=70, 1431.84938pt x 728.7225pt>
 File: figs/convergenceResultsA.png Graphic file (type png)
 <use figs/convergenceResultsA.png>
-Package pdftex.def Info: figs/convergenceResultsA.png  used on input line 268.
+Package pdftex.def Info: figs/convergenceResultsA.png  used on input line 289.
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.25519pt on input line 270.
+LaTeX Warning: Float too large for page by 74.25519pt on input line 291.
 
-<figs/20convergenceResultsA.png, id=67, 1431.84938pt x 728.7225pt>
+<figs/20convergenceResultsA.png, id=71, 1431.84938pt x 728.7225pt>
 File: figs/20convergenceResultsA.png Graphic file (type png)
 <use figs/20convergenceResultsA.png>
-Package pdftex.def Info: figs/20convergenceResultsA.png  used on input line 274
+Package pdftex.def Info: figs/20convergenceResultsA.png  used on input line 295
 .
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.25519pt on input line 276.
+LaTeX Warning: Float too large for page by 74.25519pt on input line 297.
 
-<figs/convergenceResultsB.png, id=68, 1431.84938pt x 728.7225pt>
+<figs/convergenceResultsB.png, id=72, 1431.84938pt x 728.7225pt>
 File: figs/convergenceResultsB.png Graphic file (type png)
 <use figs/convergenceResultsB.png>
-Package pdftex.def Info: figs/convergenceResultsB.png  used on input line 282.
+Package pdftex.def Info: figs/convergenceResultsB.png  used on input line 303.
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.25519pt on input line 284.
+LaTeX Warning: Float too large for page by 74.25519pt on input line 305.
 
-[14
+[15
 
-] [15 <./figs/randomAgents.png> <./figs/gaussianDistrib.png>] [16 <./figs/conve
-rgenceResultsA.png (PNG copy)>] [17 <./figs/20convergenceResultsA.png (PNG copy
-)>] [18] [19 <./figs/convergenceResultsB.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 292--299
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--299
+] [16 <./figs/randomAgents.png> <./figs/gaussianDistrib.png>] [17 <./figs/conve
+rgenceResultsA.png (PNG copy)>] [18 <./figs/20convergenceResultsA.png (PNG copy
+)>] [19] [20 <./figs/convergenceResultsB.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 313--320
 
  []
 
-[20
 
-] [21
+Underfull \hbox (badness 10000) in paragraph at lines 313--320
 
-] (ReportDCS.aux) ) 
+ []
+
+[21
+
+] [22
+
+] (./ReportDCS.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3202 strings out of 492970
- 45470 string characters out of 3126593
- 116786 words of memory out of 3000000
- 6991 multiletter control sequences out of 15000+200000
- 12016 words of font info for 44 fonts, out of 3000000 for 9000
+ 3175 strings out of 492649
+ 43225 string characters out of 6129621
+ 115037 words of memory out of 5000000
+ 6975 multiletter control sequences out of 15000+600000
+ 12016 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,25p,597b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Guido/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Guido/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Guido/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Guido/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/User
-s/Guido/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.
-pfb><C:/Users/Guido/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb><C:/Users/Guido/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><C:/Users/Guido/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Guido/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Guido/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Guido/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/Guido/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mti10.pfb><C:/Users/Guido/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/symbols/msbm10.pfb>
-Output written on ReportDCS.pdf (21 pages, 1121893 bytes).
+ 41i,9n,25p,594b,248s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ReportDCS.pdf (22 pages, 1109544 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
