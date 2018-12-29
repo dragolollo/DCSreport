@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.26)  29 DEC 2018 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.26)  29 DEC 2018 19:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -577,11 +577,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3741 strings out of 492649
  51536 string characters out of 6129621
- 126680 words of memory out of 5000000
+ 124680 words of memory out of 5000000
  7525 multiletter control sequences out of 15000+600000
  12315 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,25p,660b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,9n,25p,660b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -596,7 +596,7 @@ live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
 e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
 2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ReportDCS.pdf (25 pages, 1377620 bytes).
+Output written on ReportDCS.pdf (25 pages, 1377581 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
