@@ -214,7 +214,7 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 	
 	\subsection{Online algorithm (B)}
 	
-	\begin{figure}
+	\begin{figure}[hb]
 		
 		\centering
 		
@@ -239,7 +239,7 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 		\item (\textit{only for the offline version}) the position and the status of all the agents;
 	\end{itemize}
 The algorithm of the function (\emph{offline mode}) can be summarised in the table below:
-\begin{algorithm}
+\begin{algorithm}[hb]
 \caption{calculateCell}\label{euclid}
 \begin{algorithmic}[1]
 \State intersect the initial radius with the allowable area
@@ -270,11 +270,25 @@ The algorithm of the function (\emph{offline mode}) can be summarised in the tab
 \end{algorithmic}
 \end{algorithm}	\\
 
-Further comments are present on the code.
+Further comments are present on the code.\\
 
 	
 	\subsubsection{genMCGauss}
 	
+	This function implements the computation of the generalized centroid of a given region. In other words given a region, and the features of the gaussian distribution function that we have used to model the variable to be sensed (mean coordinates and standard deviation), this function provides the generalized mass and the generalized centroid coordinates (explained in the theoretical notions section) of the considered region. This computation is done by a quantization of the region in a certain number of points and associating a generalized mass to each one of these points dependly on the associated density values. So as input it needs: 
+	 \begin{itemize}
+	\item the horizontal coordinate of the mean of the distribution;
+	\item the vertical coordinate of the mean of the distribution;
+	\item the standard deviation of the distribution;
+	\item the so called pointDensity that express how much points we use to quantize a unitary area and then is related to the generalized mass associated to each point;
+\end{itemize}
+	The outputs are:
+	 \begin{itemize}
+	\item the horizontal coordinate of the generalized centroid;
+	\item the vertical coordinate of the mean generalized centroid; 
+	\item the generalized mass;
+\end{itemize}
+	Intuitively speaking this is the function that says to each agent where it has to move.
 	
 	%%%%%%%%% CHAPTER  %%%%%%%%%%%%%%%%
 	\chapter{Results analysis}
