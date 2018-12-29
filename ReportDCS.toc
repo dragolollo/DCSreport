@@ -1,0 +1,20 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Introduction}{6}
+\contentsline {chapter}{\numberline {1}Problem set-up and solutions}{8}
+\contentsline {section}{\numberline {1.1}Setup}{8}
+\contentsline {subsection}{\numberline {1.1.1}Theoretical notions}{8}
+\contentsline {subsection}{\numberline {1.1.2}Adopted assumptions}{9}
+\contentsline {section}{\numberline {1.2}Inner Workings}{10}
+\contentsline {subsection}{\numberline {1.2.1}Offline algorithm (A)}{10}
+\contentsline {subsection}{\numberline {1.2.2}Online algorithm (B)}{13}
+\contentsline {subsection}{\numberline {1.2.3}Utils}{13}
+\contentsline {subsubsection}{sliceCell}{13}
+\contentsline {subsubsection}{calculateCell}{13}
+\contentsline {subsubsection}{genMCGauss}{13}
+\contentsline {chapter}{\numberline {2}Results analysis}{16}
+\contentsline {section}{\numberline {2.1}Prerequisites}{16}
+\contentsline {section}{\numberline {2.2}Simulation benchmarks}{16}
+\contentsline {section}{\numberline {2.3}Offline algorithm (A)}{18}
+\contentsline {section}{\numberline {2.4}Online algorithm (B)}{18}
+\contentsline {chapter}{Conclusions}{23}
+\contentsline {chapter}{Bibliography}{24}
