@@ -149,13 +149,11 @@
 	
 	Considering a convex polytope $Q$ in $\mathbb{R}^N$ and n sensors, for the sensor positions $P=\{p_1,...,p_n\}$ the optimal partition of $Q$ is the Voronoi partition  $V(P)=\{V_1,...,V_n\}$, where $V_i$ is the Voronoi cell of the i-th sensor: $$V_i=\{q\in Q|\> \|q-p_i\|\le\|q-p_j\|, \forall j\not= i\}$$\\
 	Intuitively speaking, each $V_i$ represents the region of space in which the respective sensor i is performing its task.\\
-	
-	
-	Citation \cite{K1}\\
+
 	
 	Because of noise and loss of resolution we assume also that the sensing quality of a sensor placed at $p_i$ wrt a point $q$ decreases as much the distance between $p_1$ and $q$ is large. Then once we have computed the Voronoi Partition we have also to find for each Voronoi Cell the point in which the sensing degradation is minimized in order to move the sensor in this point.\\
-	Obviously this motion modifies the situation and may change the Voronoi Partition. As in the paper we have modeled the sensing degradation as the squared distance between the sensor location and the considered point. Under this assumption we have that for each Voronoi Cell the point in which the sensing degradation is minimized is the so called generalized centroid of the Voronoi Cell namely the center of mass that we find considering the distribution density function of the variable that we want to measure as a mass density function.\\
-	The adopted alogrtihm \textbf{Lloyd's gradient descent} guarantees to reach a global convergence under the given assumptions.   
+	Obviously this motion modifies the situation and may change the Voronoi Partition. As in the paper we have modelled the sensing degradation as the squared distance between the sensor location and the considered point. Under this assumption we have that for each Voronoi Cell the point in which the sensing degradation is minimized is the so called generalized centroid of the Voronoi Cell namely the centre of mass that we find considering the distribution density function of the variable that we want to measure as a mass density function.\\
+	The adopted algorithm \textbf{Lloyd's gradient descent} guarantees to reach a global convergence under the given assumptions.   
 	
 	\subsection{Adopted assumptions}
 	

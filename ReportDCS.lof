@@ -1,7 +1,8 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Algorithm A flow}}{10}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Algorithm B flow}}{12}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Voronoi Cells of 20 points on a plane}}{8}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Algorithm A flow}}{11}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Algorithm B flow}}{12}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Random agents spawning}}{14}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Random 2D normal distribution}}{14}
