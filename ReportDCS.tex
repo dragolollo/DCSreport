@@ -226,10 +226,36 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 		
 	\end{figure}
 	
-	\subsection{Utils}
-	\subsubsection{sliceCell}
-	
-	\subsubsection{calculateCell}
+\subsection{Utils}
+\subsubsection{sliceCell}
+	The need of this function arise from the fact that the \emph{Voronoi} functions implemented in Matlab cannot be applied locally, as in our case. Moreover, the polygons identified by the same functions are quite difficult to manage.\\
+	Thus, the aim of this function is to provide an alternative way, geometrically based, of computing local Voronoi partitions to those given by Matlab.\\
+	Geometrically based because it exploits the facts that the common edge between the Voronoi neighbours is obtained from the line passing through the midpoint between the two agents, orthogonal to the segment that links the agents.\\
+	In simple terms, the function cuts (\emph{slices}) the sensing region of the given agent according to the other agents present in that region, in order to respect the definition of Voronoi partition.\\
+	This function takes as inputs the position of the two agents to analyze, the previous estimated Voronoi cell and the actual sensing radius.\\
+	Since the function deals with lines, slopes and y-intercepts, a \emph{pathological case} should occur: two neighbours should share the same value of the y-coordinate, such that the slope of the seeked line will result infinite. In order to manage this problem, the case of points with the same y-coordinare is analyzed separately.\\
+	To make the explanation clearer, the instructions of the algorithm are outlined in the table below. For the sake of simplicity, only the general case with points with slope different from infinite is represented, since the reasoning is almost the same.
+	\begin{algorithm}
+\caption{sliceCell}\label{euclid}
+\begin{algorithmic}[1]
+\State find the perpendicular bisector of the segment linking two agents
+\State intersect the bisector with the allowed sensing area
+\If {no intersections}
+\State \Return actual boundary area
+\Else
+	\If {the agent is below the bisector}
+	\State collect every vertices of the previous cell that are \emph{below} the bisector
+	\Else
+	\State collect every vertices of the previous cell that are \emph{above} the bisector
+	\EndIf
+\EndIf
+\State compute the convex hull from the new vertices
+\State \Return new boundary area
+\State \textbf{close}
+\end{algorithmic}
+\end{algorithm}	\\
+
+\subsubsection{calculateCell}
 	This function is the one that implements the \textit{Adjust Sensing Radius Algorithm} presented in \cite{K1}. Its purpose is to compute the Voronoi cell of each agent, modifying the sensing radius in order to converge to a unique and correct solution. The function is slightly different in the two versions of the project, in the offline version (\textit{ver. A}), as already mentioned, the function provides also the calculations of the neighbours weights; feature not present in the online version.
 	 As input it needs:
 	 \begin{itemize}
@@ -239,7 +265,7 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 		\item (\textit{only for the offline version}) the position and the status of all the agents;
 	\end{itemize}
 The algorithm of the function (\emph{offline mode}) can be summarised in the table below:
-\begin{algorithm}[hb]
+\begin{algorithm}[hb!]
 \caption{calculateCell}\label{euclid}
 \begin{algorithmic}[1]
 \State intersect the initial radius with the allowable area
@@ -268,12 +294,12 @@ The algorithm of the function (\emph{offline mode}) can be summarised in the tab
 \EndIf
 \State \textbf{close}
 \end{algorithmic}
-\end{algorithm}	\\
+\end{algorithm}
 
 Further comments are present on the code.\\
 
 	
-	\subsubsection{genMCGauss}
+\subsubsection{genMCGauss}
 	
 	This function implements the computation of the generalized centroid of a given region. In other words given a region, and the features of the gaussian distribution function that we have used to model the variable to be sensed (mean coordinates and standard deviation), this function provides the generalized mass and the generalized centroid coordinates (explained in the theoretical notions section) of the considered region. This computation is done by a quantization of the region in a certain number of points and associating a generalized mass to each one of these points dependly on the associated density values. So as input it needs: 
 	 \begin{itemize}
