@@ -10,6 +10,12 @@
 \usepackage{cite}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
 
 \begin{document}
 	\pagestyle{myheadings}
@@ -222,6 +228,42 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 	
 	\subsection{Utils}
 	\subsubsection{calculateCell}
+	This function is the one that implements the \textit{Adjust Sensing Radius Algorithm} presented in \cite{K1}.\\
+	 Its purpose is to compute the Voronoi cell of each agent, modifying the sensing radius in order to converge to a unique and correct solution.\\
+	 The function is slightly different in the two versions of the project, in the offline version (\textit{ver. A}), as already mentioned, the function provides also the calculations of the neighbours weights; feature not present in the online version.
+	 As input it needs:
+	 \begin{itemize}
+	 	\item the actual position of the agent;
+		\item the initial radius (arbitrarily small);
+		\item the total working area;
+		\item (\textit{only for the offline version}) the position and the status of all the agents;
+	\end{itemize}
+The algorithm of the function can be summarised in the table below:
+	\begin{algorithm}
+\caption{calculateCell}\label{euclid}
+\begin{algorithmic}[1]
+\State intersect the initial radius with the allowable area
+\BState \emph{loop}:
+\If {any other agent \emph{j} found} 
+\State store \textit{ID} and \emph{distance} from the agent in exam inside a \emph{table}
+\EndIf
+\State sort the table by increasing distance from the agent
+\If {the table is not empty}
+\State run \emph{sliceCell} for each agent in the table
+\EndIf
+\State compute the new estimated cell
+\If {the radius is smaller than twice the distance between the agent and the furthest vertices of the cell}
+\State double the radius
+\State \textbf{goto} \emph{loop}
+\Else  
+\State save the actual radius
+\State save the weights of the neighbours
+\State save the final cell
+\EndIf
+\State \textbf{close}
+\end{algorithmic}
+\end{algorithm}	
+
 	\subsubsection{sliceCell}
 	\subsubsection{genMCGauss}
 	
