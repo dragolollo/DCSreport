@@ -214,7 +214,7 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 	
 	\subsection{Online algorithm (B)}
 	
-	\begin{figure}[hb]
+	\begin{figure}[H]
 		
 		\centering
 		
@@ -234,7 +234,8 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 	This function takes as \textbf{inputs} the position of the two agents to analyze, the previous estimated Voronoi cell and the actual sensing radius.\\
 	Since the function deals with lines, slopes and y-intercepts, a \emph{pathological case} should occur: two neighbours should share the same value of the y-coordinate, such that the slope of the seeked line will result infinite. In order to manage this problem, the case of points with the same y-coordinate is analyzed separately.\\
 	To make the explanation clearer, the instructions of the algorithm are outlined in the table below. For the sake of simplicity, only the general case with points with slope different from infinite is represented, since the reasoning is almost the same.
-	\begin{algorithm}
+	
+\begin{algorithm}[H]
 \caption{sliceCell}\label{euclid}
 \begin{algorithmic}[1]
 \State find the \emph{perpendicular bisector} of the segment linking two agents
@@ -252,7 +253,7 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 \State \Return new boundary area
 \State \textbf{close}
 \end{algorithmic}
-\end{algorithm}	\\
+\end{algorithm}	
 
 \subsubsection{calculateCell}
 	This function is the one that implements the \textit{Adjust Sensing Radius Algorithm} presented in \cite{K1}. Its purpose is to compute the Voronoi cell of each agent, modifying the sensing radius in order to \textbf{converge} to a unique and correct solution. The function is slightly different in the two versions of the project: in the offline version (\textit{ver. A}), as already mentioned, the function provides also the calculations of the \textbf{neighbours weights}; feature not present in the online version.

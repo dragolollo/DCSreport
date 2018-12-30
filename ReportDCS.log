@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.26)  30 DEC 2018 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.26)  30 DEC 2018 10:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -469,38 +469,34 @@ File: figs/algorithmB.png Graphic file (type png)
 <use figs/algorithmB.png>
 Package pdftex.def Info: figs/algorithmB.png  used on input line 221.
 (pdftex.def)             Requested size: 332.34265pt x 630.45734pt.
-
-LaTeX Warning: Float too large for page by 60.38625pt on input line 227.
-
 [11] [12 <./figs/algorithmA.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 231--256
+Overfull \vbox (92.4581pt too high) has occurred while \output is active []
+
+
+[13 <./figs/algorithmB.png>] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
-
- []
-
-[14] [15] [16 <./figs/algorithmB.png>]
+[15] [16]
 Chapter 2.
 <figs/randomAgents.png, id=75, 324.46219pt x 321.45094pt>
 File: figs/randomAgents.png Graphic file (type png)
 <use figs/randomAgents.png>
-Package pdftex.def Info: figs/randomAgents.png  used on input line 348.
+Package pdftex.def Info: figs/randomAgents.png  used on input line 349.
 (pdftex.def)             Requested size: 227.12196pt x 225.01411pt.
 <figs/gaussianDistrib.png, id=76, 588.69937pt x 322.95656pt>
 File: figs/gaussianDistrib.png Graphic file (type png)
 <use figs/gaussianDistrib.png>
-Package pdftex.def Info: figs/gaussianDistrib.png  used on input line 354.
+Package pdftex.def Info: figs/gaussianDistrib.png  used on input line 355.
 (pdftex.def)             Requested size: 412.08675pt x 226.06804pt.
 
-Overfull \hbox (52.08675pt too wide) in paragraph at lines 354--355
+Overfull \hbox (52.08675pt too wide) in paragraph at lines 355--356
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--363
+Underfull \hbox (badness 10000) in paragraph at lines 361--364
 
  []
 
@@ -510,52 +506,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 360--363
 <figs/convergenceResultsA.png, id=83, 1431.84938pt x 728.7225pt>
 File: figs/convergenceResultsA.png Graphic file (type png)
 <use figs/convergenceResultsA.png>
-Package pdftex.def Info: figs/convergenceResultsA.png  used on input line 367.
+Package pdftex.def Info: figs/convergenceResultsA.png  used on input line 368.
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 369.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 370.
 
 <figs/20convergenceResultsA.png, id=84, 1431.84938pt x 728.7225pt>
 File: figs/20convergenceResultsA.png Graphic file (type png)
 <use figs/20convergenceResultsA.png>
-Package pdftex.def Info: figs/20convergenceResultsA.png  used on input line 373
+Package pdftex.def Info: figs/20convergenceResultsA.png  used on input line 374
 .
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 375.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 376.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
 
  []
 
 <figs/convergenceResultsB.png, id=85, 1431.84938pt x 728.7225pt>
 File: figs/convergenceResultsB.png Graphic file (type png)
 <use figs/convergenceResultsB.png>
-Package pdftex.def Info: figs/convergenceResultsB.png  used on input line 386.
+Package pdftex.def Info: figs/convergenceResultsB.png  used on input line 387.
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 388.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 389.
 
 <figs/20convergenceResultsB.png, id=86, 1431.84938pt x 728.7225pt>
 File: figs/20convergenceResultsB.png Graphic file (type png)
 <use figs/20convergenceResultsB.png>
-Package pdftex.def Info: figs/20convergenceResultsB.png  used on input line 392
+Package pdftex.def Info: figs/20convergenceResultsB.png  used on input line 393
 .
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 394.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 395.
 
 [19] [20 <./figs/convergenceResultsA.png (PNG copy)>] [21 <./figs/20convergence
 ResultsA.png (PNG copy)>] [22 <./figs/convergenceResultsB.png (PNG copy)>]
 [23 <./figs/20convergenceResultsB.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
 
  []
 
@@ -569,13 +565,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3741 strings out of 492649
- 51536 string characters out of 6129621
+ 3742 strings out of 492649
+ 51546 string characters out of 6129621
  125680 words of memory out of 5000000
- 7525 multiletter control sequences out of 15000+600000
+ 7526 multiletter control sequences out of 15000+600000
  12315 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,25p,694b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,9n,25p,694b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -590,7 +586,7 @@ live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
 e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
 2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ReportDCS.pdf (25 pages, 1380827 bytes).
+Output written on ReportDCS.pdf (25 pages, 1381031 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
