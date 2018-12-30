@@ -4,17 +4,17 @@
 \contentsline {section}{\numberline {1.1}Setup}{8}
 \contentsline {subsection}{\numberline {1.1.1}Theoretical notions}{8}
 \contentsline {subsection}{\numberline {1.1.2}Adopted assumptions}{9}
-\contentsline {section}{\numberline {1.2}Inner Workings}{11}
-\contentsline {subsection}{\numberline {1.2.1}Offline algorithm (A)}{11}
+\contentsline {section}{\numberline {1.2}Inner Workings}{10}
+\contentsline {subsection}{\numberline {1.2.1}Offline algorithm (A)}{10}
 \contentsline {subsection}{\numberline {1.2.2}Online algorithm (B)}{13}
-\contentsline {subsection}{\numberline {1.2.3}Utils}{16}
-\contentsline {subsubsection}{sliceCell}{16}
-\contentsline {subsubsection}{calculateCell}{17}
-\contentsline {subsubsection}{genMCGauss}{18}
-\contentsline {chapter}{\numberline {2}Results analysis}{19}
-\contentsline {section}{\numberline {2.1}Prerequisites}{19}
-\contentsline {section}{\numberline {2.2}Simulation benchmarks}{19}
-\contentsline {section}{\numberline {2.3}Offline algorithm (A)}{21}
-\contentsline {section}{\numberline {2.4}Online algorithm (B)}{21}
-\contentsline {chapter}{Conclusions}{26}
-\contentsline {chapter}{Bibliography}{27}
+\contentsline {subsection}{\numberline {1.2.3}Utils}{15}
+\contentsline {subsubsection}{sliceCell}{15}
+\contentsline {subsubsection}{calculateCell}{16}
+\contentsline {subsubsection}{genMCGauss}{17}
+\contentsline {chapter}{\numberline {2}Results analysis}{18}
+\contentsline {section}{\numberline {2.1}Prerequisites}{18}
+\contentsline {section}{\numberline {2.2}Simulation benchmarks}{18}
+\contentsline {section}{\numberline {2.3}Offline algorithm (A)}{20}
+\contentsline {section}{\numberline {2.4}Online algorithm (B)}{20}
+\contentsline {chapter}{Conclusions}{25}
+\contentsline {chapter}{Bibliography}{26}

@@ -86,29 +86,28 @@
 	%%%%%% INTRODUZIONE %%%%%%%%%%
 	\chapter*{Introduction}
 	\addcontentsline{toc}{chapter}{Introduction}
-	
-	 A mobile wireless sensor network (MWSN) can be defined as a wireless sensor network (WSN) in which the sensor nodes are mobile. For example the nodes can be wheeled robots scattered in a given area.\\\\
-	
+	A mobile wireless sensor network (MWSN) can be defined as a wireless sensor network (WSN) in which the sensor nodes are mobile. For example the nodes can be wheeled robots scattered in a given area.\\\\
 	MWSNs are an emerging field of research in contrast to their well-established predecessor. They are way more flexible than static sensor networks as they can be deployed in any scenario and deal with rapid topology changes due to node failures or new added sensors. In general each node consists of a radio transceiver, a microcontroller powered by a battery and one or more sensors to detect certain properties of the environment.~\cite{K2}\\ 
-	Typical applications of this kind of network are environment monitoring, surveillance, search and recovery operation, exploration.\\\\
+	Typical applications of this kind of network are environment monitoring, surveillance, search and recovery operation, exploration.\\
+	A problem that can arise in this context is the \textbf{optimization} of coverage of a given area knowing the density distribution function, defined on that area, of a given property we would like to measure. The objective of this project was to implement a \textbf{distributed and asynchronous algorithm} to solve this problem, following the method proposed in the research paper \cite{K1}.\\\\
+	The considered framework, as suggested by the aforementioned paper, is the following: $n$ mobile sensor-robots modelled as simple integrators strewn on an area given by a \textbf{convex polytope} defined in $\mathbb{R}^2$; on this area a 2-dimensional distribution $\phi:Q\rightarrow \mathbb{R}_+$ is defined to represent the density of the feature that nodes have to measure.\\ Each node has sensing (can locate the other nodes positions) and/or communication capabilities.  \\
 	
-	A problem that can arise in this context is the optimization of coverage of a given area knowing the density distribution function, defined on that area, of a given property we would like to measure. The objective of this project was to implement a distributed and asynchronous algorithm to solve this problem, following the method proposed in the research paper \cite{K1}.\\
+	Conceptually this algorithm runs iteratively 2 subroutines: one, called "\emph{Adjust-sensing radius algorithm}", to compute the \textbf{Voronoi cell} of each sensor, and another one, called "\emph{Monitoring algorithm}" to check if the computation of the Voronoi cell has to be updated because of significant changes in the network (variation of nodes positions, node failures,...).\\\\\\\\
 	
-	The considered framework, as suggested by the aforementioned paper, is the following: n mobile sensor-robots modelled as simple integrators strewn on an area given by a convex polytope defined in $\mathbb{R}^2$; on this area a 2-dimensional distribution $\phi:Q\rightarrow \mathbb{R}_+$ is defined to represent the density of the feature that nodes have to measure.\\ Each node has sensing (can locate the other nodes positions) and/or communication capabilities.  \\
 	
-	Conceptually this algorithm runs iteratively 2 subroutines: one, called "Adjust-sensing radius algorithm", to compute the Voronoi cell of each sensor, and another one, called "Monitoring algorithm" to check if the computation of the Voronoi cell has to be updated because of significant changes in the network (variation of nodes positions, node failures,...).\\\\\\\\	
+	
 	We implemented this procedure in Matlab in 2 ways:
 	\begin{enumerate}
-		\item in a centralized sequential way
-		\item in a distributed parallel fashion, reading and writing files (stored in a master server) to realize communication among nodes
+		\item in a \textbf{centralized }sequential way
+		\item in a \textbf{distributed} parallel fashion, reading and writing files (stored in a master server) to realize communication among nodes.
 	\end{enumerate}
-	These two implementations and the differences between them are well-explained and analysed in this report.\\
+	These two implementations and the differences between them are well-explained and analysed in this report\\
 	In particular, the first chapter regards the problem set-up and description of proposed solutions; the second chapter contains the analysis of obtained results.\\
 	
 	
 	\section*{Motivations}
-	The algorithms and simulations have been implemented in Matlab because of its (relatively speaking) simplicity and useful add-ons.\\
-	In particular, thanks to the graphical tools readily made available we could also create a real time results visualization to accompany the simulations, which is well suited to analyse the behaviour of both algorithm, compare them, and easily fix or add missing features.
+	The algorithms and simulations have been implemented in \emph{Matlab} because of its (relatively speaking) simplicity and useful add-ons.\\
+	In particular, thanks to the graphical tools readily made available we could also create a real time results \textbf{visualization} to accompany the simulations, which is well suited to analyse the behaviour of both algorithm, compare them, and easily fix or add missing features.
 	
 	
 	\section*{Contributions}
@@ -119,54 +118,55 @@
 	
 	%%%%%%%%% CAPITOLO  %%%%%%%%%%%%%%%%
 	\chapter{Problem set-up and solutions}
-	In this chapter problem set-up and description of the implemented solution are presented. 
+	First-chapter for problem set-up and description of the implemented solution. 
 	
 	\section{Setup}
 	\subsection {Theoretical notions}
 	
 	The algorithm proposed by the main paper is \textbf{Lloyd's gradient descent}, which guarantees the convergence to an optimal solution intuitively given by the trade-off between each node's coverage (position) and relative degradation of sensing capabilities.\\
-	A main point to be considered is that this solution makes use of the concept of Voronoi partitions.\\
-	Given a subspace $S$ in $\mathbb{R}^N$ (typically a plane) and a set of n points $P=\{p_1,...,p_n\}$ belonging to this subspace we call Voronoi partition a partition such that there is an associated region for each point and this region consists of all points closer to that point than any other point. We call these regions Voronoi Cells.\\
-	Let's see an example of Voronoi partition of a plane:\\
+	A main point to be considered is that this solution makes use of the concept of \textbf{Voronoi partitions}.\\
+	Given a subspace $S$ in $\mathbb{R}^N$ (typically a plane) and a set of n points $P=\{p_1,...,p_n\}$ belonging to this subspace we call Voronoi partition a partition such that there is an associated region for each point and this region consists of all points closer to that point than any other point. We call these regions \emph{Voronoi Cells}.\\
+	Let's see an example of Voronoi Partition of a plane:\\
 	
 	\begin{figure}[hb]
 		
 		\centering
 		
 		\includegraphics[scale=0.33]{figs/VoronoiPartition.png}
-		\caption{Voronoi cells of 20 points on a plane}\label{fig:Voronoi Partition.png}	
+		\caption{Voronoi Cells of 20 points on a plane}\label{fig:Voronoi Partition.png}	
 	\end{figure}
 	
 
-	Considering a convex polytope $Q$ in $\mathbb{R}^N$ and n sensors, for the sensor positions $P=\{p_1,...,p_n\}$ the optimal partition of $Q$ is the Voronoi partition  $V(P)=\{V_1,...,V_n\}$, where $V_i$ is the Voronoi cell of the i-th sensor: $$V_i=\{q\in Q| \ \|q-p_i\|\le\|q-p_j\|, \forall j\not= i\}$$\\
-	Intuitively speaking, each $V_i$ represents the region of space in which the respective sensor i is performing its task.\\
+	Considering a convex polytope $Q$ in $\mathbb{R}^N$ and $n$ sensors, for the sensor positions $P=\{p_1,...,p_n\}$ the optimal partition of $Q$ is the Voronoi partition  $V(P)=\{V_1,...,V_n\}$, where $V_i$ is the Voronoi cell of the $i-th$ sensor: $$V_i=\{q\in Q|\> \|q-p_i\|\le\|q-p_j\|, \forall j\not= i\}$$\\
+	Intuitively speaking, each $V_i$ represents the region of space in which the respective sensor $i$ is performing its task.\\
 	
 	
 	Citation \cite{K1}\\
 	
-	Because of noise and loss of resolution, we assume also that the sensing quality of a sensor placed at $p_i$ with respect to a point $q$ decreases as much as the distance between $p_i$ and $q$ is large. Then once we have computed the Voronoi partition we have also to find for each Voronoi cell the point in which the sensing degradation is minimized in order to move the sensor in this point. As the paper suggests, we have modeled the sensing degradation as the squared distance between the sensor location and the considered point. Moreover we have to remember that we want to measure a certain property that is distributed in the space.\\
-	Under these assumptions we have that for each Voronoi cell the point in which the sensing degradation is minimized and the property sensing is maximized is the so called generalized centroid $C_v$ of the Voronoi Cell, namely the center of mass (generalized mass $M_v$), that we find considering the distribution density function $\phi$ of the variable that we want to measure as a mass density function $\rho$.\\
-		            $$M_v=\int_{V} \rho(q)\, dq$$  \\ 
-	                $$C_v=\frac{1}{M_v} \int_{V} q \rho(q)\, dq$$  \\
-	Obviously the motion toward this point modifies the situation and very likely changes the Voronoi partition.\\
+	Because of noise and loss of resolution we assume also that the sensing quality of a sensor placed at $p_i$ with respect to a point $q$ decreases as much the distance between $p_1$ and $q$ is large. Then once we have computed the Voronoi Partition we have also to find for each Voronoi Cell the point in which the sensing degradation is \textbf{minimized} in order to move the sensor in this point.\\
+	Obviously this motion modifies the situation and may change the Voronoi Partition. As in the paper we have modelled the sensing degradation as the squared distance between the sensor location and the considered point. Under this assumption we have that for each Voronoi Cell the point in which the sensing degradation is minimized is the so called \textbf{generalized centroid} $C_v$ of the Voronoi Cell, namely the \textbf{center of mass}, (\emph{generalized mass} $M_v$) that we find considering the distribution density function of the variable that we want to measure as a mass density function $p$.\\
 	
-	The adopted algorithm \textbf{Lloyd's gradient descent} guarantees to reach a global convergence to an optimal solution under the given assumptions.   
+	                $M_v$=$\int_{V} p(q)\, dq$  \\\\ 
+	    
+	                $C_v$=$\frac{1}{M_v} \int_{V} q p(q)\, dq$  \\\\
+	
+	The adopted alogrtihm \textbf{Lloyd's gradient descent} guarantees to reach a global convergence under the given assumptions.   
 	
 	\subsection{Adopted assumptions}
 	
 	Although the code was implemented with the objective in mind of staying as much faithful to the paper as possible, some assumptions had to be made in order to work with the simulations running on a single machine, especially considering that some pieces of code (e.g. the computation of Voronoi cells) tend to slow them down quite a bit, and should then be optimized during further developments.\\ %(with a deeper proficiency of coding and mathematical skills that are unfortunately not in possession of anyone of us at the time of this writing).\\
 	
-	In particular, with respect to the "ideal" version of the algorithm proposed in the paper\cite{K1}, the assumptions made are
+	In particular, with respect to the "ideal" version of the algorithm proposed in the paper\cite{K1}, the assumptions made are:
 	
 	\begin{enumerate}
-		\item The \textit{sensing} of other agents is not implemented by a specific communication protocol; in the distribution version case, text files were written and read in a similar fashion to \textit{POSIX pipes}, and the only reason preventing an immediate sensing is the lock put to files during mutual r/w.\\This, as a side effects, also "forces" the lack of synchronism between threads.
+		\item The \textit{sensing} of other agents is not implemented by a specific \textbf{communication protocol}; in the distribution version case, text files were written and read in a similar fashion to \textit{POSIX pipes}, and the only reason preventing an immediate sensing is the lock put to files during mutual r/w.\\This, as a side effects, also "forces" the lack of synchronism between threads.
 		
-		\item The \textit{timing}, as in the scheduling of different subroutines like monitoring and sensing, is not implemented, as it would require real platforms with only few unique threads running so to not introduce large discrepancies in convergence speeds.\\
-		This is not only due to (rather severe) constraints of horsepower available on the used machines, but also to the lack of ready to use POSIX-like scheduling primitives in Matlab's \textit{Parallel Computing Toolbox}.\\
-		On top of that, while this would definitely be an issue in the real world implementation of the algorithm, for the purpose of this project (i.e. demonstration and simulation of the algorithm and creation of essential tools for its correct implementation), the proposed version suffices in its goals, and the following point explains the trade-off that was made in accordance with the Professor's directions.
+		\item The \textit{timing}, as in the \textbf{scheduling} of different subroutines like monitoring and sensing, is not implemented, as it would require real platforms with only few unique threads running so to not introduce large discrepancies in convergence speeds.\\
+		This is not only due to (rather severe) constraints of horsepower available on the used machines, but also to the lack of ready to use, POSIX-like scheduling primitives in Matlab's \textit{Parallel Computing Toolbox}.\\
+		On top of that, while this would definitely be an issue in the real world implementation of the algorithm, for the purpose of this project (i.e. demonstration and simulation of the algorithm and creation of essential tools for its correct implementation), the proposed version suffices in its goals, and the following point explains the trade-off that was made in accordance with the professor's directions.
 		
-		\item For the same reason, while the correct calculation of neighbours weights is implemented and also displayed in the Offline algorithm, in the Distributed version agents do not wait for \textit{events} in order to change the control action, but rather they first reach the last computed region's centroid, and only then they sense others' position to update their own cell and reference centroid.\\
-		However, should the need arise, the primitives and functions aiding in the event generation are already available in Ver. A of the code, as mentioned.
+		\item For the same reason, while the correct calculation of \textbf{neighbours weights} is implemented and also displayed in the Offline algorithm, in the Distributed version agents do not wait for \textit{events} in order to change control, but rather they first reach the last computed region's centroid, and only then they sense others' position to update their own cell and reference centroid.\\
+		However, should the need arise, the primitives and functions aiding in the event generation are already available in \emph{Ver. A} of the code, as mentioned.
 		
 		
 	\end{enumerate}
@@ -177,33 +177,30 @@
 	\section{Inner Workings}
 	\subsection{Offline algorithm (A)}
 	
-	As said before, in this project two ways to reach the final goal have been followed: the \textbf{centralized} algorithm, namely the one which exploits the fact that each position of each agent is known by the others and the control law is applied in a \textit{sequential} manner, is developed in this section.\\
+	As said before, in this project two ways to reach the final goal have been followed: the \textbf{centralized} algorithm, namely the one which exploits the fact that each position of each agent is known by the others, and the control law is applied in a \textit{sequential} manner, is developed in this section.\\
 The fig.~\ref{fig:algorithmA.png} allows a more comprehensive approach to the explanation of this algorithm.\\
 The initialization phase lets the user to generate the workspace randomly, or to upload a given benchmark to work with. \\
 If the former choice is made, a set of functions will be called:
  \begin{itemize}
-		\item \textit{buildArea}: it creates a convex area, namely a polygon with a given number of vertices placed in a given range of the plane;
-		\item \textit{generateAgents}: it places a fixed number of agents in the already built area, positioning them randomly;
-		\item \textit{genPolyGrid}: it turns the plane individuated by the area of the polygon into a discrete grid of points, in order to build the probability distribution function.  
-		\item \textit{gaussianDistr2d}: it generates a 2-dimensional Gaussian distribution function that represents the distribution of the information to be acquired. 
+		\item \textit{buildArea}: it creates a \textbf{convex area}, namely a polygon with a given number of vertices placed in a given range of the plane;
+		\item \textit{generateAgents}: it places a fixed number of \textbf{agents} in the already built area, positioning them randomly;
+		\item \textit{genPolyGrid}: it turns the plane individuated by the area of the polygon into a \textbf{discrete grid of points}, in order to build the probability distribution function.  
+		\item \textit{gaussianDistr2d}: it generates a \textbf{2-dimensional Gaussian distribution function} that represents the distribution of the information to be acquired. 
 \end {itemize}
 The latter choice allows to take all of this material from an external file.\\
 
-Once all the benchmark features are defined, the algorithm makes a first computation of the Voronoi cells, analyzing and classifying the neighbours of each agent, and estimating the \textit{centroid} of each cell, weighted with respect to the density. To this purpose, some complex functions have been developed, that will be discussed further:
+Once all the benchmark features are defined, the algorithm makes a first computation of the Voronoi cells, analyzing and classifying the neighbours of each agent, and estimating the \textbf{centroid} of each cell, weighted with respect to the density (namely, the \textbf{center of mass}). To this purpose, some complex functions have been developed, that will be discussed further:
 \begin{itemize}
-	\item \textit{sliceCell};
 	\item \textit{calculateCell};
+	\item \textit{sliceCell};
 	\item \textit{genMCgauss}.
 \end{itemize}
 Thus, after the first partition of the main area, the control parameters are defined, and the control action can start.\\
-Since the project assumptions state that each agent must be considered as a single-integrator, the control consists only in a proportional action aimed to fill the gap between the agent position and the centroid of its Voronoi cell. The sequential fashion is implemented by means of a \textit{for loop}, that lets the agents move one by one, toward its own Voronoi centroid.\\
+Since the project assumptions state that each agent must be considered as a \textbf{single-integrator}, the control consists only in a \textbf{proportional action} aimed to fill the gap between the agent position and the centroid of its Voronoi cell. The sequential fashion is implemented by means of a \textit{for loop}, that lets the agents move one by one, toward its own Voronoi centroid.\\
 In each iteration, actually, the single agent doesn't reach necessarily the goal (namely, the centroid), and at the beginning of the next iteration, it computes another time its Voronoi cell, updating the centroid if some changes happened in the neighbourhood.\\
 In this way, each agent approaches constantly a reference that is moving in time, because actually at each iteration the centroid is updated. \\
-Finally, the algorithm stops when every agents has reached a distance from its cell centroid lower than a given threshold.\\
-
-When the global convergence has been reached, it is possible to generate a new random density normal distribution and then the algorithm is ran again to achieve a new final configuration.\\
-	
-	\begin{figure}[H]
+Finally, the algorithm stops when every agents has reached a distance from its cell centroid lower than a given threshold.\\	
+	\begin{figure}
 		
 		\centering
 		
@@ -219,9 +216,7 @@ When the global convergence has been reached, it is possible to generate a new r
 	
 	In this section, the \textbf{distributed} or \textbf{online} algorithm is explained. As already mentioned,this procedure is based on parallel threads (as many as the number of nodes) exploiting the \textit{Parallel Computing Toolbox} and then it is more similar to the one described in the paper \cite{K1} and to a real life possible implementation. Obviously in this case a communication mechanism for the position coordinates of each node (thread) is necessary: this is realized by reading and writing files stored in a master server.\\
 	In fig.~\ref{fig:algorithmA.png} the flow chart of the algorithm is showed to simplify its comprehension.\\
-	
 	The initial phase regarding the generation of the workspace and framework is the same as in Algorithm (A): it exploits the already presented functions \textit{buildArea, generateAgents, genPolyGrid, gaussianDistr2d}. As before, instead of using the function \textit{buildArea} to create the work area, it is possible to load it from an external file.\\
-	
 	Then, after computing the initial Voronoi partition, inizializing the positions files and testing R/W permissions, the parallel section starts:
 	\begin{enumerate}
 		
@@ -235,11 +230,10 @@ When the global convergence has been reached, it is possible to generate a new r
 	
 	\item When it reaches the centroid, it reads again the others positions, compute its Voronoi cell and centroid, updates the control action and so on (restart from point (2)\ )
 	\end{enumerate} 
-	After at most a given number of cycles (for each node), all the threads are synchronized using a barrier to update the graphical representation and to check if the convergence to the optimal solution has been reached. The latter is done calculating the differences between the actual and the previous centroids positions: if they are all below a certain value then the algorithm stops, otherwise we restart from point (1).\\
+	After at most a given number of cycles (for each node), all the threads are synchronized using a barrier to update the graphical representation and to check if the convergence to the optimal solution has been reached. The latter is done calculating the differences between the actual and the previous centroids positions: if they are all below a certain value then the algorithm stops, otherwise we restart from point (2).\\
 	
 	Reading the code it is easy to see that before the parallel part, the \textbf{offline} algorithm is ran and its result visualized in order to make a comparison between the 2 versions.
 	
-
 	\begin{figure}[H]
 		
 		\centering
@@ -252,20 +246,19 @@ When the global convergence has been reached, it is possible to generate a new r
 		
 	\end{figure}
 	
-	
 \subsection{Utils}
 \subsubsection{sliceCell}
-	The need of this function arise from the fact that the \emph{Voronoi} functions implemented in Matlab cannot be applied locally, as in our case. Moreover, the polygons identified by the same functions are quite difficult to manage.\\
-	Thus, the aim of this function is to provide an alternative way, geometrically based, of computing local Voronoi partitions to those given by Matlab.\\
-	It is geometrically based because it exploits the facts that the common edge between the Voronoi neighbours is obtained from the line passing through the midpoint between the two agents, orthogonal to the segment that links the agents.\\
-	In simple terms, the function cuts (\emph{slices}) the sensing region of the given agent according to the other agents present in that region, in order to respect the definition of Voronoi partition.\\
-	This function takes as inputs the position of the two agents to analyze, the previous estimated Voronoi cell and the actual sensing radius.\\
-	Since the function deals with lines, slopes and y-intercepts, a \emph{pathological case} should occur: two neighbours should share the same value of the y-coordinate, such that the slope of the seeked line will result infinite. In order to manage this problem, the case of points with the same y-coordinare is analyzed separately.\\
+	The need of this function arise from the fact that the \emph{Voronoi} functions implemented in Matlab cannot be applied locally, as in our case. Moreover, the polygons identified by the same functions are quite difficult to manage. Thus, the aim of this function is to provide an alternative way, \textbf{geometrically based}, of computing local Voronoi partitions to those given by Matlab.\\
+	Geometrically based because it exploits the facts that the common edge between the Voronoi neighbours is obtained from the line passing through the midpoint between the two agents, orthogonal to the segment that links the agents (\textbf{perpendicular bisector}).\\
+	In simple terms, the function cuts (\emph{slices}) the sensing region of the given agent according to the other agents present in the sensing area, in order to respect the definition of Voronoi partition.\\
+	This function takes as \textbf{inputs} the position of the two agents to analyze, the previous estimated Voronoi cell and the actual sensing radius.\\
+	Since the function deals with lines, slopes and y-intercepts, a \emph{pathological case} should occur: two neighbours should share the same value of the y-coordinate, such that the slope of the seeked line will result infinite. In order to manage this problem, the case of points with the same y-coordinate is analyzed separately.\\
 	To make the explanation clearer, the instructions of the algorithm are outlined in the table below. For the sake of simplicity, only the general case with points with slope different from infinite is represented, since the reasoning is almost the same.
-	\begin{algorithm}
+	
+\begin{algorithm}[H]
 \caption{sliceCell}\label{euclid}
 \begin{algorithmic}[1]
-\State find the perpendicular bisector of the segment linking two agents
+\State find the \emph{perpendicular bisector} of the segment linking two agents
 \State intersect the bisector with the allowed sensing area
 \If {no intersections}
 \State \Return actual boundary area
@@ -276,22 +269,22 @@ When the global convergence has been reached, it is possible to generate a new r
 	\State collect every vertices of the previous cell that are \emph{above} the bisector
 	\EndIf
 \EndIf
-\State compute the convex hull from the new vertices
+\State compute the \emph{convex hull} from the new vertices
 \State \Return new boundary area
 \State \textbf{close}
 \end{algorithmic}
-\end{algorithm}	\\
+\end{algorithm}	
 
 \subsubsection{calculateCell}
-	This function is the one that implements the \textit{Adjust Sensing Radius Algorithm} presented in \cite{K1}. Its purpose is to compute the Voronoi cell of each agent, modifying the sensing radius in order to converge to a unique and correct solution. The function is slightly different in the two versions of the project, in the offline version (\textit{ver. A}), as already mentioned, the function provides also the calculations of the neighbours weights; feature not present in the online version.
-	 As input it needs:
+	This function is the one that implements the \textit{Adjust Sensing Radius Algorithm} presented in \cite{K1}. Its purpose is to compute the Voronoi cell of each agent, modifying the sensing radius in order to \textbf{converge} to a unique and correct solution. The function is slightly different in the two versions of the project: in the offline version (\textit{ver. A}), as already mentioned, the function provides also the calculations of the \textbf{neighbours weights}; feature not present in the online version.
+	 As \textbf{inputs} it needs:
 	 \begin{itemize}
 	 	\item the actual position of the agent;
 		\item the initial radius (arbitrarily small);
 		\item the total working area;
 		\item (\textit{only for the offline version}) the position and the status of all the agents;
 	\end{itemize}
-The algorithm of the function (\emph{offline mode}) can be summarised in the table below:
+The algorithm of the function can be summarised in the table below:
 \begin{algorithm}[H]
 \caption{calculateCell}\label{euclid}
 \begin{algorithmic}[1]
@@ -307,7 +300,7 @@ The algorithm of the function (\emph{offline mode}) can be summarised in the tab
 \State compute the new estimated cell
 \If {\emph{offline mode}}
 \State check which agent among those in the table are actually \emph{neighbours}
-\State assign weights to the neighbours
+\State assign \emph{weights} to the neighbours
 \EndIf
 \If {the radius is smaller than twice the distance between the agent and the furthest vertices of the cell}
 \State double the radius
@@ -328,12 +321,12 @@ Further comments are present on the code.\\
 	
 \subsubsection{genMCGauss}
 	
-	This function implements the computation of the generalized centroid of a given region. In other words given a region, and the features of the gaussian distribution function that we have used to model the variable to be sensed (mean coordinates and standard deviation), this function provides the generalized mass and the generalized centroid coordinates (explained in the theoretical notions section) of the considered region. This computation is done by a quantization of the region in a certain number of points and associating a generalized mass to each one of these points dependly on the associated density values. So as input it needs: 
+	This function implements the computation of the \textbf{generalized centroid} of a given region. In other words, given a region, and the features of the Gaussian distribution function that we have used to model the variable to be sensed (mean coordinates and standard deviation), this function provides the generalized mass and the generalized centroid coordinates (explained in the theoretical notions section) of the considered region. This computation is done by a \textbf{quantization} of the region in a certain number of points and associating a generalized mass to each one of these points based on the associated density values. So as input it needs: 
 	 \begin{itemize}
 	\item the horizontal coordinate of the mean of the distribution;
 	\item the vertical coordinate of the mean of the distribution;
 	\item the standard deviation of the distribution;
-	\item the so called pointDensity that express how much points we use to quantize a unitary area and then is related to the generalized mass associated to each point;
+	\item the so called \emph{pointDensity} that express how much points we use to quantize a unitary area and then is related to the generalized mass associated to each point;
 \end{itemize}
 	The outputs are:
 	 \begin{itemize}
@@ -341,7 +334,7 @@ Further comments are present on the code.\\
 	\item the vertical coordinate of the mean generalized centroid; 
 	\item the generalized mass;
 \end{itemize}
-	Intuitively speaking this is the function that says to each agent where it has to move.
+	Intuitively speaking this is the function that says to each agent \textbf{where it has to move}.
 	
 	%%%%%%%%% CHAPTER  %%%%%%%%%%%%%%%%
 	\chapter{Results analysis}
@@ -386,7 +379,7 @@ Further comments are present on the code.\\
 	\section{Offline algorithm (A)}
 	
 	The simulation converges with a good speed with few agents and with a reasonable one with more (see fig.~\ref{fig:convergenceResultsA.png}, fig.~\ref{fig:20convergenceResultsA.png}); we can speculate that considering the typical speed of mobile robots the speed of every step is well suited.\\\\
-	As for correctness, the only issues encountered up to now is with very few agents (4-5) and a very large area (e.g. 10000 sq. unit), for which the cells tend to not be correct, because of the way "Fast and Robust Curve Intersections" works, i.e. by intersecting bounding boxes between the two desired geometrical entities.\\
+	As for correctness, the only issues encountered up to now is with very few agents (4-5) and a very large area (e.g. 10000 sq. unit), for which the cells tend to not be correct, because of the way "\emph{Fast and Robust Curve Intersections}" works, i.e. by intersecting bounding boxes between the two desired geometrical entities.\\
 	Since the agents may be scattered around this large area, the rate of increase of the radius (that is, 2x at each successive step) bring the algorithm to find the bounding box of the radius to completely encompass the area to cover, thus not finding intersections at all; we believe that either a different increase rate of the radius, or better yet, a more efficient way to compute the Voronoi Cell may solve the issue.
 	
 	
@@ -406,7 +399,8 @@ Further comments are present on the code.\\
 	This algorithm is not much slower than the first version, especially for few agents.\\
 	It may be faster if implemented with a better communication between agents (instead of r/w files), but not by a large margin.\\
 	
-	It is of interest to see how they both arrive to similar results but not exactly the same; this is due to the fact that while in the offline algorithm every agent "sense" the others before deciding the next control step, thus continuously updating the centroid, in the distributed version the centroid is updated only when the agent reaches it, making the trajectories of the centroids (and thus of the agents) slightly different.
+	It is of interest to see how they both arrive to \textbf{similar results} but not exactly the same; this is due to the fact that while in the offline algorithm every agent "sense" the others between deciding the next control step, thus continuously updating the centroid.\\
+	In the distributed version, the centroid is updated only when the agent reaches it, making the trajectories of the centroids (and thus of the agents) slightly different.
 	
 	\begin{figure}	
 		\centering	
@@ -427,10 +421,13 @@ Further comments are present on the code.\\
 	\chapter*{Conclusions} % and future developments}
 	\addcontentsline{toc}{chapter}{Conclusions} %  and future developments}
 	%%%%%%%%%%%%%%%%%%%%%%%%%%
-	The obtained results seem to be consistent with those to be expected from the main research paper, made exception for the timing and event control; we think that this work may be a good starting step to realize a real Coverage Control for Cooperative Multi-Robot Networks.\\\\
+	The obtained results seem to be \textbf{consistent} with those to be expected from the main research paper, made exception for the timing and event control; we think that this work may be a good starting step to realize a real Coverage Control for Cooperative Multi-Robot Networks.\\\\
 	
-	Some code optimization issues have been neglected from the efficiency point of view, nonetheless the execution times are kept reasonably short.\\
-	We believe that the next logical step would be to fix this aforementioned speed issues, by e.g. finding a more efficient Voronoi cell computation, and to implement the timing and scheduling of different control parts on real platforms, which would be way easier and of more significance than only the simulation.
+	Some code optimization issues have been neglected from the efficiency point of view, nonetheless the execution times are kept \textbf{reasonably short}.\\
+	We believe that the next logical step would be to fix this aforementioned speed issues, by e.g. finding a more efficient Voronoi cell computation, and to implement the timing and scheduling of different control parts on real platforms, which would be way easier and of more significance than only the simulation.\\\\
+	
+	Finally, the challenge that this project bring to us made this work more and more exciting in seeking the best solution we could find. It's safe to say that we considered this work as a defiance in improving our knowledge about this specific field: especially, it was particularly appealing the autonomous research of new tools that could solve our issues.\\
+	Moreover, the main outcome of this project is that, taking into account all the constraints we met while we worked on it, the achieved goal has to be satisfactory and motivating for our next challenges.
 	
 	% %%%% APPENDIX %%%%%
 	% \appendix
