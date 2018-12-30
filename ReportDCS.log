@@ -1,15 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.26)  30 DEC 2018 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.18)  30 DEC 2018 18:48
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**ReportDCS.tex
-(./ReportDCS.tex
-LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/book.cls
+**./ReportDCS.tex
+(ReportDCS.tex
+LaTeX2e <2018-04-01> patch level 5
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/bk11.clo
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk11.clo"
 File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -25,36 +21,52 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
+y"
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/latin1.def
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2018/04/06 v1.3b Input encoding file
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/02/14 3.18 The Babel package
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
+y"
+Package: babel 2018/09/26 3.24 The Babel package
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.d
+ef"
+File: switch.def 2018/09/26 3.24 Babel switching mechanism
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cf
+g"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\en
+glish.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/02/14 3.18 Babel common definitions
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.de
+f"
+File: babel.def 2018/09/26 3.24 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel
+.def")
 \bbl@dirlevel=\count90
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfont
+s.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -62,24 +74,30 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.
+sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.
+sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.s
+ty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen104
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.s
+ty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.s
+ty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
@@ -120,39 +138,48 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb
+.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.s
+ty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\col
+or.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdf
+tex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+x.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.
+sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+s.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
+y"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gra
+phics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -160,7 +187,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count103
 \float@exts=\toks23
@@ -168,20 +195,23 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box29
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\algorithms\algor
+ithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks25
 \c@algorithm=\count104
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\algorithmicx\alg
+pseudocode.sty"
 Package: algpseudocode 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\algorithmicx\alg
+orithmicx.sty"
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -197,7 +227,7 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip48
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (./ReportDCS.aux
+) (ReportDCS.aux
 
 LaTeX Warning: Label `euclid' multiply defined.
 
@@ -216,7 +246,9 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
- (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
+mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen115
@@ -229,31 +261,41 @@ LaTeX Font Info:    ... okay on input line 20.
 \MPnumerator=\count116
 \makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks27
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+)
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
+f-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwa
+rerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
+sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdef
+inekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcm
+ds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
+ns.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvset
+keys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexc
+mds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflua
+tex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -262,12 +304,14 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfte
+xcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
+.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -280,21 +324,16 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 <figs/logo_unibo.png, id=1, 766.865pt x 401.5pt>
 File: figs/logo_unibo.png Graphic file (type png)
 <use figs/logo_unibo.png>
 Package pdftex.def Info: figs/logo_unibo.png  used on input line 31.
 (pdftex.def)             Requested size: 207.05632pt x 108.40643pt.
+ [1
 
-[1
-
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figs/
-logo_unibo.png (PNG copy)>] [2]
+{C:/Users/Lorenzo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figs/lo
+go_unibo.png (PNG copy)>] [2]
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
@@ -316,15 +355,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
 [3
 
-] (./ReportDCS.toc
+] (ReportDCS.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
@@ -332,77 +373,87 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [4
 
-]
-(./ReportDCS.lof)
+] (ReportDCS.lof)
 \tf@lof=\write4
 \openout4 = `ReportDCS.lof'.
 
  [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 89--94
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--94
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--94
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Overfull \hbox (10.24406pt too wide) in paragraph at lines 93--97
+\OT1/cmr/m/n/10.95 Conceptually this al-go-rithm runs it-er-a-tively 2 sub-rou-
+tines: one, called "\OT1/cmr/m/it/10.95 Adjust-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
 
  []
 
 [6
 
 ]
-Overfull \hbox (13.4562pt too wide) in paragraph at lines 104--106
+Overfull \hbox (13.4562pt too wide) in paragraph at lines 101--103
 \OT1/cmr/m/n/10.95 These two im-ple-men-ta-tions and the dif-fer-ences be-tween
  them are well-explained
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
 [7]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--130
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
 
  []
 
-<figs/VoronoiPartition.png, id=36, 331.2375pt x 331.2375pt>
+<figs/VoronoiPartition.png, id=35, 331.2375pt x 331.2375pt>
 File: figs/VoronoiPartition.png Graphic file (type png)
 <use figs/VoronoiPartition.png>
-Package pdftex.def Info: figs/VoronoiPartition.png  used on input line 135.
+Package pdftex.def Info: figs/VoronoiPartition.png  used on input line 132.
 (pdftex.def)             Requested size: 109.3087pt x 109.3087pt.
 [8
 
  <./figs/VoronoiPartition.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--144
 
  []
 
@@ -412,199 +463,197 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 [9] [10]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 185.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 180.
 
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+
+("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 185.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 180.
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
-<figs/algorithmA.png, id=51, 594.22pt x 754.82pt>
+<figs/algorithmA.png, id=49, 594.22pt x 754.82pt>
 File: figs/algorithmA.png Graphic file (type png)
 <use figs/algorithmA.png>
-Package pdftex.def Info: figs/algorithmA.png  used on input line 207.
+Package pdftex.def Info: figs/algorithmA.png  used on input line 202.
 (pdftex.def)             Requested size: 374.36058pt x 475.53912pt.
 
-Overfull \hbox (14.36058pt too wide) in paragraph at lines 207--208
+Overfull \hbox (14.36058pt too wide) in paragraph at lines 202--203
  [][] 
  []
 
-[11] [12 <./figs/algorithmA.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--208
 
  []
 
-<figs/algorithmB.png, id=59, 604.2575pt x 1146.2825pt>
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+
+ []
+
+[12 <./figs/algorithmA.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+[13]
+<figs/algorithmB.png, id=61, 604.2575pt x 1146.2825pt>
 File: figs/algorithmB.png Graphic file (type png)
 <use figs/algorithmB.png>
-Package pdftex.def Info: figs/algorithmB.png  used on input line 241.
+Package pdftex.def Info: figs/algorithmB.png  used on input line 238.
 (pdftex.def)             Requested size: 332.34265pt x 630.45734pt.
-[13]
+ [14]
 Overfull \vbox (60.38625pt too high) has occurred while \output is active []
 
 
-[14 <./figs/algorithmB.png>] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
+[15 <./figs/algorithmB.png>] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
-[16] [17]
+[17] [18]
 Chapter 2.
-<figs/randomAgents.png, id=78, 324.46219pt x 321.45094pt>
+<figs/randomAgents.png, id=79, 324.46219pt x 321.45094pt>
 File: figs/randomAgents.png Graphic file (type png)
 <use figs/randomAgents.png>
-Package pdftex.def Info: figs/randomAgents.png  used on input line 369.
+Package pdftex.def Info: figs/randomAgents.png  used on input line 368.
 (pdftex.def)             Requested size: 227.12196pt x 225.01411pt.
-<figs/gaussianDistrib.png, id=79, 588.69937pt x 322.95656pt>
+<figs/gaussianDistrib.png, id=80, 588.69937pt x 322.95656pt>
 File: figs/gaussianDistrib.png Graphic file (type png)
 <use figs/gaussianDistrib.png>
-Package pdftex.def Info: figs/gaussianDistrib.png  used on input line 375.
+Package pdftex.def Info: figs/gaussianDistrib.png  used on input line 374.
 (pdftex.def)             Requested size: 412.08675pt x 226.06804pt.
 
-Overfull \hbox (52.08675pt too wide) in paragraph at lines 375--376
+Overfull \hbox (52.08675pt too wide) in paragraph at lines 374--375
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--384
+Underfull \hbox (badness 10000) in paragraph at lines 380--383
 
  []
 
-[18
+[19
 
-] [19 <./figs/randomAgents.png> <./figs/gaussianDistrib.png>]
-<figs/convergenceResultsA.png, id=87, 1431.84938pt x 728.7225pt>
+] [20 <./figs/randomAgents.png> <./figs/gaussianDistrib.png>]
+<figs/convergenceResultsA.png, id=88, 1431.84938pt x 728.7225pt>
 File: figs/convergenceResultsA.png Graphic file (type png)
 <use figs/convergenceResultsA.png>
-Package pdftex.def Info: figs/convergenceResultsA.png  used on input line 388.
+Package pdftex.def Info: figs/convergenceResultsA.png  used on input line 387.
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 390.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 389.
 
-<figs/20convergenceResultsA.png, id=88, 1431.84938pt x 728.7225pt>
+<figs/20convergenceResultsA.png, id=89, 1431.84938pt x 728.7225pt>
 File: figs/20convergenceResultsA.png Graphic file (type png)
 <use figs/20convergenceResultsA.png>
-Package pdftex.def Info: figs/20convergenceResultsA.png  used on input line 394
+Package pdftex.def Info: figs/20convergenceResultsA.png  used on input line 393
 .
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 396.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 395.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--401
+Underfull \hbox (badness 10000) in paragraph at lines 398--401
 
  []
 
-<figs/convergenceResultsB.png, id=89, 1431.84938pt x 728.7225pt>
+<figs/convergenceResultsB.png, id=90, 1431.84938pt x 728.7225pt>
 File: figs/convergenceResultsB.png Graphic file (type png)
 <use figs/convergenceResultsB.png>
-Package pdftex.def Info: figs/convergenceResultsB.png  used on input line 407.
+Package pdftex.def Info: figs/convergenceResultsB.png  used on input line 404.
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 409.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 406.
 
-<figs/20convergenceResultsB.png, id=90, 1431.84938pt x 728.7225pt>
+<figs/20convergenceResultsB.png, id=91, 1431.84938pt x 728.7225pt>
 File: figs/20convergenceResultsB.png Graphic file (type png)
 <use figs/20convergenceResultsB.png>
-Package pdftex.def Info: figs/20convergenceResultsB.png  used on input line 413
+Package pdftex.def Info: figs/20convergenceResultsB.png  used on input line 410
 .
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 415.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 412.
 
-[20] [21 <./figs/convergenceResultsA.png (PNG copy)>] [22 <./figs/20convergence
-ResultsA.png (PNG copy)>] [23 <./figs/convergenceResultsB.png (PNG copy)>]
-[24 <./figs/20convergenceResultsB.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+[21] [22 <./figs/convergenceResultsA.png (PNG copy)>] [23 <./figs/20convergence
+ResultsA.png (PNG copy)>] [24 <./figs/convergenceResultsB.png (PNG copy)>]
+[25 <./figs/20convergenceResultsB.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--428
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--428
+Underfull \hbox (badness 10000) in paragraph at lines 423--425
 
  []
 
-[25
 
-] [26
+Underfull \hbox (badness 10000) in paragraph at lines 423--425
 
-] (./ReportDCS.aux)
+ []
+
+[26
+
+] [27
+
+] (ReportDCS.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3742 strings out of 492649
- 51546 string characters out of 6129621
- 125680 words of memory out of 5000000
- 7526 multiletter control sequences out of 15000+600000
- 12315 words of font info for 45 fonts, out of 8000000 for 9000
+ 3767 strings out of 492970
+ 53798 string characters out of 3125705
+ 126336 words of memory out of 3000000
+ 7540 multiletter control sequences out of 15000+200000
+ 12315 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,25p,694b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ReportDCS.pdf (26 pages, 1384061 bytes).
+ 41i,9n,25p,696b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Lorenzo/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lorenzo
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
+/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lorenzo/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lorenzo/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Lore
+nzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmti10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/symbols/msbm10.pfb>
+Output written on ReportDCS.pdf (27 pages, 1393489 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
