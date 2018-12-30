@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.18)  30 DEC 2018 05:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.18)  30 DEC 2018 15:25
 entering extended mode
 **./ReportDCS.tex
 (ReportDCS.tex
@@ -390,149 +390,162 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
 [6
 
 ]
-Overfull \hbox (13.4562pt too wide) in paragraph at lines 104--106
+Overfull \hbox (13.4562pt too wide) in paragraph at lines 105--107
 \OT1/cmr/m/n/10.95 These two im-ple-men-ta-tions and the dif-fer-ences be-tween
  them are well-explained
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 [7]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--130
+Underfull \hbox (badness 10000) in paragraph at lines 127--131
 
  []
 
 <figs/VoronoiPartition.png, id=35, 331.2375pt x 331.2375pt>
 File: figs/VoronoiPartition.png Graphic file (type png)
 <use figs/VoronoiPartition.png>
-Package pdftex.def Info: figs/VoronoiPartition.png  used on input line 135.
+Package pdftex.def Info: figs/VoronoiPartition.png  used on input line 136.
 (pdftex.def)             Requested size: 109.3087pt x 109.3087pt.
 [8
 
  <./figs/VoronoiPartition.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 [9]
-Overfull \hbox (1.22874pt too wide) in paragraph at lines 167--169
+Overfull \hbox (1.22874pt too wide) in paragraph at lines 168--170
 []\OT1/cmr/m/n/10.95 For the same rea-son, while the cor-rect cal-cu-la-tion of
  neigh-bours weights
  []
 
 [10]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 184.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 185.
 
 
 ("C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 184.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 185.
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 <figs/algorithmA.png, id=49, 594.22pt x 754.82pt>
 File: figs/algorithmA.png Graphic file (type png)
 <use figs/algorithmA.png>
-Package pdftex.def Info: figs/algorithmA.png  used on input line 206.
+Package pdftex.def Info: figs/algorithmA.png  used on input line 207.
 (pdftex.def)             Requested size: 374.36058pt x 475.53912pt.
 
-Overfull \hbox (14.36058pt too wide) in paragraph at lines 206--207
+Overfull \hbox (14.36058pt too wide) in paragraph at lines 207--208
  [][] 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 216--218
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
 [12] [13 <./figs/algorithmA.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
 <figs/algorithmB.png, id=61, 604.2575pt x 1146.2825pt>
 File: figs/algorithmB.png Graphic file (type png)
 <use figs/algorithmB.png>
-Package pdftex.def Info: figs/algorithmB.png  used on input line 247.
+Package pdftex.def Info: figs/algorithmB.png  used on input line 257.
 (pdftex.def)             Requested size: 332.34265pt x 630.45734pt.
 
+LaTeX Warning: Float too large for page by 60.38625pt on input line 263.
 
-LaTeX Warning: Float too large for page by 60.38625pt on input line 253.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--283
+Underfull \hbox (badness 10000) in paragraph at lines 267--293
 
  []
 
 [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
@@ -541,20 +554,20 @@ Chapter 2.
 <figs/randomAgents.png, id=79, 324.46219pt x 321.45094pt>
 File: figs/randomAgents.png Graphic file (type png)
 <use figs/randomAgents.png>
-Package pdftex.def Info: figs/randomAgents.png  used on input line 375.
+Package pdftex.def Info: figs/randomAgents.png  used on input line 385.
 (pdftex.def)             Requested size: 227.12196pt x 225.01411pt.
 <figs/gaussianDistrib.png, id=80, 588.69937pt x 322.95656pt>
 File: figs/gaussianDistrib.png Graphic file (type png)
 <use figs/gaussianDistrib.png>
-Package pdftex.def Info: figs/gaussianDistrib.png  used on input line 381.
+Package pdftex.def Info: figs/gaussianDistrib.png  used on input line 391.
 (pdftex.def)             Requested size: 412.08675pt x 226.06804pt.
 
-Overfull \hbox (52.08675pt too wide) in paragraph at lines 381--382
+Overfull \hbox (52.08675pt too wide) in paragraph at lines 391--392
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--390
+Underfull \hbox (badness 10000) in paragraph at lines 397--400
 
  []
 
@@ -564,52 +577,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 387--390
 <figs/convergenceResultsA.png, id=88, 1431.84938pt x 728.7225pt>
 File: figs/convergenceResultsA.png Graphic file (type png)
 <use figs/convergenceResultsA.png>
-Package pdftex.def Info: figs/convergenceResultsA.png  used on input line 394.
+Package pdftex.def Info: figs/convergenceResultsA.png  used on input line 404.
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 396.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 406.
 
 <figs/20convergenceResultsA.png, id=89, 1431.84938pt x 728.7225pt>
 File: figs/20convergenceResultsA.png Graphic file (type png)
 <use figs/20convergenceResultsA.png>
-Package pdftex.def Info: figs/20convergenceResultsA.png  used on input line 400
+Package pdftex.def Info: figs/20convergenceResultsA.png  used on input line 410
 .
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 402.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 412.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--407
+Underfull \hbox (badness 10000) in paragraph at lines 415--417
 
  []
 
 <figs/convergenceResultsB.png, id=90, 1431.84938pt x 728.7225pt>
 File: figs/convergenceResultsB.png Graphic file (type png)
 <use figs/convergenceResultsB.png>
-Package pdftex.def Info: figs/convergenceResultsB.png  used on input line 413.
+Package pdftex.def Info: figs/convergenceResultsB.png  used on input line 423.
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 415.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 425.
 
 <figs/20convergenceResultsB.png, id=91, 1431.84938pt x 728.7225pt>
 File: figs/20convergenceResultsB.png Graphic file (type png)
 <use figs/20convergenceResultsB.png>
-Package pdftex.def Info: figs/20convergenceResultsB.png  used on input line 419
+Package pdftex.def Info: figs/20convergenceResultsB.png  used on input line 429
 .
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 421.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 431.
 
 [21] [22 <./figs/convergenceResultsA.png (PNG copy)>] [23 <./figs/20convergence
 ResultsA.png (PNG copy)>] [24 <./figs/convergenceResultsB.png (PNG copy)>]
 [25 <./figs/20convergenceResultsB.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
 
  []
 
@@ -625,7 +638,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3766 strings out of 492970
  53788 string characters out of 3125705
- 128336 words of memory out of 3000000
+ 129336 words of memory out of 3000000
  7539 multiletter control sequences out of 15000+200000
  12315 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -646,7 +659,7 @@ nzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/symbols/msbm10.pfb>
-Output written on ReportDCS.pdf (27 pages, 1389136 bytes).
+Output written on ReportDCS.pdf (27 pages, 1389578 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

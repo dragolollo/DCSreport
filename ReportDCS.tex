@@ -90,8 +90,9 @@
 	 A mobile wireless sensor network (MWSN) can be defined as a wireless sensor network (WSN) in which the sensor nodes are mobile. For example the nodes can be wheeled robots scattered in a given area.\\\\
 	
 	MWSNs are an emerging field of research in contrast to their well-established predecessor. They are way more flexible than static sensor networks as they can be deployed in any scenario and deal with rapid topology changes due to node failures or new added sensors. In general each node consists of a radio transceiver, a microcontroller powered by a battery and one or more sensors to detect certain properties of the environment.~\cite{K2}\\ 
-	Typical applications of this kind of network are environment monitoring, surveillance, search and recovery operation, exploration.\\
-	A problem that can arise in this context is the optimization of coverage of a given area knowing the density distribution function, defined on that area, of a given property we would like to measure. The objective of this project was to implement a distributed and asynchronous algorithm to solve this problem, following the method proposed in the research paper \cite{K1}.\\\\
+	Typical applications of this kind of network are environment monitoring, surveillance, search and recovery operation, exploration.\\\\
+	
+	A problem that can arise in this context is the optimization of coverage of a given area knowing the density distribution function, defined on that area, of a given property we would like to measure. The objective of this project was to implement a distributed and asynchronous algorithm to solve this problem, following the method proposed in the research paper \cite{K1}.\\
 	
 	The considered framework, as suggested by the aforementioned paper, is the following: n mobile sensor-robots modelled as simple integrators strewn on an area given by a convex polytope defined in $\mathbb{R}^2$; on this area a 2-dimensional distribution $\phi:Q\rightarrow \mathbb{R}_+$ is defined to represent the density of the feature that nodes have to measure.\\ Each node has sensing (can locate the other nodes positions) and/or communication capabilities.  \\
 	
@@ -213,25 +214,34 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 	
 	\subsection{Online algorithm (B)}
 	
-	In this section, the \textbf{distributed} or \textbf{online} algorithm is presented. As already mentioned,this procedure is based on parallel threads (as many as the number of nodes) exploiting the \textit{Parallel Computing Toolbox} and then it is more similar to the one described in the paper \cite{K1} and to a real life possible implementation. Obviously in this case a communication mechanism for the position coordinates of each node (thread) is necessary: it is realized by reading and writing files stored in a master server.\\
+	In this section, the \textbf{distributed} or \textbf{online} algorithm is explained. As already mentioned,this procedure is based on parallel threads (as many as the number of nodes) exploiting the \textit{Parallel Computing Toolbox} and then it is more similar to the one described in the paper \cite{K1} and to a real life possible implementation. Obviously in this case a communication mechanism for the position coordinates of each node (thread) is necessary: this is realized by reading and writing files stored in a master server.\\
 	In fig.~\ref{fig:algorithmA.png} the flow chart of the algorithm is showed to simplify its comprehension.\\
 	
-	The initial phase regarding the generation of the workspace and framework is the same as in Algorithm (A): it exploits the already explained functions \textit{buildArea, generateAgents, genPolyGrid, gaussianDistr2d}. As before, instead of using the function \textit{buildArea} to create the work area, it is possible to load it from an external file.\\
+	The initial phase regarding the generation of the workspace and framework is the same as in Algorithm (A): it exploits the already presented functions \textit{buildArea, generateAgents, genPolyGrid, gaussianDistr2d}. As before, instead of using the function \textit{buildArea} to create the work area, it is possible to load it from an external file.\\
 	
 	Then, after computing the initial Voronoi partition, inizializing the positions files and testing R/W permissions, the parallel section starts:
 	\begin{enumerate}
 		
-	\item  by means of the Matlab's function \textit{spmd} we create a thread for each agent;
+	\item  By means of the Matlab's function \textit{spmd} a thread for each agent is created
 	 
-	\item each node reads all the others positions, computes its own Voronoi cell and the centroid (using utils \textit{calculateCell, sliceCell} and \textit{genMCgauss}), and updates the control action, which is the same of Algorithm (A);
+	\item Each node reads all the others positions, computes its own Voronoi cell and the centroid (using utils \textit{calculateCell, sliceCell} and \textit{genMCgauss}), and updates the control action, which is the same of Algorithm (A)
 	 
-	\item this control is mantained until the agent has reached the centroid (or better, until its distance from the centroid is lower than a proper threshold);
+	\item This control is mantained until the agent has reached the centroid (or better said, until its distance from the centroid is lower than a proper threshold)
 	
-	\item while moving, it updates its position coordinates on the proper files; 
+	\item While moving, each agent updates its position coordinates on the proper files 
 	
-	\item when it reaches the centroid, it reads again the other position, compute its Voronoi cell and centroid, updates the control action and so on.
+	\item When it reaches the centroid, it reads again the others positions, compute its Voronoi cell and centroid, updates the control action and so on (restart from point (2)\ )
 	\end{enumerate} 
-	After at most a given number of cycles (for each node), all the threads are synchronized using a barrier to update the graphical representation and to check if the convergence to the optimal solution has been reached. The latter is done calculating the differences between the actual and the previous centroids positions: if they are all below a certain value then the algorithm stops, otherwise we restart from point (2).
+	After at most a given number of cycles (for each node), all the threads are synchronized using a barrier to update the graphical representation and to check if the convergence to the optimal solution has been reached. The latter is done calculating the differences between the actual and the previous centroids positions: if they are all below a certain value then the algorithm stops, otherwise we restart from point (2).\\
+	
+	When the global convergence has been reached, it is possible to generate a new random density normal distribution and then the parallel section is ran again to achieve a new final configuration.\\
+	
+	Reading the code it is easy to see that before the parallel part, the \textbf{offline} algorithm is ran and its result visualized in order to make a comparison between the 2 versions.
+	
+	
+	
+	
+	
 	
 	
 	
