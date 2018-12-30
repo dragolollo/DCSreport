@@ -257,7 +257,7 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 
 \subsubsection{calculateCell}
 	This function is the one that implements the \textit{Adjust Sensing Radius Algorithm} presented in \cite{K1}. Its purpose is to compute the Voronoi cell of each agent, modifying the sensing radius in order to \textbf{converge} to a unique and correct solution. The function is slightly different in the two versions of the project: in the offline version (\textit{ver. A}), as already mentioned, the function provides also the calculations of the \textbf{neighbours weights}; feature not present in the online version.
-	 As input it needs:
+	 As \textbf{inputs} it needs:
 	 \begin{itemize}
 	 	\item the actual position of the agent;
 		\item the initial radius (arbitrarily small);
@@ -404,7 +404,10 @@ Further comments are present on the code.\\
 	The obtained results seem to be \textbf{consistent} with those to be expected from the main research paper, made exception for the timing and event control; we think that this work may be a good starting step to realize a real Coverage Control for Cooperative Multi-Robot Networks.\\\\
 	
 	Some code optimization issues have been neglected from the efficiency point of view, nonetheless the execution times are kept \textbf{reasonably short}.\\
-	We believe that the next logical step would be to fix this aforementioned speed issues, by e.g. finding a more efficient Voronoi cell computation, and to implement the timing and scheduling of different control parts on real platforms, which would be way easier and of more significance than only the simulation.
+	We believe that the next logical step would be to fix this aforementioned speed issues, by e.g. finding a more efficient Voronoi cell computation, and to implement the timing and scheduling of different control parts on real platforms, which would be way easier and of more significance than only the simulation.\\\\
+	
+	Finally, the challenge that this project bring to us made this work more and more exciting in seeking the best solution we could find. It's safe to say that we considered this work as a defiance in improving our knowledge about this specific field: especially, it was particularly appealing the autonomous research of new tools that could solve our issues.\\
+	Moreover, the main outcome of this project is that, taking into account all the constraints we met while we worked on it, the achieved goal has to be satisfactory and motivating for our next challenges.
 	
 	% %%%% APPENDIX %%%%%
 	% \appendix

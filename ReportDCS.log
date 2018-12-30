@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.26)  30 DEC 2018 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.26)  30 DEC 2018 12:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -555,6 +555,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--405
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
+
+ []
+
 [24
 
 ] [25
@@ -586,7 +596,7 @@ live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
 e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
 2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ReportDCS.pdf (25 pages, 1381031 bytes).
+Output written on ReportDCS.pdf (25 pages, 1381537 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
