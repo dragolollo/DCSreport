@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.18)  30 DEC 2018 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.18)  30 DEC 2018 16:54
 entering extended mode
 **./ReportDCS.tex
 (ReportDCS.tex
@@ -501,73 +501,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
-<figs/algorithmA.png, id=49, 594.22pt x 754.82pt>
-File: figs/algorithmA.png Graphic file (type png)
-<use figs/algorithmA.png>
-Package pdftex.def Info: figs/algorithmA.png  used on input line 207.
-(pdftex.def)             Requested size: 374.36058pt x 475.53912pt.
 
-Overfull \hbox (14.36058pt too wide) in paragraph at lines 207--208
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 198--203
+
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+<figs/algorithmA.png, id=52, 594.22pt x 754.82pt>
+File: figs/algorithmA.png Graphic file (type png)
+<use figs/algorithmA.png>
+Package pdftex.def Info: figs/algorithmA.png  used on input line 210.
+(pdftex.def)             Requested size: 374.36058pt x 475.53912pt.
+
+Overfull \hbox (14.36058pt too wide) in paragraph at lines 210--211
+ [][] 
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
+
+ []
+
+[13 <./figs/algorithmA.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-
- []
-
-[12] [13 <./figs/algorithmA.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
 <figs/algorithmB.png, id=61, 604.2575pt x 1146.2825pt>
 File: figs/algorithmB.png Graphic file (type png)
 <use figs/algorithmB.png>
-Package pdftex.def Info: figs/algorithmB.png  used on input line 257.
+Package pdftex.def Info: figs/algorithmB.png  used on input line 247.
 (pdftex.def)             Requested size: 332.34265pt x 630.45734pt.
+[14]
+Overfull \vbox (60.38625pt too high) has occurred while \output is active []
 
-LaTeX Warning: Float too large for page by 60.38625pt on input line 263.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 267--293
-
- []
-
-[14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+[15 <./figs/algorithmB.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 258--284
 
  []
 
-[16] [17] [18 <./figs/algorithmB.png>]
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+[17] [18]
 Chapter 2.
 <figs/randomAgents.png, id=79, 324.46219pt x 321.45094pt>
 File: figs/randomAgents.png Graphic file (type png)
 <use figs/randomAgents.png>
-Package pdftex.def Info: figs/randomAgents.png  used on input line 385.
+Package pdftex.def Info: figs/randomAgents.png  used on input line 376.
 (pdftex.def)             Requested size: 227.12196pt x 225.01411pt.
 <figs/gaussianDistrib.png, id=80, 588.69937pt x 322.95656pt>
 File: figs/gaussianDistrib.png Graphic file (type png)
 <use figs/gaussianDistrib.png>
-Package pdftex.def Info: figs/gaussianDistrib.png  used on input line 391.
+Package pdftex.def Info: figs/gaussianDistrib.png  used on input line 382.
 (pdftex.def)             Requested size: 412.08675pt x 226.06804pt.
 
-Overfull \hbox (52.08675pt too wide) in paragraph at lines 391--392
+Overfull \hbox (52.08675pt too wide) in paragraph at lines 382--383
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--400
+Underfull \hbox (badness 10000) in paragraph at lines 388--391
 
  []
 
@@ -577,52 +583,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--400
 <figs/convergenceResultsA.png, id=88, 1431.84938pt x 728.7225pt>
 File: figs/convergenceResultsA.png Graphic file (type png)
 <use figs/convergenceResultsA.png>
-Package pdftex.def Info: figs/convergenceResultsA.png  used on input line 404.
+Package pdftex.def Info: figs/convergenceResultsA.png  used on input line 395.
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 406.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 397.
 
 <figs/20convergenceResultsA.png, id=89, 1431.84938pt x 728.7225pt>
 File: figs/20convergenceResultsA.png Graphic file (type png)
 <use figs/20convergenceResultsA.png>
-Package pdftex.def Info: figs/20convergenceResultsA.png  used on input line 410
+Package pdftex.def Info: figs/20convergenceResultsA.png  used on input line 401
 .
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 412.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 403.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--417
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
 
  []
 
 <figs/convergenceResultsB.png, id=90, 1431.84938pt x 728.7225pt>
 File: figs/convergenceResultsB.png Graphic file (type png)
 <use figs/convergenceResultsB.png>
-Package pdftex.def Info: figs/convergenceResultsB.png  used on input line 423.
+Package pdftex.def Info: figs/convergenceResultsB.png  used on input line 413.
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 425.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 415.
 
 <figs/20convergenceResultsB.png, id=91, 1431.84938pt x 728.7225pt>
 File: figs/20convergenceResultsB.png Graphic file (type png)
 <use figs/20convergenceResultsB.png>
-Package pdftex.def Info: figs/20convergenceResultsB.png  used on input line 429
+Package pdftex.def Info: figs/20convergenceResultsB.png  used on input line 419
 .
 (pdftex.def)             Requested size: 644.32628pt x 327.92209pt.
 
-LaTeX Warning: Float too large for page by 74.86351pt on input line 431.
+LaTeX Warning: Float too large for page by 74.86351pt on input line 421.
 
 [21] [22 <./figs/convergenceResultsA.png (PNG copy)>] [23 <./figs/20convergence
 ResultsA.png (PNG copy)>] [24 <./figs/convergenceResultsB.png (PNG copy)>]
 [25 <./figs/20convergenceResultsB.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
 
  []
 
@@ -636,10 +642,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3766 strings out of 492970
- 53788 string characters out of 3125705
- 129336 words of memory out of 3000000
- 7539 multiletter control sequences out of 15000+200000
+ 3767 strings out of 492970
+ 53798 string characters out of 3125705
+ 127336 words of memory out of 3000000
+ 7540 multiletter control sequences out of 15000+200000
  12315 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,25p,663b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -659,7 +665,7 @@ nzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/symbols/msbm10.pfb>
-Output written on ReportDCS.pdf (27 pages, 1389578 bytes).
+Output written on ReportDCS.pdf (27 pages, 1389548 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

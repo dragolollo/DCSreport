@@ -6,11 +6,11 @@
 \contentsline {subsection}{\numberline {1.1.2}Adopted assumptions}{9}
 \contentsline {section}{\numberline {1.2}Inner Workings}{11}
 \contentsline {subsection}{\numberline {1.2.1}Offline algorithm (A)}{11}
-\contentsline {subsection}{\numberline {1.2.2}Online algorithm (B)}{12}
-\contentsline {subsection}{\numberline {1.2.3}Utils}{14}
-\contentsline {subsubsection}{sliceCell}{14}
-\contentsline {subsubsection}{calculateCell}{15}
-\contentsline {subsubsection}{genMCGauss}{16}
+\contentsline {subsection}{\numberline {1.2.2}Online algorithm (B)}{13}
+\contentsline {subsection}{\numberline {1.2.3}Utils}{16}
+\contentsline {subsubsection}{sliceCell}{16}
+\contentsline {subsubsection}{calculateCell}{17}
+\contentsline {subsubsection}{genMCGauss}{18}
 \contentsline {chapter}{\numberline {2}Results analysis}{19}
 \contentsline {section}{\numberline {2.1}Prerequisites}{19}
 \contentsline {section}{\numberline {2.2}Simulation benchmarks}{19}

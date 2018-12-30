@@ -199,8 +199,11 @@ Thus, after the first partition of the main area, the control parameters are def
 Since the project assumptions state that each agent must be considered as a single-integrator, the control consists only in a proportional action aimed to fill the gap between the agent position and the centroid of its Voronoi cell. The sequential fashion is implemented by means of a \textit{for loop}, that lets the agents move one by one, toward its own Voronoi centroid.\\
 In each iteration, actually, the single agent doesn't reach necessarily the goal (namely, the centroid), and at the beginning of the next iteration, it computes another time its Voronoi cell, updating the centroid if some changes happened in the neighbourhood.\\
 In this way, each agent approaches constantly a reference that is moving in time, because actually at each iteration the centroid is updated. \\
-Finally, the algorithm stops when every agents has reached a distance from its cell centroid lower than a given threshold.\\	
-	\begin{figure}
+Finally, the algorithm stops when every agents has reached a distance from its cell centroid lower than a given threshold.\\
+
+When the global convergence has been reached, it is possible to generate a new random density normal distribution and then the algorithm is ran again to achieve a new final configuration.\\
+	
+	\begin{figure}[H]
 		
 		\centering
 		
@@ -234,23 +237,10 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 	\end{enumerate} 
 	After at most a given number of cycles (for each node), all the threads are synchronized using a barrier to update the graphical representation and to check if the convergence to the optimal solution has been reached. The latter is done calculating the differences between the actual and the previous centroids positions: if they are all below a certain value then the algorithm stops, otherwise we restart from point (2).\\
 	
-	When the global convergence has been reached, it is possible to generate a new random density normal distribution and then the parallel section is ran again to achieve a new final configuration.\\
-	
 	Reading the code it is easy to see that before the parallel part, the \textbf{offline} algorithm is ran and its result visualized in order to make a comparison between the 2 versions.
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	\begin{figure}[hb]
+
+	\begin{figure}[H]
 		
 		\centering
 		
@@ -261,6 +251,7 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 		\caption{Algorithm B flow}\label{fig:algorithmB.png}
 		
 	\end{figure}
+	
 	
 \subsection{Utils}
 \subsubsection{sliceCell}
@@ -415,8 +406,7 @@ Further comments are present on the code.\\
 	This algorithm is not much slower than the first version, especially for few agents.\\
 	It may be faster if implemented with a better communication between agents (instead of r/w files), but not by a large margin.\\
 	
-	It is of interest to see how they both arrive to similar results but not exactly the same; this is due to the fact that while in the offline algorithm every agent "sense" the others between deciding the next control step, thus continuously updating the centroid.\\
-	In the distributed version, the centroid is updated only when the agent reaches it, making the trajectories of the centroids (and thus of the agents) slightly different.
+	It is of interest to see how they both arrive to similar results but not exactly the same; this is due to the fact that while in the offline algorithm every agent "sense" the others before deciding the next control step, thus continuously updating the centroid, in the distributed version the centroid is updated only when the agent reaches it, making the trajectories of the centroids (and thus of the agents) slightly different.
 	
 	\begin{figure}	
 		\centering	
