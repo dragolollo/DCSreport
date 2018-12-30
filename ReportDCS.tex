@@ -182,21 +182,21 @@ The fig.~\ref{fig:algorithmA.png} allows a more comprehensive approach to the ex
 The initialization phase lets the user to generate the workspace randomly, or to upload a given benchmark to work with. \\
 If the former choice is made, a set of functions will be called:
  \begin{itemize}
-		\item \textit{buildArea}: it creates a convex area, namely a polygon with a given number of vertices placed in a given range of the plane;
-		\item \textit{generateAgents}: it places a fixed number of agents in the already built area, positioning them randomly;
-		\item \textit{genPolyGrid}: it turns the plane individuated by the area of the polygon into a discrete grid of points, in order to build the probability distribution function.  
-		\item \textit{gaussianDistr2d}: it generates a 2-dimensional Gaussian distribution function that represents the distribution of the information to be acquired. 
+		\item \textit{buildArea}: it creates a \textbf{convex area}, namely a polygon with a given number of vertices placed in a given range of the plane;
+		\item \textit{generateAgents}: it places a fixed number of \textbf{agents} in the already built area, positioning them randomly;
+		\item \textit{genPolyGrid}: it turns the plane individuated by the area of the polygon into a \textbf{discrete grid of points}, in order to build the probability distribution function.  
+		\item \textit{gaussianDistr2d}: it generates a \textbf{2-dimensional Gaussian distribution function} that represents the distribution of the information to be acquired. 
 \end {itemize}
 The latter choice allows to take all of this material from an external file.\\
 
-Once all the benchmark features are defined, the algorithm makes a first computation of the Voronoi cells, analyzing and classifying the neighbours of each agent, and estimating the \textit{centroid} of each cell, weighted with respect to the density. To this purpose, some complex functions have been developed, that will be discussed further:
+Once all the benchmark features are defined, the algorithm makes a first computation of the Voronoi cells, analyzing and classifying the neighbours of each agent, and estimating the \textbf{centroid} of each cell, weighted with respect to the density (namely, the \textbf{center of mass}). To this purpose, some complex functions have been developed, that will be discussed further:
 \begin{itemize}
 	\item \textit{calculateCell};
 	\item \textit{sliceCell};
 	\item \textit{genMCgauss}.
 \end{itemize}
 Thus, after the first partition of the main area, the control parameters are defined, and the control action can start.\\
-Since the project assumptions state that each agent must be considered as a single-integrator, the control consists only in a proportional action aimed to fill the gap between the agent position and the centroid of its Voronoi cell. The sequential fashion is implemented by means of a \textit{for loop}, that lets the agents move one by one, toward its own Voronoi centroid.\\
+Since the project assumptions state that each agent must be considered as a \textbf{single-integrator}, the control consists only in a \textbf{proportional action} aimed to fill the gap between the agent position and the centroid of its Voronoi cell. The sequential fashion is implemented by means of a \textit{for loop}, that lets the agents move one by one, toward its own Voronoi centroid.\\
 In each iteration, actually, the single agent doesn't reach necessarily the goal (namely, the centroid), and at the beginning of the next iteration, it computes another time its Voronoi cell, updating the centroid if some changes happened in the neighbourhood.\\
 In this way, each agent approaches constantly a reference that is moving in time, because actually at each iteration the centroid is updated. \\
 Finally, the algorithm stops when every agents has reached a distance from its cell centroid lower than a given threshold.\\	
@@ -238,7 +238,7 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 	\begin{algorithm}
 \caption{sliceCell}\label{euclid}
 \begin{algorithmic}[1]
-\State find the perpendicular bisector of the segment linking two agents
+\State find the \emph{perpendicular bisector} of the segment linking two agents
 \State intersect the bisector with the allowed sensing area
 \If {no intersections}
 \State \Return actual boundary area
@@ -249,14 +249,14 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 	\State collect every vertices of the previous cell that are \emph{above} the bisector
 	\EndIf
 \EndIf
-\State compute the convex hull from the new vertices
+\State compute the \emph{convex hull} from the new vertices
 \State \Return new boundary area
 \State \textbf{close}
 \end{algorithmic}
 \end{algorithm}	\\
 
 \subsubsection{calculateCell}
-	This function is the one that implements the \textit{Adjust Sensing Radius Algorithm} presented in \cite{K1}. Its purpose is to compute the Voronoi cell of each agent, modifying the sensing radius in order to converge to a unique and correct solution. The function is slightly different in the two versions of the project, in the offline version (\textit{ver. A}), as already mentioned, the function provides also the calculations of the neighbours weights; feature not present in the online version.
+	This function is the one that implements the \textit{Adjust Sensing Radius Algorithm} presented in \cite{K1}. Its purpose is to compute the Voronoi cell of each agent, modifying the sensing radius in order to converge to a unique and correct solution. The function is slightly different in the two versions of the project: in the offline version (\textit{ver. A}), as already mentioned, the function provides also the calculations of the neighbours weights; feature not present in the online version.
 	 As input it needs:
 	 \begin{itemize}
 	 	\item the actual position of the agent;
@@ -264,7 +264,7 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 		\item the total working area;
 		\item (\textit{only for the offline version}) the position and the status of all the agents;
 	\end{itemize}
-The algorithm of the function (\emph{offline mode}) can be summarised in the table below:
+The algorithm of the function can be summarised in the table below:
 \begin{algorithm}[H]
 \caption{calculateCell}\label{euclid}
 \begin{algorithmic}[1]
@@ -280,7 +280,7 @@ The algorithm of the function (\emph{offline mode}) can be summarised in the tab
 \State compute the new estimated cell
 \If {\emph{offline mode}}
 \State check which agent among those in the table are actually \emph{neighbours}
-\State assign weights to the neighbours
+\State assign \emph{weights} to the neighbours
 \EndIf
 \If {the radius is smaller than twice the distance between the agent and the furthest vertices of the cell}
 \State double the radius
