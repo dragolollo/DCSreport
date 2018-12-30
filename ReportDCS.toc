@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {1.2.2}Online algorithm (B)}{13}
 \contentsline {subsection}{\numberline {1.2.3}Utils}{13}
 \contentsline {subsubsection}{sliceCell}{13}
-\contentsline {subsubsection}{calculateCell}{14}
+\contentsline {subsubsection}{calculateCell}{13}
 \contentsline {subsubsection}{genMCGauss}{15}
 \contentsline {chapter}{\numberline {2}Results analysis}{17}
 \contentsline {section}{\numberline {2.1}Prerequisites}{17}
