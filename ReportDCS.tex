@@ -115,7 +115,7 @@
 	
 	%%%%%%%%% CAPITOLO  %%%%%%%%%%%%%%%%
 	\chapter{Problem set-up and solutions}
-	First-chapter for problem set-up and description of the implemented solution. 
+	
 	
 	\section{Setup}
 	\subsection {Theoretical notions}
@@ -209,7 +209,7 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 	
 \subsection{Online algorithm (B)}
 	
-n this section, the \textbf{distributed} or \textbf{online} algorithm is explained. As already mentioned,this procedure is based on parallel threads (as many as the number of nodes) exploiting the \textit{Parallel Computing Toolbox} and then it is more similar to the one described in the paper \cite{K1} and to a real life possible implementation. Obviously in this case a communication mechanism for the position coordinates of each node (thread) is necessary: this is realized by reading and writing files stored in a master server.\\
+In this section, the \textbf{distributed} or \textbf{online} algorithm is explained. As already mentioned,this procedure is based on parallel threads (as many as the number of nodes) exploiting the \textit{Parallel Computing Toolbox} and then it is more similar to the one described in the paper \cite{K1} and to a real life possible implementation. Obviously in this case a communication mechanism for the position coordinates of each node (thread) is necessary: this is realized by reading and writing files stored in a master server.\\
 In fig.~\ref{fig:algorithmA.png} the flow chart of the algorithm is showed to simplify its comprehension.\\
 
 The initial phase regarding the generation of the workspace and framework is the same as in algorithm (A): it exploits the already presented functions \textit{buildArea, generateAgents, genPolyGrid, gaussianDistr2d}. As before, instead of using the function \textit{buildArea} to create the work area, it is possible to load it from an external file.\\\\
@@ -228,7 +228,7 @@ Then, after computing the initial Voronoi partition, inizializing the positions 
 \end{enumerate} 
 After at most a given number of cycles (for each node), all the threads are synchronized using a barrier to update the graphical representation and to check if the convergence to the optimal solution has been reached. The latter is done calculating the differences between the actual and the previous centroids positions: if they are all below a certain value then the algorithm stops, otherwise we restart from point (1).\\
 
-Reading the Mathlab code, it is easy to see that before the parallel part, the \textbf{offline} algorithm is ran and its result is visualized in order to make a comparison between the 2 versions.
+Reading the Matlab code, it is easy to see that before the parallel part, the \textbf{offline} algorithm is ran and its result is visualized in order to make a comparison between the 2 versions.
 
 	
 	\begin{figure}[H]
