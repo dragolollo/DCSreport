@@ -4,17 +4,17 @@
 \contentsline {section}{\numberline {1.1}Setup}{8}
 \contentsline {subsection}{\numberline {1.1.1}Theoretical notions}{8}
 \contentsline {subsection}{\numberline {1.1.2}Adopted assumptions}{9}
-\contentsline {section}{\numberline {1.2}Inner Workings}{10}
-\contentsline {subsection}{\numberline {1.2.1}Offline algorithm (A)}{10}
-\contentsline {subsection}{\numberline {1.2.2}Online algorithm (B)}{13}
-\contentsline {subsection}{\numberline {1.2.3}Utils}{13}
-\contentsline {subsubsection}{sliceCell}{13}
+\contentsline {section}{\numberline {1.2}Inner Workings}{11}
+\contentsline {subsection}{\numberline {1.2.1}Offline algorithm (A)}{11}
+\contentsline {subsection}{\numberline {1.2.2}Online algorithm (B)}{12}
+\contentsline {subsection}{\numberline {1.2.3}Utils}{14}
+\contentsline {subsubsection}{sliceCell}{14}
 \contentsline {subsubsection}{calculateCell}{14}
-\contentsline {subsubsection}{genMCGauss}{15}
-\contentsline {chapter}{\numberline {2}Results analysis}{17}
-\contentsline {section}{\numberline {2.1}Prerequisites}{17}
-\contentsline {section}{\numberline {2.2}Simulation benchmarks}{17}
-\contentsline {section}{\numberline {2.3}Offline algorithm (A)}{19}
-\contentsline {section}{\numberline {2.4}Online algorithm (B)}{19}
-\contentsline {chapter}{Conclusions}{24}
-\contentsline {chapter}{Bibliography}{25}
+\contentsline {subsubsection}{genMCGauss}{16}
+\contentsline {chapter}{\numberline {2}Results analysis}{19}
+\contentsline {section}{\numberline {2.1}Prerequisites}{19}
+\contentsline {section}{\numberline {2.2}Simulation benchmarks}{19}
+\contentsline {section}{\numberline {2.3}Offline algorithm (A)}{21}
+\contentsline {section}{\numberline {2.4}Online algorithm (B)}{21}
+\contentsline {chapter}{Conclusions}{26}
+\contentsline {chapter}{Bibliography}{27}
