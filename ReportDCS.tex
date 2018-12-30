@@ -235,7 +235,7 @@ When the global convergence has been reached, it is possible to generate a new r
 	
 	\item When it reaches the centroid, it reads again the others positions, compute its Voronoi cell and centroid, updates the control action and so on (restart from point (2)\ )
 	\end{enumerate} 
-	After at most a given number of cycles (for each node), all the threads are synchronized using a barrier to update the graphical representation and to check if the convergence to the optimal solution has been reached. The latter is done calculating the differences between the actual and the previous centroids positions: if they are all below a certain value then the algorithm stops, otherwise we restart from point (2).\\
+	After at most a given number of cycles (for each node), all the threads are synchronized using a barrier to update the graphical representation and to check if the convergence to the optimal solution has been reached. The latter is done calculating the differences between the actual and the previous centroids positions: if they are all below a certain value then the algorithm stops, otherwise we restart from point (1).\\
 	
 	Reading the code it is easy to see that before the parallel part, the \textbf{offline} algorithm is ran and its result visualized in order to make a comparison between the 2 versions.
 	
