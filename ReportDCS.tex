@@ -69,7 +69,7 @@
 		{\Huge \textbf{Abstract}}\\
 		\vspace{15mm}
 	\end{center}
-	The aim of the project hereby presented was to transpose the algorithms described in the research paper\cite{K1} into a proper Matlab environment suitable for simulation and results analysis. That paper proposes a procedure to manage coverage control for mobile sensing networks, focusing on autonomous vehicles playing the role of mobile tunable sensors.\\ 
+		The aim of the project hereby presented was to transpose the algorithms described in the research paper\cite{K1} into a proper Matlab environment suitable for simulation and results analysis. That paper proposes a procedure to manage coverage control for mobile sensing networks, focusing on autonomous vehicles playing the role of mobile tunable sensors.\\ 
 	The purpose of those (and our) algorithms is to find a converging method able to drive the robots into the best configuration, taking into account the spatial probability distribution of the occurring event to detect (peculiarity to measure) and the sensors degradation.\\
 	The algorithms presented in \cite{K1} have been simplified in order to adapt to both an offline, sequential approach (from now on called \textbf{offline},or \textbf{centralized}) and to a parallel (single machine), asynchronous one (from now on called \textbf{online},or \textbf{distributed}).\\
 	In both approaches, the simulation implements a simple proportional closed loop control, but while in the former it is all done inside a centralized \textit{for loop}, in which informations about each agent is readily available to all others, in the latter we tried to be more faithful to the original formulation, in which every agents has to exchange with other agents informations about each other's positions in a timely manner, while being "deaf" (to a certain extent) in-between successive communications.\\
@@ -86,22 +86,23 @@
 	\chapter*{Introduction}
 	\addcontentsline{toc}{chapter}{Introduction}
 	A mobile wireless sensor network (MWSN) can be defined as a wireless sensor network (WSN) in which the sensor nodes are mobile. For example the nodes can be wheeled robots scattered in a given area.\\\\
-	MWSNs are an emerging field of research in contrast to their well-established predecessor. They are way more flexible than static sensor networks as they can be deployed in any scenario and deal with rapid topology changes due to node failures or new added sensors. In general each node consists of a radio transceiver, a microcontroller powered by a battery and one or more sensors to detect certain properties of the environment.~\cite{K2}\\ 
-	Typical applications of this kind of network are environment monitoring, surveillance, search and recovery operation, exploration.\\
 	
 	A problem that can arise in this context is the \textbf{optimization} of coverage of a given area knowing the density distribution function, defined on that area, of a given property we would like to measure. The objective of this project was to implement a \textbf{distributed and asynchronous algorithm} to solve this problem, following the method proposed in the research paper \cite{K1}.\\\\
 	The considered framework, as suggested by the aforementioned paper, is the following: $n$ mobile sensor-robots modelled as simple integrators strewn on an area given by a \textbf{convex polytope} defined in $\mathbb{R}^2$; on this area a 2-dimensional distribution $\phi:Q\rightarrow \mathbb{R}_+$ is defined to represent the density of the feature that nodes have to measure.\\ Each node has sensing (can locate the other nodes positions) and/or communication capabilities.  \\\\
-	Conceptually this algorithm runs iteratively 2 subroutines: one, called "\emph{Adjust-sensing radius algorithm}", to compute the \textbf{Voronoi cell} of each sensor, and another one, called "\emph{Monitoring algorithm}" to check if the computation of the Voronoi cell has to be updated because of significant changes in the network (variation of nodes positions, node failures,...).\\\\\\\\ %%end of page 6
+	Conceptually this algorithm runs iteratively 2 subroutines: one, called "\emph{Adjust-sensing radius algorithm}", to compute the \textbf{Voronoi cell} of each sensor, and another one, called "\emph{Monitoring algorithm}" to check if the computation of the Voronoi cell has to be updated because of significant changes in the network (variation of nodes positions, node failures,...).\\ %%end of page 6
 	We implemented this procedure in Matlab in 2 ways:
 	\begin{enumerate}
 		\item in a \textbf{centralized }sequential way
 		\item in a \textbf{distributed} parallel fashion, reading and writing files (stored in a master server) to realize communication among nodes.
 	\end{enumerate}
-	These two implementations and the differences between them are well-explained and analysed in this report.\\
+	These two implementations and the differences between them are well-explained and analysed in this report.
 	In particular, the first chapter regards the problem set-up and description of proposed solutions; the second chapter contains the analysis of obtained results.\\
 	
 	
 	\section*{Motivations}
+	MWSNs are an emerging field of research in contrast to their well-established predecessor. They are way more flexible than static sensor networks as they can be deployed in any scenario and deal with rapid topology changes due to node failures or new added sensors. In general each node consists of a radio transceiver, a microcontroller powered by a battery and one or more sensors to detect certain properties of the environment.~\cite{K2}\\ 
+	Typical applications of this kind of network are environment monitoring, surveillance, search and recovery operation, exploration.\\\\
+	In line with this arising topic, our project has fixed the goal of introducing a basic simulation environment that could be useful for elementary tests and above all that is suitable for further developments.\\\\
 	The algorithms and simulations have been implemented in \emph{Matlab} because of its (relatively speaking) simplicity and useful add-ons.\\
 	In particular, thanks to the graphical tools readily made available we could also create a real time results \textbf{visualization} to accompany the simulations, which is well suited to analyse the behaviour of both algorithm, compare them, and easily fix or add missing features.
 	
@@ -132,7 +133,7 @@
 		\caption{Voronoi cells of 20 points on a plane.}\label{fig:Voronoi Partition.png}	
 	\end{figure}
 	
-
+\newpage %end of page 8
 	Considering a convex polytope $Q$ in $\mathbb{R}^N$ and $n$ sensors, for the sensor positions $P=\{p_1,...,p_n\}$ the optimal partition of $Q$ is the Voronoi partition  $V(P)=\{V_1,...,V_n\}$, where $V_i$ is the Voronoi cell of the $i-th$ sensor: $$V_i=\{q\in Q|\> \|q-p_i\|\le\|q-p_j\|, \forall j\not= i\}$$\\
 	Intuitively speaking, each $V_i$ represents the region of space in which the respective sensor $i$ is performing its task.\\
 	
@@ -164,7 +165,9 @@
 		
 		
 	\end{enumerate}
-	
+
+
+\newpage %end of page 10
 	
 	
 	
@@ -172,7 +175,7 @@
 	\subsection{Offline algorithm (A)}
 	
 	As said before, in this project two ways to reach the final goal have been followed: the \textbf{centralized} algorithm, namely the one which exploits the fact that each position of each agent is known by the others, and the control law is applied in a \textit{sequential} manner, is developed in this section.\\
-The fig.~\ref{fig:algorithmA.png} allows a more comprehensive approach to the explanation of this algorithm.\\
+The fig.~\ref{fig:algorithmA.png} allows a more comprehensive approach to the explanation of this algorithm.\\\\
 The initialization phase lets the user to generate the workspace randomly, or to upload a given benchmark to work with. \\
 If the former choice is made, a set of functions will be called:
  \begin{itemize}
@@ -189,6 +192,7 @@ Once all the benchmark features are defined, the algorithm makes a first computa
 	\item \textit{sliceCell};
 	\item \textit{genMCgauss}.
 \end{itemize}
+
 Thus, after the first partition of the main area, the control parameters are defined, and the control action can start.\\
 Since the project assumptions state that each agent must be considered as a \textbf{single-integrator}, the control consists only in a \textbf{proportional action} aimed to fill the gap between the agent position and the centroid of its Voronoi cell. The sequential fashion is implemented by means of a \textit{for loop}, that lets the agents move one by one, toward its own Voronoi centroid.\\
 In each iteration, actually, the single agent doesn't reach necessarily the goal (namely, the centroid), and at the beginning of the next iteration, it computes another time its Voronoi cell, updating the centroid if some changes happened in the neighbourhood.\\
@@ -205,6 +209,8 @@ Finally, the algorithm stops when every agents has reached a distance from its c
 		\caption{Algorithm A flow.}\label{fig:algorithmA.png}
 		
 	\end{figure}
+	
+\newpage %end of page 12
 	
 \subsection{Online algorithm (B)}
 	
