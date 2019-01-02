@@ -16,5 +16,5 @@
 \contentsline {section}{\numberline {2.2}Simulation benchmarks}{20}
 \contentsline {section}{\numberline {2.3}Offline algorithm (A)}{22}
 \contentsline {section}{\numberline {2.4}Online algorithm (B)}{22}
-\contentsline {chapter}{Conclusions}{27}
-\contentsline {chapter}{Bibliography}{28}
+\contentsline {chapter}{Conclusions}{28}
+\contentsline {chapter}{Bibliography}{29}

@@ -401,22 +401,33 @@ Further comments are present on the code.\\
 	\end{figure}
 	
 	\section{Online algorithm (B)}
-	This algorithm is not much slower than the first version, especially for few agents.\\
-	It may be faster if implemented with a better communication between agents (instead of r/w files), but not by a large margin.\\\\
+	This algorithm is not much slower than the first version, especially for few agents.
+	It may be faster if implemented with a better communication between agents (instead of r/w files), but not by a large margin.
 	It is of interest to see how they both arrive to \textbf{similar results} but not exactly the same; this is due to the fact that while in the offline algorithm every agent "sense" the others before deciding the next control step, thus continuously updating the centroid, in the distributed version the centroid is updated only when the agent reaches it, making the trajectories of the centroids (and thus of the agents) slightly different.
 	
-	\begin{figure}	
+	Now we show some plots that describe evolution of the system both fort the offline version and the online one. As we have already said the coverage area and the initial positions of the agents are randomly generated but we can choose both the number of vertex of the convex polygon that represents our coverage area and the number agents. In the 2 simulations that we are going to show we have choosen in both cases the  in the firt simulation and number of vertex as 7 while the number of agents is in the second one.
+	The other parameters that charaterizes the simulation are in both cases the following ones:
+	
+	\begin{itemize}
+		\item query points density for distribution computation=;
+		\item proportional gain of the control=;
+		\item convergence threshold=;
+
+	\end{itemize}
+	
+	\begin{figure}	[H]
 		\centering	
 		\includegraphics[scale=0.45,angle=90]{figs/convergenceResultsB.png}
 		\caption{Results with 7 agents (ver. B).}\label{fig:convergenceResultsB.png}	
 	\end{figure}
 	
-	\begin{figure}	
+	\begin{figure}[H]
 		\centering	
 		\includegraphics[scale=0.45, angle=90]{figs/20convergenceResultsB.png}
 		\caption{Results with 20 agents (ver. B).}\label{fig:20convergenceResultsB.png}	
 	\end{figure}
 	
+	Note as the trajectories in the offline cases have more curvature than the online case and this fact is quite intuitive since in the offline case thanks to the centralized assumption the agents continuely update their control law on the basis of the updated positions of the other agents.
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
