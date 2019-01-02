@@ -69,7 +69,7 @@
 		{\Huge \textbf{Abstract}}\\
 		\vspace{15mm}
 	\end{center}
-		The aim of the project hereby presented was to transpose the algorithms described in the research paper\cite{K1} into a proper Matlab environment suitable for simulation and results analysis. That paper proposes a procedure to manage coverage control for mobile sensing networks, focusing on autonomous vehicles playing the role of mobile tunable sensors.\\ 
+		The aim of the project hereby presented was to transpose the algorithms described in the research paper\cite{K1} into a proper Matlab environment suitable for simulation and results analysis. That paper proposes a procedure (\textbf{Lloyd's gradient descent method}) to manage coverage control for mobile sensing networks, focusing on autonomous vehicles playing the role of mobile tunable sensors.\\ 
 	The purpose of those (and our) algorithms is to find a converging method able to drive the robots into the best configuration, taking into account the spatial probability distribution of the occurring event to detect (peculiarity to measure) and the sensors degradation.\\
 	The algorithms presented in \cite{K1} have been simplified in order to adapt to both an offline, sequential approach (from now on called \textbf{offline},or \textbf{centralized}) and to a parallel (single machine), asynchronous one (from now on called \textbf{online},or \textbf{distributed}).\\
 	In both approaches, the simulation implements a simple proportional closed loop control, but while in the former it is all done inside a centralized \textit{for loop}, in which informations about each agent is readily available to all others, in the latter we tried to be more faithful to the original formulation, in which every agents has to exchange with other agents informations about each other's positions in a timely manner, while being "deaf" (to a certain extent) in-between successive communications.\\
@@ -87,16 +87,10 @@
 	\addcontentsline{toc}{chapter}{Introduction}
 	A mobile wireless sensor network (MWSN) can be defined as a wireless sensor network (WSN) in which the sensor nodes are mobile. For example the nodes can be wheeled robots scattered in a given area.\\\\
 	
-	A problem that can arise in this context is the \textbf{optimization} of coverage of a given area knowing the density distribution function, defined on that area, of a given property we would like to measure. The objective of this project was to implement a \textbf{distributed and asynchronous algorithm} to solve this problem, following the method proposed in the research paper \cite{K1}.\\\\
-	The considered framework, as suggested by the aforementioned paper, is the following: $n$ mobile sensor-robots modelled as simple integrators strewn on an area given by a \textbf{convex polytope} defined in $\mathbb{R}^2$; on this area a 2-dimensional distribution $\phi:Q\rightarrow \mathbb{R}_+$ is defined to represent the density of the feature that nodes have to measure.\\ Each node has sensing (can locate the other nodes positions) and/or communication capabilities.  \\\\
-	Conceptually this algorithm runs iteratively 2 subroutines: one, called "\emph{Adjust-sensing radius algorithm}", to compute the \textbf{Voronoi cell} of each sensor, and another one, called "\emph{Monitoring algorithm}" to check if the computation of the Voronoi cell has to be updated because of significant changes in the network (variation of nodes positions, node failures,...).\\ %%end of page 6
-	We implemented this procedure in Matlab in 2 ways:
-	\begin{enumerate}
-		\item in a \textbf{centralized }sequential way
-		\item in a \textbf{distributed} parallel fashion, reading and writing files (stored in a master server) to realize communication among nodes.
-	\end{enumerate}
-	These two implementations and the differences between them are well-explained and analysed in this report.
-	In particular, the first chapter regards the problem set-up and description of proposed solutions; the second chapter contains the analysis of obtained results.\\
+	A problem that can arise in this context is the \textbf{optimization} of coverage of a given area knowing the density distribution function, defined on that area, of a given property we would like to measure. The objective of this project was to implement a \textbf{distributed and asynchronous algorithm} to solve this problem, following the method proposed in the research paper \cite{K1}: \textbf{Lloyd's gradient descent method}. \\\\
+	The considered framework, as suggested by the aforementioned paper, is the following: $n$ mobile sensor-robots modelled as simple integrators strewn on an area given by a \textbf{convex polytope} defined in $\mathbb{R}^2$; on this area a 2-dimensional distribution $\phi:Q\rightarrow \mathbb{R}_+$ is defined to represent the density of the feature that nodes have to measure.\\ Each node has sensing (can locate the other nodes positions) and/or communication capabilities.  \\
+	Conceptually Lloyd's algorithm runs iteratively 2 subroutines: one, called "\emph{Adjust-sensing radius algorithm}", to compute the \textbf{Voronoi cell} (sensing area) of each sensor, and another one, called "\emph{Monitoring algorithm}" to check if the computation of the Voronoi cell has to be updated because of significant changes in the network (variation of nodes positions, node failures,...).\\\\
+	The report is structured in the following fashion: the first chapter regards the problem set-up and description of proposed solutions; the second chapter contains the analysis of obtained results.\\  
 	
 	
 	\section*{Motivations}
@@ -108,7 +102,14 @@
 	
 	
 	\section*{Contributions}
-	We believe that, thanks to this project, we created a starting point for building and implementing on real MWSN the proposed control algorithms; while further steps have to be taken in the direction of optimizing the code for embedded platforms (and simulations as well), the main idea of the paper used as a guideline, and its efficiency, have been demonstrated through our framework.
+		We implemented the coverage procedure in Matlab in 2 ways:
+	\begin{enumerate}
+		\item in a \textbf{centralized }sequential way
+		\item in a \textbf{distributed} parallel fashion, reading and writing files (stored in a master server) to realize communication among nodes.
+	\end{enumerate}
+	These two implementations and the differences between them are well-explained and analysed in this report. Both of them are made of various functions, described further, we realized to allow the correct and robust functioning of the overall procedure.\\
+	We believe that, thanks to this project, we created a starting point for building and implementing on real MWSN the proposed control algorithms; while further steps have to be taken in the direction of optimizing the code for embedded platforms (and simulations as well), the main idea of the paper used as a guideline, and its efficiency, have been demonstrated through our framework.\\
+
 	
 	%\section*{Organization}
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
