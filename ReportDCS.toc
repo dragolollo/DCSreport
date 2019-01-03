@@ -1,20 +1,20 @@
 \babel@toc {english}{}
-\contentsline {chapter}{Introduction}{6}
-\contentsline {chapter}{\numberline {1}Problem set-up and solutions}{8}
-\contentsline {section}{\numberline {1.1}Setup}{8}
-\contentsline {subsection}{\numberline {1.1.1}Theoretical notions}{8}
-\contentsline {subsection}{\numberline {1.1.2}Adopted assumptions}{9}
-\contentsline {section}{\numberline {1.2}Inner Workings}{11}
-\contentsline {subsection}{\numberline {1.2.1}Offline algorithm (A)}{11}
-\contentsline {subsection}{\numberline {1.2.2}Online algorithm (B)}{14}
-\contentsline {subsection}{\numberline {1.2.3}Utils}{17}
-\contentsline {subsubsection}{sliceCell}{17}
-\contentsline {subsubsection}{calculateCell}{18}
-\contentsline {subsubsection}{genMCGauss}{19}
-\contentsline {chapter}{\numberline {2}Results analysis}{20}
-\contentsline {section}{\numberline {2.1}Prerequisites}{20}
-\contentsline {section}{\numberline {2.2}Simulation benchmarks}{20}
-\contentsline {section}{\numberline {2.3}Offline algorithm (A)}{22}
-\contentsline {section}{\numberline {2.4}Online algorithm (B)}{22}
-\contentsline {chapter}{Conclusions}{28}
-\contentsline {chapter}{Bibliography}{29}
+\contentsline {chapter}{Introduction}{6}% 
+\contentsline {chapter}{\numberline {1}Problem set-up and solutions}{9}% 
+\contentsline {section}{\numberline {1.1}Setup}{9}% 
+\contentsline {subsection}{\numberline {1.1.1}Theoretical notions}{9}% 
+\contentsline {subsection}{\numberline {1.1.2}Adopted assumptions}{10}% 
+\contentsline {section}{\numberline {1.2}Inner Workings}{12}% 
+\contentsline {subsection}{\numberline {1.2.1}Offline algorithm (A)}{12}% 
+\contentsline {subsection}{\numberline {1.2.2}Online algorithm (B)}{15}% 
+\contentsline {subsection}{\numberline {1.2.3}Utils}{18}% 
+\contentsline {subsubsection}{sliceCell}{18}% 
+\contentsline {subsubsection}{calculateCell}{19}% 
+\contentsline {subsubsection}{genMCGauss}{20}% 
+\contentsline {chapter}{\numberline {2}Results analysis}{21}% 
+\contentsline {section}{\numberline {2.1}Prerequisites}{21}% 
+\contentsline {section}{\numberline {2.2}Simulation benchmarks}{21}% 
+\contentsline {section}{\numberline {2.3}Offline algorithm (A)}{23}% 
+\contentsline {section}{\numberline {2.4}Online algorithm (B)}{23}% 
+\contentsline {chapter}{Conclusions}{29}% 
+\contentsline {chapter}{Bibliography}{30}% 

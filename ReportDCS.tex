@@ -69,8 +69,8 @@
 		{\Huge \textbf{Abstract}}\\
 		\vspace{15mm}
 	\end{center}
-		The aim of the project hereby presented was to transpose the algorithms described in the research paper\cite{K1} into a proper Matlab environment suitable for simulation and results analysis. That paper proposes a procedure (\textbf{Lloyd's gradient descent method}) to manage coverage control for mobile sensing networks, focusing on autonomous vehicles playing the role of mobile tunable sensors.\\ 
-	The purpose of those (and our) algorithms is to find a converging method able to drive the robots into the best configuration, taking into account the spatial probability distribution of the occurring event to detect (peculiarity to measure) and the sensors degradation.\\
+		The aim of the project hereby presented was to transpose the algorithms described in the research paper\cite{K1} into a proper Matlab environment suitable for simulation and results analysis. That paper applies a procedure (\textbf{Lloyd's gradient descent method}) to mobile sensing networks in order to implement coverage control, focusing on autonomous vehicles playing the role of mobile tunable sensors.\\ 
+	The purpose of those (and our) algorithms is to make the robot swarm able to reach the optimal spatial configuration, letting each robot drive itself into the corresponding position, taking into account the spatial distribution of the occurring event to detect (peculiarity to measure) and the sensors degradation.\\
 	The algorithms presented in \cite{K1} have been simplified in order to adapt to both an offline, sequential approach (from now on called \textbf{offline},or \textbf{centralized}) and to a parallel (single machine), asynchronous one (from now on called \textbf{online},or \textbf{distributed}).\\
 	In both approaches, the simulation implements a simple proportional closed loop control, but while in the former it is all done inside a centralized \textit{for loop}, in which informations about each agent is readily available to all others, in the latter we tried to be more faithful to the original formulation, in which every agents has to exchange with other agents informations about each other's positions in a timely manner, while being "deaf" (to a certain extent) in-between successive communications.\\
 	To achieve all of this we've made use of Matlab's \textit{Parallel Computing Toolbox} to simulate the independent agents as communicating threads.\\
@@ -85,7 +85,7 @@
 	%%%%%% INTRODUZIONE %%%%%%%%%%
 	\chapter*{Introduction}
 	\addcontentsline{toc}{chapter}{Introduction}
-	A mobile wireless sensor network (MWSN) can be defined as a wireless sensor network (WSN) in which the sensor nodes are mobile. For example the nodes can be wheeled robots scattered in a given area.\\\\
+	A mobile wireless sensor network (MWSN) can be defined as a wireless sensor network (WSN) in which the sensor nodes are mobile. For example the nodes can be wheeled robots scattered in a given area.\\
 	
 	A problem that can arise in this context is the \textbf{optimization} of coverage of a given area knowing the density distribution function, defined on that area, of a given property we would like to measure. The objective of this project was to implement a \textbf{distributed and asynchronous algorithm} to solve this problem, following the method proposed in the research paper \cite{K1}: \textbf{Lloyd's gradient descent method}. \\\\
 	The considered framework, as suggested by the aforementioned paper, is the following: $n$ mobile sensor-robots modelled as simple integrators strewn on an area given by a \textbf{convex polytope} defined in $\mathbb{R}^2$; on this area a 2-dimensional distribution $\phi:Q\rightarrow \mathbb{R}_+$ is defined to represent the density of the feature that nodes have to measure.\\ Each node has sensing (can locate the other nodes positions) and/or communication capabilities.  \\
@@ -107,7 +107,14 @@
 		\item in a \textbf{centralized }sequential way
 		\item in a \textbf{distributed} parallel fashion, reading and writing files (stored in a master server) to realize communication among nodes.
 	\end{enumerate}
-	These two implementations and the differences between them are well-explained and analysed in this report. Both of them are made of various functions, described further, we realized to allow the correct and robust functioning of the overall procedure.\\
+	These two implementations and the differences between them are well-explained and analysed in this report.\\	
+	However, their structure is quite similar between one and the other, as they're both composed by:
+	\begin{itemize}
+		\item a main calling function, which generates, or loads, the parameters and data for the area, distribution and initial position of agents, as well as starting the control and updating visualization engine;
+		\item utilities for generating proper random data, and calculating geometrical properties of polygons;
+		\item utilities to calculate Voronoi cells.
+	\end{itemize}
+
 	We believe that, thanks to this project, we created a starting point for building and implementing on real MWSN the proposed control algorithms; while further steps have to be taken in the direction of optimizing the code for embedded platforms (and simulations as well), the main idea of the paper used as a guideline, and its efficiency, have been demonstrated through our framework.\\
 
 	
@@ -427,7 +434,9 @@ Further comments are present on the code.\\
 		\caption{Results with 20 agents (ver. B).}\label{fig:20convergenceResultsB.png}	
 	\end{figure}
 	
-	Note as the trajectories in the offline cases have more curvature than the online case and this fact is quite intuitive since in the offline case thanks to the centralized assumption the agents continuely update their control law on the basis of the updated positions of the other agents.
+	Note that the trajectories in the offline cases have more curvature than the online case; this fact is quite intuitive, since in the offline case, thanks to the centralized assumption, the agents continuously update their control law on the basis of the updated positions of the other agents.\\\\
+	
+	Keep in mind also that even by setting the same parameters with which the simulations has been done, the only way to recreate the exact same scenarios presented above one should load the same Matlab workspace over and over again, by properly setting off the random generations at the beginning of the main function.
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
