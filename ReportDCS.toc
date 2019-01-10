@@ -14,7 +14,10 @@
 \contentsline {chapter}{\numberline {2}Results analysis}{21}% 
 \contentsline {section}{\numberline {2.1}Prerequisites}{21}% 
 \contentsline {section}{\numberline {2.2}Simulation benchmarks}{21}% 
-\contentsline {section}{\numberline {2.3}Offline algorithm (A)}{23}% 
-\contentsline {section}{\numberline {2.4}Online algorithm (B)}{23}% 
-\contentsline {chapter}{Conclusions}{29}% 
-\contentsline {chapter}{Bibliography}{30}% 
+\contentsline {section}{\numberline {2.3}Simulation parameters}{22}% 
+\contentsline {subsubsection}{Map generation}{22}% 
+\contentsline {subsubsection}{Control parameters}{24}% 
+\contentsline {section}{\numberline {2.4}Offline algorithm (A)}{25}% 
+\contentsline {section}{\numberline {2.5}Online algorithm (B)}{25}% 
+\contentsline {chapter}{Conclusions}{32}% 
+\contentsline {chapter}{Bibliography}{33}% 

@@ -189,8 +189,9 @@ If the former choice is made, a set of functions will be called:
  \begin{itemize}
 		\item \textit{buildArea}: it creates a \textbf{convex area}, namely a polygon with a given number of vertices placed in a given range of the plane;
 		\item \textit{generateAgents}: it places a fixed number of \textbf{agents} in the already built area, positioning them randomly;
-		\item \textit{genPolyGrid}: it turns the plane individuated by the area of the polygon into a \textbf{discrete grid of points}, in order to build the probability distribution function.  
-		\item \textit{gaussianDistr2d}: it generates a \textbf{2-dimensional Gaussian distribution function} that represents the distribution of the information to be acquired. 
+		\item \textit{genPolyGrid}: it turns the plane individuated by the area of the polygon into a \textbf{discrete grid of points}, in order to build the distribution function.  
+		\item \textit{gaussianDistr2d}: it generates a \textbf{2-dimensional Gaussian distribution function} that represents the distribution of the information to be acquired, calculated as $$\rho=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-x_{c})^2+(y-y_{c})^2}{2\sigma^2}} $$\\
+		,where $$\sigma$$ is the variance of the distribution (considered isotropic), and $$(x_{c},y_{c})$$ is the center of the distribution.  \\
 \end {itemize}
 The latter choice allows to define the workspace from an external file; then, except \textit{buildArea}, the same functions are used to set the framework.\\
 
@@ -374,7 +375,11 @@ Further comments are present on the code.\\
 		\item etc.
 	\end{itemize}
 	
-	In addition to that, the generation of the area to cover, of the agents and of the distribution can be set to randomly generate at each start of simulation (see fig.~\ref{fig:randomAgents.png}, fig.~\ref{fig:gaussianDistrib.png}).
+	In addition to that, the generation of the area to cover, of the agents and of the distribution can be set to randomly generate at each start of simulation (see fig.~\ref{fig:randomAgents.png}, fig.~\ref{fig:gaussianDistrib.png}).\\
+	This is the case for the results displayed below, where a number of 7 or 20 agents were randomly spawned over a likewise randomly generated area. Same goes for the parameters of the 2D gaussian.
+	\interfootnotelinepenalty=10000 \footnote{Unless flagged otherwise at the beginning of the code, generation is always done randomly, and thus parameters change from run to run. Should the need arise to preserve a constant set of map parameters (i.e. area, distribution), the random flags \textit{randomGauss} and\textit{refreshSession} must be both set to \textbf{false}, and the path for a properly saved workspace must be set at the comment "load from previous file". A proper workspace file, called \emph{benchmark}, is provided along the rest of the code to show how variables should be set.}
+	\\
+	The Matlab function used for random generations is \emph{randn} for agents, \emph{rand} for the area, but this is just for easiness and readability of the code rather than a design choice due to probabilistic considerations.
 	
 	\begin{figure}	
 		\centering	
@@ -387,12 +392,70 @@ Further comments are present on the code.\\
 		\includegraphics[scale=0.7]{figs/gaussianDistrib.png}
 		\caption{Random 2D normal distribution.}\label{fig:gaussianDistrib.png}	
 	\end{figure}
+
+
+	
+	\section{Simulation parameters}
+	An overview of the parameters and possible values used for them, are now given.
+	\subsubsection{Map generation}
+	\begin{itemize}
+		\item \textbf{areaX\_range, areaY\_range}: maximum coordinates of the vertex of the area, considered symmetric with respect to. the center (0,0) \textbf{(e.g. 50,50)};
+		
+		\item \textbf{nVert\_area}: number of the area vertexes \textbf{(e.g. 7)};
+		
+		\item \textbf{nAgents}: number of agents to spawn \textbf{(e.g. 7,or 20)};
+		\\
+		
+		\item \textbf{pointDensity}: density of the grid to generate the distribution of property to measure \textbf{(e.g. 2)}; a rectangular area measuring \textit{b} and \textit{h} will contain $$\mathit{pointDensity}\cdot b\cdot h$$ query points, uniformly distributed;
+		
+		\item \textbf{minSigma, maxSigma}: range of variances values that the 2D Gaussian distribution may have \textbf{(e.g. 5,10)};
+		\subitem (alternatively) sigma: fixed variance, if the distribution is not to be randomly generated \textbf{(e.g. 15)};
+		
+		\item \textbf{gaussX, gaussY}: center of the distribution \textbf{(e.g. 0,0)}
+		\subitem if set to be randomly spawned, the center will be chosen as a random point inside the main area.
+		
+	\end{itemize}
+	The choice of the parameters is not subject to particular considerations related to convergence of the overall algorithm, except in the case of very few agents (<5), especially with large areas (80x80 - 100x100 and up); the reason for this issue is explained in the sections below.\\
+	
+	As expected, an increase in \emph{nAgents},\emph{pointDensity} will lead to a slower simulation (because of increased load); whereas a too large spread of the density distribution may also lead to issue (to solve this, increase number of query points accordingly; eg for variances larger than 10, \emph{pointDensity}=3 should be used, larger than 15 \emph{pointDensity}=4..larger variances were not tested).\\
+	
+	
+	
+	\subsubsection{Control parameters}
+	\begin{itemize}
+		\item \textbf{r0}: initial radius for the sensing algorithm \textbf{(e.g. 0.5)};
+		\item \textbf{kp}: proportional gain for the agents motion control loop\textbf{(e.g. 0.4)};
+		\item \textbf{deltaConvergence}: distance between the agents and centroids below which the simulation will stop (must be verified for each agent in the same iteration) \textbf{(e.g. 0.05)};
+	\end{itemize}
+	
+	Initial \textit{r0} shouldn't be too large, because of the already explained inner workings of the cell utilities; however, unless the area is very small (<1x1 - 2x2) it is pointless to reduce its value further as it will just spend a lot of iteration being doubled without actually finding any neighbour.\\
+	
+	\textit{kp} should be always smaller than 1 (and higher than 0), otherwise the algorithm would stop at the first iteration; it is advisable to keep it reasonably small to not "rush the simulation".\\
+	
+	\textit{deltaConvergence} shouldn't be too small as it would just extend the simulation duration without adding significant insights (at least, visually) on the system evolution; of course, the larger it is, the "rougher" are the simulation results.
+	\footnote{It should be noted that all the described parameters haven't been chosen following strict criterias or rigorous mathematical considerations, but are instead results of experimentation and optimization of the code. The algorithms are supposedly quite robust with respect to several combinations and variations of these parameters (and were proven to be so), however there could be no way to test \emph{all possible ranges and values of these parameters}, and thus there may be some particular configurations that invalidate the correct functioning. We hope that the rough guidelines and explanations on how the result change when adjusting these parameters will suffice to give a general understanding on how to properly set them to achieve different scenarios.}\\\\
+	
+	
+	
 	
 	\section{Offline algorithm (A)}
 	
 	The simulation converges with a good speed with few agents and with a reasonable one with more (see fig.~\ref{fig:convergenceResultsA.png}, fig.~\ref{fig:20convergenceResultsA.png}); we can speculate that considering the typical speed of mobile robots the speed of every step is well suited.\\\\
+	As for the graphical result display, from left to right, top to bottom:
+	\begin{itemize}
+		\item First three plots are, as shown previously, the density distribution scattered over the area to cover, and the initial agents positions over said area.
+		
+		\item The table with red and green cells represents the \emph{neighbouring relationships} between agents; it is updated at each iteration according to weight given by the aforementioned cell utilities.\\
+		
+		At each row i and column j, cell colour is
+			\subitem green, if agent j is a Voronoi neighbour of agent i;
+			\subitem red, otherwise.
+		
+		\item The bigger plot is the real time evolution of the system. It represent the positions and trajectories of the agents inside the area, and their corresponding cells at the last iteration.
+		
+	\end{itemize}
 	As for correctness, the only issues encountered up to now is with very few agents (4-5) and a very large area (e.g. 10000 sq. unit), for which the cells tend to not be correct, because of the way "\emph{Fast and Robust Curve Intersections}" works, i.e. by intersecting bounding boxes between the two desired geometrical entities.\\
-	Since the agents may be scattered around this large area, the rate of increase of the radius (that is, 2x at each successive step) bring the algorithm to find the bounding box of the radius to completely encompass the area to cover, thus not finding intersections at all; we believe that either a different increase rate of the radius, or better yet, a more efficient way to compute the Voronoi cell may solve the issue.
+	Since the agents may be scattered around this large area, the rate of increase of the radius (that is, 2x at each successive step) brings the algorithm to find the bounding box of the radius to completely encompass the area to cover, thus not finding intersections at all; we believe that either a different increase rate of the radius, or better yet, a more efficient way to compute the Voronoi cell may solve the issue.
 	
 	
 	\begin{figure}	
@@ -411,16 +474,10 @@ Further comments are present on the code.\\
 	This algorithm is not much slower than the first version, especially for few agents.
 	It may be faster if implemented with a better communication between agents (instead of r/w files), but not by a large margin.
 	It is of interest to see how they both arrive to \textbf{similar results} but not exactly the same; this is due to the fact that while in the offline algorithm every agent "sense" the others before deciding the next control step, thus continuously updating the centroid, in the distributed version the centroid is updated only when the agent reaches it, making the trajectories of the centroids (and thus of the agents) slightly different.
+	\\
+	Similar to the previous version's, the graphical result display only differs for the 4th figure, which is not anymore representing the neighbouring relations between agents, but instead displays how the offline version would converge for the same initial data; at the end of the simulation (i.e. once a certain convergence threshold is reached), a coloured overlay is drawn over it, according to the results given by the parallel version, to show what the discrepancies between the two are.
 	
-	Now we show some plots that describe evolution of the system both fort the offline version and the online one. As we have already said the coverage area and the initial positions of the agents are randomly generated but we can choose both the number of vertex of the convex polygon that represents our coverage area and the number agents. In the 2 simulations that we are going to show we have choosen in both cases the  in the firt simulation and number of vertex as 7 while the number of agents is in the second one.
-	The other parameters that charaterizes the simulation are in both cases the following ones:
 	
-	\begin{itemize}
-		\item query points density for distribution computation=2;
-		\item proportional gain of the control=0.4;
-		\item convergence threshold=0.1;
-
-	\end{itemize}
 	
 	\begin{figure}	[H]
 		\centering	
