@@ -113,7 +113,15 @@ The Line Following part is basically performed by using a PID control. This part
 
 \subsection {Obstacle Avoidance}
 
-The basic idea of the obstacle avoidance algorithm that we have implemented is the potential gradient method in which we define an attractive potential realated to the robot orientation and a repulsive potential related to the obstacles distances. The robot orientation is measured by using the gyroscope, instead the obastacles distances are measured by using the ultrasonic sensor. Basically we define an angular range in front of our robot and we divide it in 4 sectors. For each sector we apply a repulsive action inversely proportional to the obstacles distance measured in that sector, while the attractive funtion tries to mantain the robot along the direction that is parallel to the walls. Negletting all the distances greater than a certain threshold choosen by us we have that along relatively free space traits the robot should proceed along a straightline.
+The basic idea of the obstacle avoidance algorithm that we have implemented is the potential gradient method in which we define an attractive potential realated to the robot orientation and a repulsive potential related to the obstacles distances. The robot orientation $$\Theta$$ is measured by using the gyroscope, instead the obastacles distances are measured by using the ultrasonic sensor. Basically we define an angular range in front of our robot and we divide it in 4 sectors. For each sector we apply a repulsive action inversely proportional to the obstacles distance measured in that sector, while the attractive funtion tries to mantain the robot along the direction that is parallel to the walls namely 90 degrees. Negletting all the distances greater than a certain threshold choosen by us we have that along relatively free space traits the robot should proceed along a straightline.\\
+
+	$$u_{left} = minPower + \nabla U$$  \\ 
+    $$u_{right}= minPower + \nabla U$$  \\
+    
+with:\\
+
+	$$U = U_{att} + U_{rep} $$
+
 \section{Performances}
 
 
