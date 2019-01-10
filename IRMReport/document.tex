@@ -1,0 +1,134 @@
+%
+% Template for DCS course projects
+%
+\documentclass[a4paper,11pt,oneside]{book}
+\usepackage[latin1]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb,amsmath,color}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{float}
+
+\begin{document}
+\pagestyle{myheadings}
+
+%%%%%%%%%%% Cover %%%%%%%%%%%
+\thispagestyle{empty}                                                 
+\begin{center}                                                            
+    \vspace{5mm}
+    {\LARGE UNIVERSIT\`A DI BOLOGNA} \\                       
+      \vspace{5mm}
+\end{center}
+\begin{center}
+  \includegraphics[scale=.27]{figs/logo_unibo}
+\end{center}
+\begin{center}
+      \vspace{5mm}
+      {\LARGE School of Engineering} \\
+        \vspace{3mm}
+      {\Large Master Degree in Automation Engineering} \\
+      \vspace{20mm}
+      {\LARGE Industrial Robotics} \\
+      \vspace{5mm}{\Large\textbf{Laboratory Report}}                  
+      \vspace{15mm}
+\end{center}
+\begin{flushleft}                                                                              
+     {\large Professors: \textbf{\@ Claudio Melchiorri}\\  \hspace{20mm} \textbf{\@ Gianluca Palli}} \\  
+     
+      \vspace{13mm}
+\end{flushleft}
+\begin{flushright}
+      {\large Group 16}\\
+\end{flushright}        %capoverso allineato a destra
+\begin{center}
+\vfill
+      {\large Academic year \@2018/2019} \\
+\end{center}
+
+
+
+\newpage
+\thispagestyle{empty}
+
+%%%%%% ABSTRACT %%%%%%%%%%
+%\begin{center}
+%\chapter*{}
+%\thispagestyle{empty}
+%{\Huge \textbf{}}\\
+%\vspace{15mm}
+%\end{center}
+%Put here the abstract of the project. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents \thispagestyle{empty}
+\listoffigures\thispagestyle{empty}
+
+
+
+%%%%%%%%% CAPITOLO  %%%%%%%%%%%%%%%%
+\chapter{Arnold}
+
+\section*{Introduction}
+
+Arnold is the mobile robot that we have designed and build to perform the Industrial Robotics Laboratory Race. The mechanical structure is based on LEGO parts and uses electric motors and some sensors to move and receive informations whitin the environment. The control is performed by a NXT board. The race basically consists in two parts:
+\begin{itemize}
+	\item \textit{ \textbf {Line Following:} the goal is to follow a path starting from a square box};
+	\item \textit{\textbf {Obstacle Avoidance:} the goal is to move toward an arena containg obstacles};
+
+\end{itemize}
+\section{Structure}
+\subsection {Mechanical assembling}
+\subsection {Sensors}
+
+Arnold uses the following sensors:
+\begin{itemize}
+	\item \textit{ \textbf {Gyroscope:} };
+	\item \textit{\textbf {Light Sensor:} };
+	\item \textit{\textbf {Sonar:} };
+	
+\end{itemize}
+
+\section{Algorithms}
+\subsection {Threads}
+\subsection {Line Following}
+
+The Line Following part is basically performed by using a PID control.
+
+\subsection {Obstacle Avoidance}
+
+The basic idea of the obstacle avoidance algorithm that we have implemented is the potential gradient method.
+
+\section{Performances}
+
+
+
+
+
+
+%%%%%%%%% CAPITOLO  %%%%%%%%%%%%%%%%
+\chapter{Matlab Simulations}
+
+\section{Section title}
+\subsection {Subsection title}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% %%%% APPENDIX %%%%%
+% \appendix
+% \chapter{Appendix title}
+% %%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%% BIBLIOGRAPHY %%%%%%%%%%%%%%
+\bibliography{bibliography}{}
+\bibliographystyle{plain}
+\addcontentsline{toc}{chapter}{Bibliography}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
