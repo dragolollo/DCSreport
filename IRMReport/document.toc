@@ -1,6 +1,6 @@
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Arnold}{4}
-\contentsline {section}{\numberline {1.1}Structure}{4}
+\contentsline {section}{\numberline {1.1}Structure and Hardware}{4}
 \contentsline {subsection}{\numberline {1.1.1}Mechanical assembling}{4}
 \contentsline {subsection}{\numberline {1.1.2}Sensors}{4}
 \contentsline {section}{\numberline {1.2}Algorithms}{5}

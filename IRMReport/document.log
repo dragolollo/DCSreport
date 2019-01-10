@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.29)  10 JAN 2019 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.29)  10 JAN 2019 17:15
 entering extended mode
 **./document.tex
 (document.tex
@@ -335,7 +335,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 ] (document.aux) ) 
 Here is how much of TeX's memory you used:
  3149 strings out of 492970
- 44098 string characters out of 3126593
+ 43837 string characters out of 3126593
  114693 words of memory out of 3000000
  6943 multiletter control sequences out of 15000+200000
  12375 words of font info for 45 fonts, out of 3000000 for 9000
@@ -351,7 +351,7 @@ pfb><C:/Users/Guido/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmr17.pfb><C:/Users/Guido/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Users/Guido/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on document.pdf (7 pages, 183237 bytes).
+Output written on document.pdf (7 pages, 183547 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
