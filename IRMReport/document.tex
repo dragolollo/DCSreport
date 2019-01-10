@@ -81,25 +81,39 @@ Arnold is the mobile robot that we have designed and build to perform the Indust
 \end{itemize}
 \section{Structure and Hardware}
 \subsection {Mechanical assembling}
+
+The mechanical assmebling of the various parts and components of Arnold is the one that we show in the next figure containing different views:\\
+
+\begin{center}
+	\includegraphics[scale=0.15]{figs/arnold4}
+\end{center}
+
+
+This structure has been chosen because it guarantees mechanical stability and symmetricity.\\
+
+
 \subsection {Sensors}
 
 Arnold uses the following sensors:
 \begin{itemize}
-	\item \textit{ \textbf {Gyroscope:} };
-	\item \textit{\textbf {Light Sensor:} };
-	\item \textit{\textbf {Sonar:} };
+	\item \textit{ \textbf {Gyroscope:}measures the angular velocity wrt its axis so properly positionating it can be used to determine the robot orientation};
+	\item \textit{\textbf {Light Sensor:} measures the light intensity};
+	\item \textit{\textbf {Sonar:}determines the distance of eventual obstacles wrt the sensor sending ultrasonic signals and measuring the time in which they come back};
 	
 \end{itemize}
 
 \section{Algorithms}
 \subsection {Threads}
+
+We have used a multi-thread structure.
+
 \subsection {Line Following}
 
 The Line Following part is basically performed by using a PID control.
 
 \subsection {Obstacle Avoidance}
 
-The basic idea of the obstacle avoidance algorithm that we have implemented is the potential gradient method.
+The basic idea of the obstacle avoidance algorithm that we have implemented is the potential gradient method in which we define an attractive potential realated to the robot orientation and a repulsive potential related to the obstacles distances.
 
 \section{Performances}
 
