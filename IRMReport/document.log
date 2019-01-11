@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.29)  11 JAN 2019 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.29)  11 JAN 2019 16:41
 entering extended mode
 **./document.tex
 (document.tex
@@ -656,728 +656,731 @@ Overfull \hbox (70.60768pt too wide) in paragraph at lines 242--243
 [][] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
 [10 <./figs/lightError.png (PNG copy)> <./figs/PID_fig.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 255--258
+
+ []
+
 <figs/sonarDemo/testAnimated0.png, id=56, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated0.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated0.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated0.png  used on input line 2
-53.
+64.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated0.png> <a0,fr0>
 <figs/sonarDemo/testAnimated1.png, id=67, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated1.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated1.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated1.png  used on input line 2
-53.
+64.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated1.png> <a0,fr1>
 <figs/sonarDemo/testAnimated2.png, id=78, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated2.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated2.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated2.png  used on input line 2
-53.
+64.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated2.png> <a0,fr2>
 <figs/sonarDemo/testAnimated3.png, id=89, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated3.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated3.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated3.png  used on input line 2
-53.
+64.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated3.png>
-<a0,fr3>
+ <./figs/sonarDemo/testAnimated3.png> <a0,fr3>
 <figs/sonarDemo/testAnimated4.png, id=100, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated4.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated4.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated4.png  used on input line 2
-53.
+64.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated4.png> <a0,fr4>
 <figs/sonarDemo/testAnimated5.png, id=111, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated5.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated5.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated5.png  used on input line 2
-53.
+64.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated5.png> <a0,fr5>
 <figs/sonarDemo/testAnimated6.png, id=122, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated6.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated6.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated6.png  used on input line 2
-53.
+64.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated6.png> <a0,fr6>
+ <./figs/sonarDemo/testAnimated6.png>
+<a0,fr6>
 <figs/sonarDemo/testAnimated7.png, id=133, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated7.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated7.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated7.png  used on input line 2
-53.
+64.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated7.png> <a0,fr7>
 <figs/sonarDemo/testAnimated8.png, id=144, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated8.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated8.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated8.png  used on input line 2
-53.
+64.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated8.png>
-<a0,fr8>
+ <./figs/sonarDemo/testAnimated8.png> <a0,fr8>
 <figs/sonarDemo/testAnimated9.png, id=155, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated9.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated9.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated9.png  used on input line 2
-53.
+64.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated9.png> <a0,fr9>
 <figs/sonarDemo/testAnimated10.png, id=166, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated10.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated10.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated10.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated10.png> <a0,fr10>
 <figs/sonarDemo/testAnimated11.png, id=177, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated11.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated11.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated11.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated11.png> <a0,fr11>
+ <./figs/sonarDemo/testAnimated11.png>
+<a0,fr11>
 <figs/sonarDemo/testAnimated12.png, id=188, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated12.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated12.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated12.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated12.png> <a0,fr12>
 <figs/sonarDemo/testAnimated13.png, id=199, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated13.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated13.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated13.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated13.png>
-<a0,fr13>
+ <./figs/sonarDemo/testAnimated13.png> <a0,fr13>
 <figs/sonarDemo/testAnimated14.png, id=210, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated14.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated14.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated14.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated14.png> <a0,fr14>
 <figs/sonarDemo/testAnimated15.png, id=221, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated15.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated15.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated15.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated15.png> <a0,fr15>
 <figs/sonarDemo/testAnimated16.png, id=232, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated16.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated16.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated16.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated16.png> <a0,fr16>
 <figs/sonarDemo/testAnimated17.png, id=243, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated17.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated17.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated17.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated17.png> <a0,fr17>
 <figs/sonarDemo/testAnimated18.png, id=254, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated18.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated18.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated18.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated18.png> <a0,fr18>
 <figs/sonarDemo/testAnimated19.png, id=265, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated19.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated19.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated19.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated19.png> <a0,fr19>
 <figs/sonarDemo/testAnimated20.png, id=276, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated20.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated20.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated20.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated20.png> <a0,fr20>
 <figs/sonarDemo/testAnimated21.png, id=287, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated21.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated21.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated21.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated21.png> <a0,fr21>
 <figs/sonarDemo/testAnimated22.png, id=298, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated22.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated22.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated22.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated22.png> <a0,fr22>
 <figs/sonarDemo/testAnimated23.png, id=309, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated23.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated23.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated23.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated23.png> <a0,fr23>
 <figs/sonarDemo/testAnimated24.png, id=320, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated24.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated24.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated24.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated24.png> <a0,fr24>
+ <./figs/sonarDemo/testAnimated24.png>
+<a0,fr24>
 <figs/sonarDemo/testAnimated25.png, id=331, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated25.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated25.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated25.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated25.png> <a0,fr25>
 <figs/sonarDemo/testAnimated26.png, id=342, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated26.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated26.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated26.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated26.png>
-<a0,fr26>
+ <./figs/sonarDemo/testAnimated26.png> <a0,fr26>
 <figs/sonarDemo/testAnimated27.png, id=353, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated27.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated27.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated27.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated27.png> <a0,fr27>
 <figs/sonarDemo/testAnimated28.png, id=364, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated28.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated28.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated28.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated28.png> <a0,fr28>
 <figs/sonarDemo/testAnimated29.png, id=375, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated29.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated29.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated29.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated29.png> <a0,fr29>
 <figs/sonarDemo/testAnimated30.png, id=386, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated30.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated30.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated30.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated30.png> <a0,fr30>
 <figs/sonarDemo/testAnimated31.png, id=397, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated31.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated31.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated31.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated31.png> <a0,fr31>
 <figs/sonarDemo/testAnimated32.png, id=408, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated32.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated32.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated32.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated32.png> <a0,fr32>
 <figs/sonarDemo/testAnimated33.png, id=419, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated33.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated33.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated33.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated33.png> <a0,fr33>
 <figs/sonarDemo/testAnimated34.png, id=430, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated34.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated34.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated34.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated34.png> <a0,fr34>
 <figs/sonarDemo/testAnimated35.png, id=441, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated35.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated35.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated35.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated35.png> <a0,fr35>
 <figs/sonarDemo/testAnimated36.png, id=452, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated36.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated36.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated36.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated36.png> <a0,fr36>
 <figs/sonarDemo/testAnimated37.png, id=463, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated37.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated37.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated37.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated37.png> <a0,fr37>
+ <./figs/sonarDemo/testAnimated37.png>
+<a0,fr37>
 <figs/sonarDemo/testAnimated38.png, id=474, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated38.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated38.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated38.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated38.png> <a0,fr38>
 <figs/sonarDemo/testAnimated39.png, id=485, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated39.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated39.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated39.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated39.png>
-<a0,fr39>
+ <./figs/sonarDemo/testAnimated39.png> <a0,fr39>
 <figs/sonarDemo/testAnimated40.png, id=496, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated40.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated40.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated40.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated40.png> <a0,fr40>
 <figs/sonarDemo/testAnimated41.png, id=507, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated41.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated41.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated41.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated41.png> <a0,fr41>
 <figs/sonarDemo/testAnimated42.png, id=518, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated42.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated42.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated42.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated42.png> <a0,fr42>
 <figs/sonarDemo/testAnimated43.png, id=529, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated43.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated43.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated43.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated43.png> <a0,fr43>
 <figs/sonarDemo/testAnimated44.png, id=540, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated44.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated44.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated44.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated44.png> <a0,fr44>
 <figs/sonarDemo/testAnimated45.png, id=551, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated45.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated45.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated45.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated45.png> <a0,fr45>
 <figs/sonarDemo/testAnimated46.png, id=562, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated46.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated46.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated46.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated46.png> <a0,fr46>
 <figs/sonarDemo/testAnimated47.png, id=573, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated47.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated47.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated47.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated47.png> <a0,fr47>
 <figs/sonarDemo/testAnimated48.png, id=584, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated48.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated48.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated48.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated48.png> <a0,fr48>
 <figs/sonarDemo/testAnimated49.png, id=595, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated49.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated49.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated49.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated49.png> <a0,fr49>
 <figs/sonarDemo/testAnimated50.png, id=606, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated50.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated50.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated50.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated50.png> <a0,fr50>
+ <./figs/sonarDemo/testAnimated50.png>
+<a0,fr50>
 <figs/sonarDemo/testAnimated51.png, id=617, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated51.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated51.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated51.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated51.png> <a0,fr51>
 <figs/sonarDemo/testAnimated52.png, id=628, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated52.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated52.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated52.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated52.png>
-<a0,fr52>
+ <./figs/sonarDemo/testAnimated52.png> <a0,fr52>
 <figs/sonarDemo/testAnimated53.png, id=639, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated53.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated53.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated53.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated53.png> <a0,fr53>
 <figs/sonarDemo/testAnimated54.png, id=650, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated54.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated54.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated54.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated54.png> <a0,fr54>
 <figs/sonarDemo/testAnimated55.png, id=661, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated55.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated55.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated55.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated55.png> <a0,fr55>
 <figs/sonarDemo/testAnimated56.png, id=672, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated56.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated56.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated56.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated56.png> <a0,fr56>
 <figs/sonarDemo/testAnimated57.png, id=683, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated57.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated57.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated57.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated57.png> <a0,fr57>
 <figs/sonarDemo/testAnimated58.png, id=694, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated58.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated58.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated58.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated58.png> <a0,fr58>
 <figs/sonarDemo/testAnimated59.png, id=705, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated59.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated59.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated59.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated59.png> <a0,fr59>
 <figs/sonarDemo/testAnimated60.png, id=716, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated60.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated60.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated60.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated60.png> <a0,fr60>
 <figs/sonarDemo/testAnimated61.png, id=727, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated61.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated61.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated61.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated61.png> <a0,fr61>
 <figs/sonarDemo/testAnimated62.png, id=738, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated62.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated62.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated62.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated62.png> <a0,fr62>
 <figs/sonarDemo/testAnimated63.png, id=749, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated63.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated63.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated63.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated63.png> <a0,fr63>
+ <./figs/sonarDemo/testAnimated63.png>
+<a0,fr63>
 <figs/sonarDemo/testAnimated64.png, id=760, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated64.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated64.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated64.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated64.png> <a0,fr64>
 <figs/sonarDemo/testAnimated65.png, id=771, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated65.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated65.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated65.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated65.png>
-<a0,fr65>
+ <./figs/sonarDemo/testAnimated65.png> <a0,fr65>
 <figs/sonarDemo/testAnimated66.png, id=782, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated66.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated66.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated66.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated66.png> <a0,fr66>
 <figs/sonarDemo/testAnimated67.png, id=793, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated67.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated67.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated67.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated67.png> <a0,fr67>
 <figs/sonarDemo/testAnimated68.png, id=804, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated68.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated68.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated68.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated68.png> <a0,fr68>
 <figs/sonarDemo/testAnimated69.png, id=815, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated69.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated69.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated69.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated69.png> <a0,fr69>
 <figs/sonarDemo/testAnimated70.png, id=826, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated70.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated70.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated70.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated70.png> <a0,fr70>
 <figs/sonarDemo/testAnimated71.png, id=837, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated71.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated71.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated71.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated71.png> <a0,fr71>
 <figs/sonarDemo/testAnimated72.png, id=848, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated72.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated72.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated72.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated72.png> <a0,fr72>
 <figs/sonarDemo/testAnimated73.png, id=859, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated73.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated73.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated73.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated73.png> <a0,fr73>
 <figs/sonarDemo/testAnimated74.png, id=870, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated74.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated74.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated74.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated74.png> <a0,fr74>
 <figs/sonarDemo/testAnimated75.png, id=881, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated75.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated75.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated75.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated75.png> <a0,fr75>
 <figs/sonarDemo/testAnimated76.png, id=892, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated76.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated76.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated76.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated76.png> <a0,fr76>
+ <./figs/sonarDemo/testAnimated76.png>
+<a0,fr76>
 <figs/sonarDemo/testAnimated77.png, id=903, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated77.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated77.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated77.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated77.png> <a0,fr77>
 <figs/sonarDemo/testAnimated78.png, id=914, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated78.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated78.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated78.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated78.png>
-<a0,fr78>
+ <./figs/sonarDemo/testAnimated78.png> <a0,fr78>
 <figs/sonarDemo/testAnimated79.png, id=925, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated79.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated79.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated79.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated79.png> <a0,fr79>
 <figs/sonarDemo/testAnimated80.png, id=936, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated80.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated80.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated80.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated80.png> <a0,fr80>
 <figs/sonarDemo/testAnimated81.png, id=947, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated81.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated81.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated81.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated81.png> <a0,fr81>
 <figs/sonarDemo/testAnimated82.png, id=958, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated82.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated82.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated82.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated82.png> <a0,fr82>
 <figs/sonarDemo/testAnimated83.png, id=969, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated83.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated83.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated83.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated83.png> <a0,fr83>
 <figs/sonarDemo/testAnimated84.png, id=980, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated84.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated84.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated84.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated84.png> <a0,fr84>
 <figs/sonarDemo/testAnimated85.png, id=991, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated85.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated85.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated85.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated85.png> <a0,fr85>
 <figs/sonarDemo/testAnimated86.png, id=1002, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated86.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated86.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated86.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated86.png> <a0,fr86>
 <figs/sonarDemo/testAnimated87.png, id=1013, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated87.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated87.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated87.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated87.png> <a0,fr87>
 <figs/sonarDemo/testAnimated88.png, id=1024, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated88.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated88.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated88.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated88.png> <a0,fr88>
 <figs/sonarDemo/testAnimated89.png, id=1035, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated89.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated89.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated89.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated89.png> <a0,fr89>
+ <./figs/sonarDemo/testAnimated89.png>
+<a0,fr89>
 <figs/sonarDemo/testAnimated90.png, id=1046, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated90.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated90.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated90.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated90.png> <a0,fr90>
 <figs/sonarDemo/testAnimated91.png, id=1057, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated91.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated91.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated91.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated91.png>
-<a0,fr91>
+ <./figs/sonarDemo/testAnimated91.png> <a0,fr91>
 <figs/sonarDemo/testAnimated92.png, id=1068, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated92.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated92.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated92.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated92.png> <a0,fr92>
 <figs/sonarDemo/testAnimated93.png, id=1079, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated93.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated93.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated93.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated93.png> <a0,fr93>
 <figs/sonarDemo/testAnimated94.png, id=1090, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated94.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated94.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated94.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated94.png> <a0,fr94>
 <figs/sonarDemo/testAnimated95.png, id=1101, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated95.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated95.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated95.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated95.png> <a0,fr95>
 <figs/sonarDemo/testAnimated96.png, id=1112, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated96.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated96.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated96.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated96.png> <a0,fr96>
 <figs/sonarDemo/testAnimated97.png, id=1123, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated97.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated97.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated97.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated97.png> <a0,fr97>
 <figs/sonarDemo/testAnimated98.png, id=1134, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated98.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated98.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated98.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated98.png> <a0,fr98>
 <figs/sonarDemo/testAnimated99.png, id=1145, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated99.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated99.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated99.png  used on input line 
-253.
+264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated99.png> <a0,fr99>
 <figs/sonarDemo/testAnimated100.png, id=1156, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated100.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated100.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated100.png  used on input line
- 253.
+ 264.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated100.png> <a0,fr100>
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
-
- []
-
-[11] [12]
+ <./figs/sonarDemo/testAnimated100.png> <a0,fr100> [11] [12]
 Chapter 2.
 (document.bbl [13
 
@@ -1390,12 +1393,12 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 ] (document.aux) ) 
 Here is how much of TeX's memory you used:
  15939 strings out of 492946
- 289249 string characters out of 3126709
+ 289253 string characters out of 3126709
  511359 words of memory out of 3000000
  19560 multiletter control sequences out of 15000+200000
  541942 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,8n,72p,918b,1192s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,8n,72p,540b,1192s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmbx10.pfb><C:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Brus/AppData/Local/Programs
@@ -1412,7 +1415,7 @@ ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Br
 us/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 <C:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb>
-Output written on document.pdf (14 pages, 5136845 bytes).
+Output written on document.pdf (14 pages, 5138282 bytes).
 PDF statistics:
  1252 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
