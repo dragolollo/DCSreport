@@ -130,9 +130,10 @@
 		\section{Structure and Hardware}
 		\subsection {Mechanical assembling}
 		
-		The mechanical assembling of the various parts and components of Arnold is shown from different perspectives in Fig. \ref{fig:arnold4trasp.png}.\\
+		The mechanical assembly of the various parts and components of Arnold is shown from different perspectives in Fig. \ref{fig:arnold4trasp.png}.
+		It is a classic \textit{differential drive} mobile robot whose configuration is represented by $[x,y, \theta] \in \mathbb{R}^3$.\\
 		
-		This structure has been designed to achieve mechanical stability and proper weight distribution, and allows to properly place all the sensors and the other components.\\
+		This structure has been designed with a castor wheel to achieve mechanical stability and proper weight distribution, and allows plenty of space to place all necessary sensors and proper cable management.\\
 		Furthermore, it contains a sufficiently large gap below the brick to allow further additions (as in the case of the gyroscopic sensor) and easy battery replacement.
 		
 		\begin{figure}
@@ -146,7 +147,7 @@
 		
 		Arnold uses the following sensors:
 		\begin{itemize}
-			\item \textit{ \textbf {HiTechnic Gyroscope:}} measures the \textit{yaw} angular velocity as shown in Fig. \ref{fig:gyroscope.png} so that it can be used to determine the robot orientation $\theta$ in the $\mathbb{R}^3$ configuration space, with the proper placement on the structure;
+			\item \textit{ \textbf {HiTechnic Gyroscope:}} measures the \textit{yaw} angular velocity as shown in Fig.\ref{fig:gyroscope.png}, so that it can be used to determine the robot orientation $\theta$ in the $\mathbb{R}^3$ configuration space, with a proper placement on the structure;
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale=0.6]{figs/gyroscope}
@@ -164,7 +165,7 @@
 		\section{Algorithm}
 		\subsection {Threading}
 		
-		The overall algorithm is multithreaded via the Java \textit{Thread} class, albeit the processor used in the NXT brick (\textbf{Atmel AT91SAM7S256}) is single core, so all threads compete for the execution.\\
+		The overall algorithm is multithreaded via the Java \textit{Thread} class, though the microcontroller used in the NXT brick (\textbf{Atmel AT91SAM7S256}) is single core, so all threads compete for the execution.\\
 		
 		Different threads are used for different sections of the race. Grouping them according to their purpose, they are:
 		
@@ -192,7 +193,7 @@
 		\end{itemize}
 		\vspace{7mm}
 		
-		For each change between sections the relevant threads are properly exited and collected by the Java garbage collector, with the exception of the gyroscope thread between sections \RNum{2} and \RNum{3}.\\
+		For each change between sections, the relevant threads are properly exited and collected by the Java garbage collector, with the exception of the gyroscope thread between sections \RNum{2} and \RNum{3}.\\
 		
 		While this has allowed an easier management of the code and a more performant algorithm, it did pose some issues, mainly related to the unclear functions for thread management implemented in \textit{LeJos}: methods like
 		\begin{lstlisting}
