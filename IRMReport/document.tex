@@ -178,7 +178,7 @@
 				
 				\item \textbf{Arenas travelling}
 				\begin{itemize}
-						\item GyroThread: samples the \textit{gyroscopic} sensor and perform orientation odometry, which consists in a simple integration (discrete sum) as the reconstruction of the robot angle $/theta$ from the \textit{yaw} speed is exact;
+						\item GyroThread: samples the \textit{gyroscopic} sensor and perform orientation odometry, which consists in a simple integration (discrete sum) as the reconstruction of the robot angle $\theta$ from the \textit{yaw} speed is exact;
 					\item ArenaTraveler: goes from line following arena to obstacle avoidance, by implementing a proportional control with respect to the angle measured by the gyroscope, while checking the starting line.
 				\end{itemize}
 			
@@ -229,7 +229,7 @@
 			\subsection{PID control}
 			The light value is read by the respective sensor and can be a value between 0 and 1023.
 			The system is initialized by taking the average (over 20 samples) of both values returned when over the dark area and the light tape, which respectively compose the calibration values \emph{minLight} and \emph{maxLight}.\\
-			Then, an error range is defined (in our case, 150); the error takes any value between $-range/2$ and $range/2$, in a linear fashion with respect to the actual light value, i.e. $$e=m\cdot \mathit{light}+c$$, where $$m=\mathit{range}/(\mathit{maxLight-minLight})$$, and $$c=\mathit{range}/2-m\cdot \mathit{maxlight}$$\\
+			Then, an error range is defined (in our case, 150); the error takes any value between $-range/2$ and $range/2$, in a linear fashion with respect to the actual light value, i.e. $$e=m\cdot \mathit{light}+c$$ where $$m=\mathit{range}/(\mathit{maxLight-minLight})$$ and $$c=\mathit{range}/2-m\cdot \mathit{maxlight}$$\\
 			In this way, the error is equal to 0 approx. where the boundary between tape and floor lies, and any controller trying to push it to 0 will force the robot to stay on that boundary (Fig.\ref{fig:lightError.png}).\\
 			\begin{figure} [H]
 				\centering
@@ -243,11 +243,29 @@
 				\caption{Simulink scheme of the robot controller.}\label{fig:PID_fig.png}
 			\end{figure}
 			
-			The derivative action is simply done by multiplying the difference between the previous error and the current one; likewise, the integral gain acts on the continuous sum of the errors.\\
+			The derivative action is simply done by multiplying the differential gain \emph{KD} by the difference between the previous error and the current one; likewise, the integral gain \emph{KI} acts on the continuous sum of the errors.\\
 	
 			% put here how we calibrated PID
+			For the PID calibration we followed a simple but efficient procedure that exploits the \emph{Ziegler-Nichols method}.
+			At the beginning, we fixed only the proportional gain to a reasonable value that let the robot to lead the error to zero, but with considerable oscillations (we will call this value \emph{Kc}). Starting from this point, we used the \emph{Ziegler-Nichols} table to tune also the integral and the derivative gains, exploiting the period of oscillation (referred to as \emph{Tp}) we had under proportional control only and the \emph{time per loop} (\emph{dT}) needed by the control action.\\
+			The values were:
+			\begin{itemize}
+				\item $\mathit{KP}$ = 0.6$\cdot$$\mathit{Kc}$
+				\item $\mathit{KI}$ = 2$\cdot$$\mathit{KP}$$\cdot$$\mathit{dT}$/$\mathit{Tp}$
+				\item $\mathit{KD}$ = $\mathit{KP}$$\cdot$$\mathit{Tp}$/(8$\cdot$$\mathit{dT}$)
+			\end{itemize}
+		
+			Once we obtained these values, we adapted them to the optimal behaviour we wanted to adopt during the task, tweaking the gains in order to get the best result.\\
 			
+			\subsubsection{Remarks}
+			We tried to build a simpler controller, such as a PD, PI or even only a proportional one, but we experienced the best solution was to implement a full PID controller. The reason was that each kind of control action gives a useful contribution, i.e.:
+			\begin{itemize}
+				\item the proportional gain is the strongest that keeps the error near to zero, holding the robot following the line robustly, but with noticeable oscillations;
+				\item the integral control is of fundamental value on straight lines, since it mitigates oscillations;
+				\item the derivative gain helps the robot in approaching corners fast.
+			\end{itemize} 
 			
+			As said, the most important part in parameters calibration was done on field, adjusting the values to improve performances.\\\\
 			
 			
 			\subsection {Obstacle Avoidance}
@@ -283,6 +301,8 @@
 				
 			
 			\section{Performances}
+			\subsection{Line Following}
+			The results noticed in the line following task are really good, symptom of an accurate and relevant choice of the parameters.
 			
 			
 			

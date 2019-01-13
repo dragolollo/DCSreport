@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.29)  11 JAN 2019 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.13)  13 JAN 2019 12:05
 entering extended mode
 **./document.tex
 (document.tex
 LaTeX2e <2018-12-01>
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\book.cls"
 Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk11.clo"
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\bk11.clo"
 File: bk11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -21,46 +21,43 @@ File: bk11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1.def"
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\latin1.def"
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ))
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
 Package: babel 2018/11/13 3.27 The Babel package
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def"
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
 File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engli
-sh.ldf"
+("C:\Program Files\MiKTeX 2.9\tex/latex/babel-english\english.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.de
-f")
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
 \bbl@dirlevel=\count90
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -68,26 +65,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
- ("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-"
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen104
 ))
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
-) ("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.st
-y"
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
@@ -128,46 +123,39 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.
-cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex
-.def"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphi
-cs.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -175,7 +163,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count103
 \float@exts=\toks23
@@ -183,8 +171,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box30
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.sty"
 \lst@mode=\count104
 \lst@gtempboxa=\box31
 \lst@token=\toks25
@@ -198,58 +185,49 @@ ty"
 \lst@lineno=\count109
 \lst@maxwidth=\dimen118
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 \c@lstnumber=\count110
 \lst@skipnumbers=\count111
 \lst@framebox=\box32
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.c
-fg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.cfg"
 File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
 Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\animate\animate.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex/latex/animate\animate.sty"
 Package: animate 2018/12/19 PDF & SVG animations from files and inline graphics
 
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.t
-ex"
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.
-tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
 \XKV@toks=\toks26
 \XKV@tempa@toks=\toks27
 )
 \XKV@depth=\count112
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\ifdraft.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\ifdraft.sty"
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
-) ("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count113
 \calc@Bcount=\count114
@@ -262,36 +240,28 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count115
 \calc@Cskip=\skip48
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\zref-abspa
-ge.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\zref-abspage.sty"
 Package: zref-abspage 2018/11/21 v2.27 Module abspage for zref (HO)
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\zref-base.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\zref-base.sty"
 Package: zref-base 2018/11/21 v2.27 Module base for zref (HO)
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarer
-r.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkey
-s.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 ))
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefine
-keys.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcm
-ds.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -299,27 +269,24 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegshi
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\atbegshi.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
 \c@abspage=\count116
 Package zref Info: New property: abspage on input line 62.
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\media9\pdfbase.sty"
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/media9\pdfbase.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
 Package: expl3 2019-01-01 L3 programming layer (loader) 
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-code
-.tex"
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3-code.tex"
 Package: expl3 2019-01-01 L3 programming layer (code)
 \c_max_int=\count117
 \l_tmpa_int=\count118
@@ -466,13 +433,11 @@ Package: expl3 2019-01-01 L3 programming layer (code)
 \l__seq_internal_a_int=\count199
 \l__seq_internal_b_int=\count266
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.
-def"
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2019-01-01 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count267
 ))
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e
-\l3keys2e.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/l3keys2e\l3keys2e.sty"
 Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 )
 Package: pdfbase 2019/01/02 v0.25 driver independent access to low-level PDF fe
@@ -480,7 +445,7 @@ atures
 \g_pbs_page_int=\count268
 \g_pbs_oc_int=\count269
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ocgx2\ocgbase.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/ocgx2\ocgbase.sty"
 Package: ocgbase 2018/06/07 v0.14 support package for ocgx2.sty
 \g_ocgbase_nd_int=\count270
 )
@@ -502,8 +467,7 @@ Package: ocgbase 2018/06/07 v0.14 support package for ocgx2.sty
 \@anim@curfield=\count281
 \@anim@@resizeflags=\count282
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstlang1.sty"
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 ) (document.aux)
 \openout1 = `document.aux'.
@@ -521,8 +485,7 @@ LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mki
-i"
+("C:\Program Files\MiKTeX 2.9\tex/context/base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count283
 \scratchdimen=\dimen155
@@ -535,17 +498,13 @@ i"
 \MPnumerator=\count287
 \makeMPintoPDFobject=\count288
 \everyMPtoPDFconversion=\toks29
-)
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-b
-ase.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -564,34 +523,35 @@ Package pdftex.def Info: figs/logo_unibo.png  used on input line 52.
 (pdftex.def)             Requested size: 207.05632pt x 108.40643pt.
  [1
 
-{C:/Users/Brus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figs/logo_
-unibo.png (PNG copy)>] (document.toc
+{C:/Users/matti/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figs/logo
+_unibo.png (PNG copy)>] (document.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
 \openout3 = `document.toc'.
 
-[2
+ [2
 
 ] (document.lof)
 \tf@lof=\write4
 \openout4 = `document.lof'.
 
- [3
+
+[3
 
 ]
 Chapter 1.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 109.
 
-("C:\Users\Brus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -662,762 +622,773 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--247
  []
 
 [10 <./figs/lightError.png (PNG copy)> <./figs/PID_fig.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 255--258
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
-<figs/sonarDemo/testAnimated0.png, id=56, 702.625pt x 526.96875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--276
+
+ []
+
+[11]
+<figs/sonarDemo/testAnimated0.png, id=59, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated0.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated0.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated0.png  used on input line 2
-64.
+82.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated0.png> <a0,fr0>
-<figs/sonarDemo/testAnimated1.png, id=67, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated1.png, id=70, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated1.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated1.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated1.png  used on input line 2
-64.
+82.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated1.png> <a0,fr1>
-<figs/sonarDemo/testAnimated2.png, id=78, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated2.png, id=81, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated2.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated2.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated2.png  used on input line 2
-64.
+82.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated2.png> <a0,fr2>
-<figs/sonarDemo/testAnimated3.png, id=89, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated3.png, id=92, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated3.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated3.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated3.png  used on input line 2
-64.
+82.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated3.png> <a0,fr3>
-<figs/sonarDemo/testAnimated4.png, id=100, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated4.png, id=103, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated4.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated4.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated4.png  used on input line 2
-64.
+82.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated4.png> <a0,fr4>
-<figs/sonarDemo/testAnimated5.png, id=111, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated5.png, id=114, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated5.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated5.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated5.png  used on input line 2
-64.
+82.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated5.png> <a0,fr5>
-<figs/sonarDemo/testAnimated6.png, id=122, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated6.png, id=125, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated6.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated6.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated6.png  used on input line 2
-64.
+82.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated6.png>
-<a0,fr6>
-<figs/sonarDemo/testAnimated7.png, id=133, 702.625pt x 526.96875pt>
+ <./figs/sonarDemo/testAnimated6.png> <a0,fr6>
+<figs/sonarDemo/testAnimated7.png, id=136, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated7.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated7.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated7.png  used on input line 2
-64.
+82.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated7.png> <a0,fr7>
-<figs/sonarDemo/testAnimated8.png, id=144, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated8.png, id=147, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated8.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated8.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated8.png  used on input line 2
-64.
+82.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated8.png> <a0,fr8>
-<figs/sonarDemo/testAnimated9.png, id=155, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated9.png, id=158, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated9.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated9.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated9.png  used on input line 2
-64.
+82.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated9.png> <a0,fr9>
-<figs/sonarDemo/testAnimated10.png, id=166, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated10.png, id=169, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated10.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated10.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated10.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated10.png> <a0,fr10>
-<figs/sonarDemo/testAnimated11.png, id=177, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated11.png, id=180, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated11.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated11.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated11.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated11.png>
 <a0,fr11>
-<figs/sonarDemo/testAnimated12.png, id=188, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated12.png, id=191, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated12.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated12.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated12.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated12.png> <a0,fr12>
-<figs/sonarDemo/testAnimated13.png, id=199, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated13.png, id=202, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated13.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated13.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated13.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated13.png> <a0,fr13>
-<figs/sonarDemo/testAnimated14.png, id=210, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated14.png, id=213, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated14.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated14.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated14.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated14.png> <a0,fr14>
-<figs/sonarDemo/testAnimated15.png, id=221, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated15.png, id=224, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated15.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated15.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated15.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated15.png> <a0,fr15>
-<figs/sonarDemo/testAnimated16.png, id=232, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated16.png, id=235, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated16.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated16.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated16.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated16.png> <a0,fr16>
-<figs/sonarDemo/testAnimated17.png, id=243, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated17.png, id=246, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated17.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated17.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated17.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated17.png> <a0,fr17>
-<figs/sonarDemo/testAnimated18.png, id=254, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated18.png, id=257, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated18.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated18.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated18.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated18.png> <a0,fr18>
-<figs/sonarDemo/testAnimated19.png, id=265, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated19.png, id=268, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated19.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated19.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated19.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated19.png> <a0,fr19>
-<figs/sonarDemo/testAnimated20.png, id=276, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated20.png, id=279, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated20.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated20.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated20.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated20.png> <a0,fr20>
-<figs/sonarDemo/testAnimated21.png, id=287, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated21.png, id=290, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated21.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated21.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated21.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated21.png> <a0,fr21>
-<figs/sonarDemo/testAnimated22.png, id=298, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated22.png, id=301, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated22.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated22.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated22.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated22.png> <a0,fr22>
-<figs/sonarDemo/testAnimated23.png, id=309, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated23.png, id=312, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated23.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated23.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated23.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated23.png> <a0,fr23>
-<figs/sonarDemo/testAnimated24.png, id=320, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated24.png, id=323, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated24.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated24.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated24.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated24.png>
 <a0,fr24>
-<figs/sonarDemo/testAnimated25.png, id=331, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated25.png, id=334, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated25.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated25.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated25.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated25.png> <a0,fr25>
-<figs/sonarDemo/testAnimated26.png, id=342, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated26.png, id=345, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated26.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated26.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated26.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated26.png> <a0,fr26>
-<figs/sonarDemo/testAnimated27.png, id=353, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated27.png, id=356, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated27.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated27.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated27.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated27.png> <a0,fr27>
-<figs/sonarDemo/testAnimated28.png, id=364, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated28.png, id=367, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated28.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated28.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated28.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated28.png> <a0,fr28>
-<figs/sonarDemo/testAnimated29.png, id=375, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated29.png, id=378, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated29.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated29.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated29.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated29.png> <a0,fr29>
-<figs/sonarDemo/testAnimated30.png, id=386, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated30.png, id=389, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated30.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated30.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated30.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated30.png> <a0,fr30>
-<figs/sonarDemo/testAnimated31.png, id=397, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated31.png, id=400, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated31.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated31.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated31.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated31.png> <a0,fr31>
-<figs/sonarDemo/testAnimated32.png, id=408, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated32.png, id=411, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated32.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated32.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated32.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated32.png> <a0,fr32>
-<figs/sonarDemo/testAnimated33.png, id=419, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated33.png, id=422, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated33.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated33.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated33.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated33.png> <a0,fr33>
-<figs/sonarDemo/testAnimated34.png, id=430, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated34.png, id=433, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated34.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated34.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated34.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated34.png> <a0,fr34>
-<figs/sonarDemo/testAnimated35.png, id=441, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated35.png, id=444, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated35.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated35.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated35.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated35.png> <a0,fr35>
-<figs/sonarDemo/testAnimated36.png, id=452, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated36.png, id=455, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated36.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated36.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated36.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated36.png> <a0,fr36>
-<figs/sonarDemo/testAnimated37.png, id=463, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated37.png, id=466, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated37.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated37.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated37.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated37.png>
 <a0,fr37>
-<figs/sonarDemo/testAnimated38.png, id=474, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated38.png, id=477, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated38.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated38.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated38.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated38.png> <a0,fr38>
-<figs/sonarDemo/testAnimated39.png, id=485, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated39.png, id=488, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated39.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated39.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated39.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated39.png> <a0,fr39>
-<figs/sonarDemo/testAnimated40.png, id=496, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated40.png, id=499, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated40.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated40.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated40.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated40.png> <a0,fr40>
-<figs/sonarDemo/testAnimated41.png, id=507, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated41.png, id=510, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated41.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated41.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated41.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated41.png> <a0,fr41>
-<figs/sonarDemo/testAnimated42.png, id=518, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated42.png, id=521, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated42.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated42.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated42.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated42.png> <a0,fr42>
-<figs/sonarDemo/testAnimated43.png, id=529, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated43.png, id=532, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated43.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated43.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated43.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated43.png> <a0,fr43>
-<figs/sonarDemo/testAnimated44.png, id=540, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated44.png, id=543, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated44.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated44.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated44.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated44.png> <a0,fr44>
-<figs/sonarDemo/testAnimated45.png, id=551, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated45.png, id=554, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated45.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated45.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated45.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated45.png> <a0,fr45>
-<figs/sonarDemo/testAnimated46.png, id=562, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated46.png, id=565, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated46.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated46.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated46.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated46.png> <a0,fr46>
-<figs/sonarDemo/testAnimated47.png, id=573, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated47.png, id=576, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated47.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated47.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated47.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated47.png> <a0,fr47>
-<figs/sonarDemo/testAnimated48.png, id=584, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated48.png, id=587, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated48.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated48.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated48.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated48.png> <a0,fr48>
-<figs/sonarDemo/testAnimated49.png, id=595, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated49.png, id=598, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated49.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated49.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated49.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated49.png> <a0,fr49>
-<figs/sonarDemo/testAnimated50.png, id=606, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated50.png, id=609, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated50.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated50.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated50.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated50.png>
 <a0,fr50>
-<figs/sonarDemo/testAnimated51.png, id=617, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated51.png, id=620, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated51.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated51.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated51.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated51.png> <a0,fr51>
-<figs/sonarDemo/testAnimated52.png, id=628, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated52.png, id=631, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated52.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated52.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated52.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated52.png> <a0,fr52>
-<figs/sonarDemo/testAnimated53.png, id=639, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated53.png, id=642, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated53.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated53.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated53.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated53.png> <a0,fr53>
-<figs/sonarDemo/testAnimated54.png, id=650, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated54.png, id=653, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated54.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated54.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated54.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated54.png> <a0,fr54>
-<figs/sonarDemo/testAnimated55.png, id=661, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated55.png, id=664, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated55.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated55.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated55.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated55.png> <a0,fr55>
-<figs/sonarDemo/testAnimated56.png, id=672, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated56.png, id=675, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated56.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated56.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated56.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated56.png> <a0,fr56>
-<figs/sonarDemo/testAnimated57.png, id=683, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated57.png, id=686, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated57.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated57.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated57.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated57.png> <a0,fr57>
-<figs/sonarDemo/testAnimated58.png, id=694, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated58.png, id=697, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated58.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated58.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated58.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated58.png> <a0,fr58>
-<figs/sonarDemo/testAnimated59.png, id=705, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated59.png, id=708, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated59.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated59.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated59.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated59.png> <a0,fr59>
-<figs/sonarDemo/testAnimated60.png, id=716, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated60.png, id=719, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated60.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated60.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated60.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated60.png> <a0,fr60>
-<figs/sonarDemo/testAnimated61.png, id=727, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated61.png, id=730, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated61.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated61.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated61.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated61.png> <a0,fr61>
-<figs/sonarDemo/testAnimated62.png, id=738, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated62.png, id=741, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated62.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated62.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated62.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated62.png> <a0,fr62>
-<figs/sonarDemo/testAnimated63.png, id=749, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated63.png, id=752, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated63.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated63.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated63.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated63.png>
 <a0,fr63>
-<figs/sonarDemo/testAnimated64.png, id=760, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated64.png, id=763, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated64.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated64.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated64.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated64.png> <a0,fr64>
-<figs/sonarDemo/testAnimated65.png, id=771, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated65.png, id=774, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated65.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated65.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated65.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated65.png> <a0,fr65>
-<figs/sonarDemo/testAnimated66.png, id=782, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated66.png, id=785, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated66.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated66.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated66.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated66.png> <a0,fr66>
-<figs/sonarDemo/testAnimated67.png, id=793, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated67.png, id=796, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated67.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated67.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated67.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated67.png> <a0,fr67>
-<figs/sonarDemo/testAnimated68.png, id=804, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated68.png, id=807, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated68.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated68.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated68.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated68.png> <a0,fr68>
-<figs/sonarDemo/testAnimated69.png, id=815, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated69.png, id=818, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated69.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated69.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated69.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated69.png> <a0,fr69>
-<figs/sonarDemo/testAnimated70.png, id=826, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated70.png, id=829, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated70.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated70.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated70.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated70.png> <a0,fr70>
-<figs/sonarDemo/testAnimated71.png, id=837, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated71.png, id=840, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated71.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated71.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated71.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated71.png> <a0,fr71>
-<figs/sonarDemo/testAnimated72.png, id=848, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated72.png, id=851, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated72.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated72.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated72.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated72.png> <a0,fr72>
-<figs/sonarDemo/testAnimated73.png, id=859, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated73.png, id=862, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated73.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated73.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated73.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated73.png> <a0,fr73>
-<figs/sonarDemo/testAnimated74.png, id=870, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated74.png, id=873, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated74.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated74.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated74.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated74.png> <a0,fr74>
-<figs/sonarDemo/testAnimated75.png, id=881, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated75.png, id=884, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated75.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated75.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated75.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated75.png> <a0,fr75>
-<figs/sonarDemo/testAnimated76.png, id=892, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated76.png, id=895, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated76.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated76.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated76.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated76.png>
 <a0,fr76>
-<figs/sonarDemo/testAnimated77.png, id=903, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated77.png, id=906, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated77.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated77.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated77.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated77.png> <a0,fr77>
-<figs/sonarDemo/testAnimated78.png, id=914, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated78.png, id=917, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated78.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated78.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated78.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated78.png> <a0,fr78>
-<figs/sonarDemo/testAnimated79.png, id=925, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated79.png, id=928, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated79.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated79.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated79.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated79.png> <a0,fr79>
-<figs/sonarDemo/testAnimated80.png, id=936, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated80.png, id=939, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated80.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated80.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated80.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated80.png> <a0,fr80>
-<figs/sonarDemo/testAnimated81.png, id=947, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated81.png, id=950, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated81.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated81.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated81.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated81.png> <a0,fr81>
-<figs/sonarDemo/testAnimated82.png, id=958, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated82.png, id=961, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated82.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated82.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated82.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated82.png> <a0,fr82>
-<figs/sonarDemo/testAnimated83.png, id=969, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated83.png, id=972, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated83.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated83.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated83.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated83.png> <a0,fr83>
-<figs/sonarDemo/testAnimated84.png, id=980, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated84.png, id=983, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated84.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated84.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated84.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated84.png> <a0,fr84>
-<figs/sonarDemo/testAnimated85.png, id=991, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated85.png, id=994, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated85.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated85.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated85.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated85.png> <a0,fr85>
-<figs/sonarDemo/testAnimated86.png, id=1002, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated86.png, id=1005, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated86.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated86.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated86.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated86.png> <a0,fr86>
-<figs/sonarDemo/testAnimated87.png, id=1013, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated87.png, id=1016, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated87.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated87.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated87.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated87.png> <a0,fr87>
-<figs/sonarDemo/testAnimated88.png, id=1024, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated88.png, id=1027, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated88.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated88.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated88.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated88.png> <a0,fr88>
-<figs/sonarDemo/testAnimated89.png, id=1035, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated89.png, id=1038, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated89.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated89.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated89.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated89.png>
 <a0,fr89>
-<figs/sonarDemo/testAnimated90.png, id=1046, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated90.png, id=1049, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated90.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated90.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated90.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated90.png> <a0,fr90>
-<figs/sonarDemo/testAnimated91.png, id=1057, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated91.png, id=1060, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated91.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated91.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated91.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated91.png> <a0,fr91>
-<figs/sonarDemo/testAnimated92.png, id=1068, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated92.png, id=1071, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated92.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated92.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated92.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated92.png> <a0,fr92>
-<figs/sonarDemo/testAnimated93.png, id=1079, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated93.png, id=1082, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated93.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated93.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated93.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated93.png> <a0,fr93>
-<figs/sonarDemo/testAnimated94.png, id=1090, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated94.png, id=1093, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated94.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated94.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated94.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated94.png> <a0,fr94>
-<figs/sonarDemo/testAnimated95.png, id=1101, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated95.png, id=1104, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated95.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated95.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated95.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated95.png> <a0,fr95>
-<figs/sonarDemo/testAnimated96.png, id=1112, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated96.png, id=1115, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated96.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated96.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated96.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated96.png> <a0,fr96>
-<figs/sonarDemo/testAnimated97.png, id=1123, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated97.png, id=1126, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated97.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated97.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated97.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated97.png> <a0,fr97>
-<figs/sonarDemo/testAnimated98.png, id=1134, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated98.png, id=1137, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated98.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated98.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated98.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated98.png> <a0,fr98>
-<figs/sonarDemo/testAnimated99.png, id=1145, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated99.png, id=1148, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated99.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated99.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated99.png  used on input line 
-264.
+282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
  <./figs/sonarDemo/testAnimated99.png> <a0,fr99>
-<figs/sonarDemo/testAnimated100.png, id=1156, 702.625pt x 526.96875pt>
+<figs/sonarDemo/testAnimated100.png, id=1159, 702.625pt x 526.96875pt>
 File: figs/sonarDemo/testAnimated100.png Graphic file (type png)
 <use figs/sonarDemo/testAnimated100.png>
 Package pdftex.def Info: figs/sonarDemo/testAnimated100.png  used on input line
- 264.
+ 282.
 (pdftex.def)             Requested size: 702.62328pt x 526.96745pt.
- <./figs/sonarDemo/testAnimated100.png> <a0,fr100> [11] [12]
+ <./figs/sonarDemo/testAnimated100.png> <a0,fr100> [12] [13]
 Chapter 2.
-(document.bbl [13
+(document.bbl [14
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [14
+) [15
 
 ] (document.aux) ) 
 Here is how much of TeX's memory you used:
  15939 strings out of 492946
- 289253 string characters out of 3126709
- 511359 words of memory out of 3000000
+ 286069 string characters out of 3135527
+ 512359 words of memory out of 3000000
  19560 multiletter control sequences out of 15000+200000
  541942 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,8n,72p,540b,1192s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmbx10.pfb><C:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Brus/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Brus/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/B
-rus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-<C:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr12.pfb><C:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/Brus/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Brus/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Brus/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Br
-us/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-<C:/Users/Brus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/sy
-mbols/msbm10.pfb>
-Output written on document.pdf (14 pages, 5138282 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on document.pdf (15 pages, 5141743 bytes).
 PDF statistics:
- 1252 PDF objects out of 1440 (max. 8388607)
+ 1255 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  3027 words of extra memory for PDF output out of 10000 (max. 10000000)
 
