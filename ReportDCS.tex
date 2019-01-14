@@ -130,7 +130,7 @@
 	
 	The algorithm proposed by the main paper is \textbf{Lloyd's gradient descent}, which guarantees the convergence to an optimal solution intuitively given by the trade-off between each node's coverage (position) and relative degradation of sensing capabilities.\\
 	A main point to be considered is that this solution makes use of the concept of \textbf{Voronoi partition}.\\
-	Given a subspace $S$ in $\mathbb{R}^N$ (typically a plane) and a set of n points $P=\{p_1,...,p_n\}$ belonging to this subspace we call Voronoi partition a partition such that there is an associated region for each point and this region consists of all points closer to that point than any other point. We call these regions \emph{Voronoi cells}.\\
+	Given a subspace $S$ in $\mathbb{R}^N$ (typically a plane) and a set of n points $P=\{p_1,...,p_n\}$ belonging to this subspace, we call Voronoi partition a partition such that there is an associated region for each point and this region consists of all points closer to that point than any other point. We call these regions \emph{Voronoi cells}.\\
 	Let's see an example of Voronoi partition of a plane:\\
 	
 	\begin{figure}[hb]
@@ -191,7 +191,7 @@ If the former choice is made, a set of functions will be called:
 		\item \textit{generateAgents}: it places a fixed number of \textbf{agents} in the already built area, positioning them randomly;
 		\item \textit{genPolyGrid}: it turns the plane individuated by the area of the polygon into a \textbf{discrete grid of points}, in order to build the distribution function.  
 		\item \textit{gaussianDistr2d}: it generates a \textbf{2-dimensional Gaussian distribution function} that represents the distribution of the information to be acquired, calculated as $$\rho=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-x_{c})^2+(y-y_{c})^2}{2\sigma^2}} $$\\
-		,where $$\sigma$$ is the variance of the distribution (considered isotropic), and $$(x_{c},y_{c})$$ is the center of the distribution.  \\
+		where $\sigma$ is the variance of the distribution (considered isotropic), and $(x_{c},y_{c})$ is the center of the distribution.  \\
 \end {itemize}
 The latter choice allows to define the workspace from an external file; then, except \textit{buildArea}, the same functions are used to set the framework.\\
 
@@ -375,7 +375,7 @@ Further comments are present on the code.\\
 	
 	\section{Simulation benchmarks}
 	
-	In both approaches, several parameters can be adjusted that affects precision (and conversely, speed of simulations), namely:
+	In both approaches, several parameters affecting precision (and conversely, speed of simulations) can be adjusted, namely:
 	
 	\begin{itemize}
 		\item number of agents;
@@ -387,7 +387,7 @@ Further comments are present on the code.\\
 	
 	In addition to that, the generation of the area to cover, of the agents and of the distribution can be set to randomly generate at each start of simulation (see fig.~\ref{fig:randomAgents.png}, fig.~\ref{fig:gaussianDistrib.png}).\\
 	This is the case for the results displayed below, where a number of 7 or 20 agents were randomly spawned over a likewise randomly generated area. Same goes for the parameters of the 2D gaussian.
-	\interfootnotelinepenalty=10000 \footnote{Unless flagged otherwise at the beginning of the code, generation is always done randomly, and thus parameters change from run to run. Should the need arise to preserve a constant set of map parameters (i.e. area, distribution), the random flags \textit{randomGauss} and\textit{refreshSession} must be both set to \textbf{false}, and the path for a properly saved workspace must be set at the comment "load from previous file". A proper workspace file, called \emph{benchmark}, is provided along the rest of the code to show how variables should be set.}
+	\interfootnotelinepenalty=10000 \footnote{Unless flagged otherwise at the beginning of the code, generation is always done randomly, and thus parameters change from run to run. Should the need arise to preserve a constant set of map parameters (i.e. area, distribution), the random flags \textit{randomGauss} and \textit{refreshSession} must be both set to \textbf{false}, and the path for a properly saved workspace must be set at the comment "load from previous file". A proper workspace file, called \emph{benchmark}, is provided along the rest of the code to show how variables should be set.}
 	\\
 	The Matlab function used for random generations is \emph{randn} for agents, \emph{rand} for the area, but this is just for easiness and readability of the code rather than a design choice due to probabilistic considerations.
 	
@@ -413,15 +413,15 @@ Further comments are present on the code.\\
 		
 		\item \textbf{nVert\_area}: number of the area vertexes \textbf{(e.g. 7)};
 		
-		\item \textbf{nAgents}: number of agents to spawn \textbf{(e.g. 7,or 20)};
+		\item \textbf{nAgents}: number of agents to spawn \textbf{(e.g. 7, or 20)};
 		\\
 		
 		\item \textbf{pointDensity}: density of the grid to generate the distribution of property to measure \textbf{(e.g. 2)}; a rectangular area measuring \textit{b} and \textit{h} will contain $$\mathit{pointDensity}\cdot b\cdot h$$ query points, uniformly distributed;
 		
-		\item \textbf{minSigma, maxSigma}: range of variances values that the 2D Gaussian distribution may have \textbf{(e.g. 5,10)};
-		\subitem (alternatively) sigma: fixed variance, if the distribution is not to be randomly generated \textbf{(e.g. 15)};
+		\item \textbf{minSigma, maxSigma}: range of variances values that the 2D Gaussian distribution may have \textbf{(e.g. 5, 10)};
+		\subitem (alternatively) \textbf{sigma}: fixed variance, if the distribution is not to be randomly generated \textbf{(e.g. 15)};
 		
-		\item \textbf{gaussX, gaussY}: center of the distribution \textbf{(e.g. 0,0)}
+		\item \textbf{gaussX, gaussY}: center of the distribution \textbf{(e.g. 0, 0)}
 		\subitem if set to be randomly spawned, the center will be chosen as a random point inside the main area.
 		
 	\end{itemize}

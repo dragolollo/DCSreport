@@ -1,23 +1,23 @@
 \babel@toc {english}{}
-\contentsline {chapter}{Introduction}{6}% 
-\contentsline {chapter}{\numberline {1}Problem set-up and solutions}{9}% 
-\contentsline {section}{\numberline {1.1}Setup}{9}% 
-\contentsline {subsection}{\numberline {1.1.1}Theoretical notions}{9}% 
-\contentsline {subsection}{\numberline {1.1.2}Adopted assumptions}{10}% 
-\contentsline {section}{\numberline {1.2}Inner Workings}{12}% 
-\contentsline {subsection}{\numberline {1.2.1}Offline algorithm (A)}{12}% 
-\contentsline {subsection}{\numberline {1.2.2}Online algorithm (B)}{15}% 
-\contentsline {subsection}{\numberline {1.2.3}Utils}{18}% 
-\contentsline {subsubsection}{sliceCell}{18}% 
-\contentsline {subsubsection}{calculateCell}{19}% 
-\contentsline {subsubsection}{genMCGauss}{21}% 
-\contentsline {chapter}{\numberline {2}Results analysis}{22}% 
-\contentsline {section}{\numberline {2.1}Prerequisites}{22}% 
-\contentsline {section}{\numberline {2.2}Simulation benchmarks}{22}% 
-\contentsline {section}{\numberline {2.3}Simulation parameters}{23}% 
-\contentsline {subsubsection}{Map generation}{23}% 
-\contentsline {subsubsection}{Control parameters}{25}% 
-\contentsline {section}{\numberline {2.4}Offline algorithm (A)}{26}% 
-\contentsline {section}{\numberline {2.5}Online algorithm (B)}{29}% 
-\contentsline {chapter}{Conclusions}{33}% 
-\contentsline {chapter}{Bibliography}{34}% 
+\contentsline {chapter}{Introduction}{6}
+\contentsline {chapter}{\numberline {1}Problem set-up and solutions}{9}
+\contentsline {section}{\numberline {1.1}Setup}{9}
+\contentsline {subsection}{\numberline {1.1.1}Theoretical notions}{9}
+\contentsline {subsection}{\numberline {1.1.2}Adopted assumptions}{10}
+\contentsline {section}{\numberline {1.2}Inner Workings}{12}
+\contentsline {subsection}{\numberline {1.2.1}Offline algorithm (A)}{12}
+\contentsline {subsection}{\numberline {1.2.2}Online algorithm (B)}{15}
+\contentsline {subsection}{\numberline {1.2.3}Utils}{18}
+\contentsline {subsubsection}{sliceCell}{18}
+\contentsline {subsubsection}{calculateCell}{19}
+\contentsline {subsubsection}{genMCGauss}{21}
+\contentsline {chapter}{\numberline {2}Results analysis}{22}
+\contentsline {section}{\numberline {2.1}Prerequisites}{22}
+\contentsline {section}{\numberline {2.2}Simulation benchmarks}{22}
+\contentsline {section}{\numberline {2.3}Simulation parameters}{23}
+\contentsline {subsubsection}{Map generation}{23}
+\contentsline {subsubsection}{Control parameters}{25}
+\contentsline {section}{\numberline {2.4}Offline algorithm (A)}{26}
+\contentsline {section}{\numberline {2.5}Online algorithm (B)}{29}
+\contentsline {chapter}{Conclusions}{33}
+\contentsline {chapter}{Bibliography}{34}
