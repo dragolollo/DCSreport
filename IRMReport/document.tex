@@ -13,6 +13,7 @@
 			\usepackage{listings}
 			\usepackage{color}
 			\usepackage{animate}
+			\usepackage{amsmath}
 			
 			\definecolor{dkgreen}{rgb}{0,0.6,0}
 			\definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -229,7 +230,7 @@
 			\subsection{PID control}
 			The light value is read by the respective sensor and can be a value between 0 and 1023.
 			The system is initialized by taking the average (over 20 samples) of both values returned when over the dark area and the light tape, which respectively compose the calibration values \emph{minLight} and \emph{maxLight}.\\
-			Then, an error range is defined (in our case, 150); the error takes any value between $-range/2$ and $range/2$, in a linear fashion with respect to the actual light value, i.e. $$e=m\cdot \mathit{light}+c$$ where $$m=\mathit{range}/(\mathit{maxLight-minLight})$$ and $$c=\mathit{range}/2-m\cdot \mathit{maxlight}$$\\
+			Then, an error range is defined (in our case, 150); the error takes any value between $-range/2$ and $range/2$, in a linear fashion with respect to the actual light value, i.e. $$e=m\cdot \mathit{light}+c$$ where $$m=\frac{\mathit{range}}{\mathit{maxLight-minLight}}$$ and $$c=\frac{\mathit{range}}{2}-m\cdot \mathit{maxlight}$$\\
 			In this way, the error is equal to 0 approx. where the boundary between tape and floor lies, and any controller trying to push it to 0 will force the robot to stay on that boundary (Fig.\ref{fig:lightError.png}).\\
 			\begin{figure} [H]
 				\centering
@@ -292,20 +293,30 @@
 			
 				$$U = U_{att} + U_{rep} $$
 				
-			However, due to the issue mentioned previously, we can just approximate $U_{rep}$,
-				
-				
-				
-				
+			However, due to the issue mentioned previously, we can just approximate $\nabla U_{rep}$, by setting it to $K_{r} \cdot \mathit{controlAction}$, where \emph{controlAction} is the sum of single repulsive "impulses" given by the different sectors, each calculated by:\\ 
+			$
+			\begin{cases}
+				controlAction(i) = \sin(\theta_{i}) \cdot (\frac{1}{d} - \frac{1}{d_{thr}})^2 & \text{for }d \le d_{thr}\\    
+				controlAction(i) = 0 & \text{for } d > d_{thr}
+			\end{cases}
+			$\\
+			
+			The angle values were set to \{-50 , -15 , 15 , 50\}, with a threshold of 35 cm and a repulsive gain quite high, i.e. 370.
 				
 				
 			
 			\section{Performances}
 			\subsection{Line Following}
-			The results noticed in the line following task are really good, symptom of an accurate and relevant choice of the parameters.
+			The results noticed in the line following task are really good, symptom of an accurate and relevant choice of the parameters. The robot followed lines robustly even when manually moved away from them, could pursue sharp corners and on straight lines oscillations were well contained.\\
+			The only issue was due the blocking operation of the sonar, during which the control loop didn't act anymore for a quite short amount of time; however, by setting the polling interval to 350 - 400 ms, and the speed a tad slower, the effect was negligible.
 			
+			\subsection{Obstacle avoidance}
+			While the final results were satisfactory, properly tuning the parameters hasn't been easy; a good tradeoff had to be found between speed of reaction to new obstacle, impulse to return to reference angle and scheduling of various threads.\\
+			Admittedly, the only real issue was due to large drifts in orientation odometry caused by sharp corners, and we found that with the current code no better performances could be achieved: some residual errors would grow over time in any case, so the only thing to do was to try to anticipate obstacle so to correct the trajectory with softer steering action.\\
 			
+			This was not sufficient as because of the small number of angles and considerations made above, the case in which obstacles are mostly parallel had to be treated separately: in case the centre of view was detected to be occupied, and the control action small (because of parallelism), then a feedforward action was induced, i.e. a steer for a given amount of time.\\
 			
+			At the end, the robot would avoid quite well skew obstacles, and almost always parallel ones, as well; had the wheel base been narrower,so to not get caught with the wheels on boxes corners then it would have improved even more.
 			
 			
 			
