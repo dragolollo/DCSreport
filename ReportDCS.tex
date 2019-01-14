@@ -306,14 +306,14 @@ The algorithm of the function can be summarized in the table below:
 \caption{calculateCell}\label{euclid}
 \begin{algorithmic}[1]
 \State	\textbf{Inputs}:\\
-	\hspace{\algorithmicindent}X= agent x-coordinate\\
-	\hspace{\algorithmicindent}Y= agent y-coordinate\\
+	\hspace{\algorithmicindent}X= agent $i$ x-coordinate\\
+	\hspace{\algorithmicindent}Y= agent $i$ y-coordinate\\
 	\hspace{\algorithmicindent}A= total area\\
 	\hspace{\algorithmicindent}r= initial radius\\
 	\hspace{\algorithmicindent}(\emph{if offline mode}) $P$=positions and states of the other agents
 \State $\mathit{I}$ = $ 2\pi r \cap A$ 
 \BState \emph{loop}:
-\If {$P_j \in I$} 
+\If {new agent $j \in I$} 
 \State store agent $\mathit{j}$ inside $N_i$
 \EndIf
 \State sort $N_i$ by increasing distance from the agent
@@ -322,7 +322,7 @@ The algorithm of the function can be summarized in the table below:
 \State compute the new estimated cell $V_i$
 \If {\emph{offline mode}}
 \State check $\forall k \in N_i$ if they are actually \emph{Voronoi neighbours}
-\State assign weights $w_k$ to the neighbours
+\State assign weights $w_k$ to the neighbours and store them in $W_i$
 \EndIf
 \EndIf
 \If {$r \textless 2\cdot max{\parallel vertices(V_i)- (X,Y)\parallel}$}
